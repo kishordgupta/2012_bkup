@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/relative_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:text="" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/below_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/upon_bottom_bottom"
+        android:layout_below="@+id/relative_top_bar"
+        android:padding="20dip" >
+
+        <Button
+            android:id="@+id/btn_resume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/resume_selector" />
+
+        <Button
+            android:id="@+id/btn_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/explore"
+            android:layout_centerVertical="true"
+            android:background="@drawable/language_selector" />
+
+        <Button
+            android:id="@+id/btn_word_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_language"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/word_bucket_selector" />
+
+        <LinearLayout
+            android:id="@+id/get_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_word_list"
+            android:layout_alignLeft="@+id/btn_language"
+            android:layout_below="@+id/btn_language"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_get_points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/get_point_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/explore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_language"
+            android:layout_alignLeft="@+id/btn_resume"
+            android:layout_below="@+id/btn_resume"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_explore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/explore_selector" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/upon_bottom_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="100dip"
+        android:layout_above="@+id/upon_bottom" >
+
+        <SlidingDrawer
+            android:id="@+id/sliding_drawer"
+            android:layout_width="250dip"
+            android:layout_height="100dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:content="@+id/content"
+            android:handle="@+id/handle"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/handle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/menu_selector"
+                android:paddingRight="30dip" />
+
+            <LinearLayout
+                android:id="@id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_sound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/sound_selector" />
+
+                <Button
+                    android:id="@+id/btn_facebook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/facebook_selector" />
+
+                <Button
+                    android:id="@+id/btn_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/twitter_selector" />
+
+                <Button
+                    android:id="@+id/btn_help"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:background="@drawable/help_selector" />
+            </LinearLayout>
+        </SlidingDrawer>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/upon_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:background="@drawable/add_line"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/wbg"
+        android:orientation="vertical" >
+
+        <com.google.ads.doubleclick.DfpAdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad_view_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="a151b9a69e4bac0"
+            ads:loadAdOnCreate="true"
+            android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">Cristiano ronaldo-The Legend of football</string>
+    <string name="rules">Welcome to the Un-official Cristiano Ronaldo  quiz - just how much of a Cristiano Ronaldo fan are you? 
+    This quiz is based on life of Cristiano Ronaldo. If this is the first time playing
+    you should go to the "Settings" option to decide which difficulty setting you think you can master.. 
+    will you be good enough to take one the one they call Cristiano Ronaldo........Developed by- Obaidul Haque a Cristiano Ronaldo Fan.
+    </string>
+</resources>

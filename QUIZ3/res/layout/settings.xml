@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:mySwitch="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+        android:paddingTop="15dip" >
+        <TextView
+                    android:id="@+id/ids"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                   android:gravity="center"
+                    android:paddingLeft="5dp"
+                     android:paddingRight="2dp"
+                    android:text="Applied Mathematics"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+        <SeekBar
+            android:id="@+id/volume_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="8"
+            android:max="200"
+            android:progress="0"
+            android:secondaryProgress="0" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Prime Movers"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s1"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Pumps and Compressors"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s2"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Lubrication"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s3"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Electricity"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s4"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Instrumentation"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s5"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Heating Boilers"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s6"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text=" Steam/Water Heating Sys."
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s7"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Heating System Controls"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s8"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Aux. Building Systems"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s9"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Vapour Comp. Refrig."
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s10"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Absorption Refrig"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s11"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Air Conditioning"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s12"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Air Conditioning Sys."
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s13"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Boiler Maintenance"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s14"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/chktext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="8"
+                    android:gravity="left"
+                    android:paddingLeft="25dp"
+                    android:text="Types of Plants"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <com.iswitch.MySwitch
+                    android:id="@+id/s15"
+                    style="@style/mySwitchStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="2"
+                    android:gravity="right"
+                    mySwitch:backgroundMask="@drawable/smask_background_copy_sm"
+                    mySwitch:leftBackground="@drawable/sleft_background_copy_sm"
+                    mySwitch:pushStyle="true"
+                    mySwitch:rightBackground="@drawable/sright_background_copy_sm"
+                    mySwitch:textOff="No"
+                    mySwitch:textOn=" Yes"
+                    mySwitch:textOnThumb="false"
+                    mySwitch:thumb="@drawable/stoggle_copy_sm"
+                    mySwitch:thumbExtraMovement="9dp"
+                    mySwitch:track="@drawable/sgroove_copy_sm"
+                    mySwitch:trackTextPadding="1dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:text="Update"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
+</LinearLayout>

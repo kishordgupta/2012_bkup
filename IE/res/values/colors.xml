@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="silver">#A9A9A9</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="light_grey">#77CDCDCD</color>
+    <color name="grey_subtext">#939393</color>
+    <color name="black_text">#444</color>
+    <color name="blue_splash">#267896</color>
+    <color name="white_background">#fff3f3f3</color>
+    <color name="orange">#cc6633</color>
+    <color name="blue">#dd7744</color>
+    <color name="darker_blue">#сс6633</color>
+    <color name="push_notification_light">@color/orange</color>
+
+
+</resources>

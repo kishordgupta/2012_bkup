@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="programs">        
+        <item >Afternoon Jazz (WBGO)</item>
+        <item >TUE-SAT 1AM - 5:30AM</item>
+        <item >Evening Jazz</item>
+        <item >TUE-SAT 7AM - 12PM</item>
+        <item >Jazz After Hours (WBGO)</item>
+        <item >TUE-SAT 12PM - 5PM</item>
+        <item >Jazz at Lincoln Center</item>
+        <item >TUE 5:30AM - 6:30AM</item>
+        <item >Jazz From Archives</item>
+        <item >MON 10AM - 11AM</item>
+        <item >Jazz Set</item>
+        <item >MON 5AM - 6AM</item>
+        <item >Late Night Jazz (WBGO)</item>
+        <item >SUN 8AM - 12PM</item>
+        <item >Latino USA</item>
+        <item >WED 6:30AM - 7AM</item>
+        <item >Living on Earth</item>
+        <item >SUN 4PM - 5PM</item>
+        <item >Mid-Day Jazz (WBGO)</item>
+        <item >MON-FRI 9PM - 1AM</item>
+        <item >Morning Jazz (WBGO)</item>
+        <item >MON-FRI 5PM - 9PM</item>
+        <item >Piano Jazz</item>
+        <item >FRI 5:30AM - 6:30AM</item>
+        <item >Rhythm Revue</item>
+        <item >SAT 9PM - 1AM</item>
+        <item >Saturday Morning Function</item>
+        <item >SAT 7PM - 9PM</item>
+        <item >Saturday Afternoon Jazz (WBGO)</item>
+        <item >SUN 1AM - 5AM</item>
+        <item >Saturday Evening Jazz (WBGO)</item>
+        <item >SUN 5AM - 8AM</item>
+        <item >Sunday Morning Harmony</item>
+        <item >SUN 5PM - 9PM</item>        
+        <item >Sunday Afternoon Jazz (WBGO)</item>
+        <item >MON 1AM - 5AM</item>
+        <item >Sunday Night Music Mix</item>
+        <item >THUR 6:30AM - 7AM</item>
+        <item >Weekend Jazz After Hours</item>
+        <item >SUN 12PM - 4PM</item>
+    </string-array>
+</resources>

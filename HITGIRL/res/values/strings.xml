@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ 
+    <!-- Activity titles -->
+    <string name="app_name">Troll italiano, gag e divertimento </string>
+    <string name="ac_name_image_list">Troll italiano, gag e divertimento s</string>
+    <string name="ac_name_image_grid">Troll italiano, gag e divertimento </string>
+    <string name="ac_name_image_pager">Troll italiano, gag e divertimento </string>
+    <string name="ac_name_image_gallery">Troll italiano, gag e divertimento </string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Troll italiano, gag e divertimento  </string>
+    <string name="menu_item_clear_memory_cache">Memoria cache chiaro</string>
+    <string name="menu_item_clear_disc_cache">Cache del disco chiaro</string>
+    <string name="button_image_list">Get New</string>
+    <string name="button_image_grid">Griglia immagine</string>
+    <string name="button_image_pager">immagine Pager</string>
+    <string name="button_image_gallery">Image Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+</resources>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="horizontal" android:scrollbars="horizontal"
+
+	android:scrollbarAlwaysDrawHorizontalTrack="true">
+	<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:scrollbars="horizontal"
+
+	android:scrollbarAlwaysDrawHorizontalTrack="true">
+  <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightGreen"
+            android:text="Home Penalties"/>	
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+ 
+ <EditText 
+     android:text="Period"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText>         
+
+ <EditText 
+     android:text="#"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText> 
+
+       <EditText 
+    android:text="Min"
+    android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:text="Infraction"
+     android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+       
+      
+          
+</LinearLayout>          
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period1"
+     android:text="1"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A1"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min1"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction1"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+          
+</LinearLayout>
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period2"
+     android:text="2"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A2"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+          
+</LinearLayout>
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period3"
+     android:inputType="number"
+     android:singleLine="true"
+     android:text="3"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A3"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min3"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction3"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+          
+</LinearLayout>
+
+	<LinearLayout 
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:scrollbars="horizontal"
+
+	android:scrollbarAlwaysDrawHorizontalTrack="true">
+  <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightGreen"
+            android:text="Away Penalties"/>	
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+ 
+ <EditText 
+     android:text="Period"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText>         
+
+ <EditText 
+     android:text="#"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText> 
+
+       <EditText 
+    android:text="Min"
+    android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:text="Infraction"
+     android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+       
+      
+          
+</LinearLayout>          
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period1a"
+     android:inputType="number"
+     android:text="1"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A1a"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+          
+</LinearLayout>
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period2a"
+     android:text="2"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A2a"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min2a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction2a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+          
+</LinearLayout>
+ <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="3dp"
+        android:background="@color/offBlack" >
+      
+ <EditText 
+     android:id="@+id/period3a"
+     android:text="3"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A3a"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+
+       <EditText 
+     android:id="@+id/min3a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/Infraction3a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="400dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      
+         </LinearLayout>  
+</LinearLayout>
+ </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,122 @@
+@import url('reset.css');
+
+/* General Codrops Demo Style */
+body{
+	background:#1F1F1F url(../images/pattern.png) repeat top left;
+	color:#fff;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:14px;
+}
+a{
+	color:#ddd;
+	text-decoration:none;
+}
+a:hover{
+	color:#00c6e3;
+}
+
+a.btton.wallpaper, a.btton.download {
+    float: right;
+}
+iframe .fbCommentButton.uiButton.uiButtonConfirm,
+a.btton {
+    background: -moz-linear-gradient(center top , #A80429 0%, #6C011D 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#005700), color-stop(100%,#002400));
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #FFF;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 2px;
+    padding: 0 5px;
+}
+.commentas .commentas_inner .commentaschange{
+    color: #890223;
+}
+a.btton:hover {
+    background: -moz-linear-gradient(center top , #6C011D 0%, #A80429 100%) repeat scroll 0 0 transparent;
+}
+p.sub{
+	padding:25px 10px 10px 10px;
+	text-align:left;
+	color:#aaa;
+}
+.clr{
+	clear:both;
+}
+h1{
+	margin:5px;
+	font-size:24px;
+	text-align:center;
+	color:#fff;
+	font-family:"Pacifico", Georgia, "Times New Roman", serif;
+	text-shadow:1px 1px 1px #000;
+	padding-bottom:10px;
+	line-height:40px;
+}
+h1 span{
+	font-size:10px;
+	display:block;
+	letter-spacing:2px;
+	font-family: 'Trebuchet MS', 'Myriad Pro', Arial, sans-serif;
+	color:#00c6e3;
+	line-height:14px;
+	padding-top:10px;
+	text-shadow:none;
+	text-transform:uppercase;
+}
+/* Header Style */
+.header{
+	font-size:13px;
+	background:#000;
+	opacity:0.9;
+	text-transform:uppercase;
+	-moz-box-shadow: 1px 0px 2px #000;
+	-webkit-box-shadow: 1px 0px 2px #000;
+	box-shadow: 1px 0px 2px #000;
+}
+.header a{
+	line-height:18px;
+	padding:0 4px;
+	letter-spacing:1px;
+	text-shadow:1px 1px 1px #000;
+	color:#ddd;
+}
+.header a:hover{
+	color:#fff;
+}
+.header a span{
+	font-weight:bold;
+}
+.header span.right_ab{
+	float:right;
+}
+.container {
+    margin: 10px auto;
+    max-width: 1110px;
+}
+
+.fb-comments,
+.fb-comments span,
+.fb-comments iframe[style]{
+    width: 100% !important;
+}
+.fb-comments{
+    margin-top: 10px;
+}
+.content{
+	margin:0px 25px 30px 25px;
+}
+@media screen and (max-width: 640px) {
+	.header a{
+		display:block;
+		text-align:center;
+		font-size:10px;
+		text-shadow:none;
+	}
+	.header span.right_ab{
+		float:none;
+	}
+}

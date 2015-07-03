@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+        <TextView
+        android:id="@+id/ProductItemID"
+        android:layout_width="40dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/round_background_black"
+        android:layout_gravity="left"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="@color/whiteColor" 
+        android:visibility="gone">
+    </TextView>
+
+  
+
+    <TextView
+        android:id="@+id/SupplierID"
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/round_background_black"
+        android:layout_gravity="center"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="@color/whiteColor" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/VoucherCost"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/round_background_black"
+        android:layout_gravity="right"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="@color/whiteColor" >
+    </TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World SplashActivity!</string>
+    <string name="app_name">Attack On Titan Quiz</string>
+    <string name="rules">
+        The series follows the story of Eren Yeager, his adopted sister Mikasa Ackerman, and their friend Armin Arlert. After the outermost Wall is breached by Titans, including the 60-meter tall skinless Colossus Titan and the abnormally intelligent Armored Titan, and his mother dying in the resulting destruction, Eren vows revenge against the Titans and later enlists in the military, accompanied by Mikasa and Armin. Years later during his first battle against the Titans, Eren discovers that he has the ability to transform into a Titan at will. Seen as a threat to mankind by some, and as a ray of hope by others, Eren joins his companions in a desperate fight to protect what remains of their society while looking for answers to the mysteries surrounding the Titans, the Walls, and his own existence as well.
+</string>
+</resources>

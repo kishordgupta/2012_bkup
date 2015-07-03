@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:scrollbars="horizontal"
+
+	android:scrollbarAlwaysDrawHorizontalTrack="true">
+  <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightGreen"
+            android:text="Goalies"
+            />	
+  <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+ 
+ <EditText 
+     android:text="NO"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="80dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText>         
+
+ <EditText 
+     android:text="1st"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+        	    android:enabled="false"
+     ></EditText> 
+
+       <EditText 
+    android:text="2nd"
+    android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:text="3rd"
+     android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+       <EditText 
+     android:text="OT"
+     android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+           <EditText 
+     android:text="Total"
+     android:enabled="false"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      <EditText 
+          android:enabled="false"
+    android:text="mp"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+          
+</LinearLayout>          
+<LinearLayout 
+     
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A1"
+		    android:layout_width="100dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+ <EditText 
+     android:id="@+id/a1st1a"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+
+       <EditText 
+     android:id="@+id/a2nd1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/a3rd1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+       <EditText 
+     android:id="@+id/aOT1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+           <EditText 
+     android:id="@+id/atotal1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      <EditText 
+     android:id="@+id/amp1a"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+          
+</LinearLayout>
+ <LinearLayout 
+    android:layout_marginTop="3dp"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       
+        android:background="@color/offBlack" >
+  <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A2"
+		    android:layout_width="100dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+
+ <EditText 
+     android:id="@+id/a1st2"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+
+       <EditText 
+     android:id="@+id/a2nd2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+    
+       <EditText 
+     android:id="@+id/a3rd2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+       <EditText 
+     android:id="@+id/aOT2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+           <EditText 
+     android:id="@+id/atotal2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      <EditText 
+     android:id="@+id/amp2"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="100dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+          
+</LinearLayout>
+</LinearLayout>

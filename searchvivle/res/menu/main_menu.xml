@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+
+<item
+        android:id="@+id/a"
+        android:title="Search">
+       
+            <item
+                android:id="@+id/b"
+                android:title="Latest"/>
+           
+            <item
+                android:id="@+id/c"
+                android:title="TimeShare for sale"/>
+            <item
+                android:id="@+id/d"
+                android:title="Land">
+            </item>
+            <item
+                android:id="@+id/e"
+                android:title="Commercial"/>
+            <item
+                android:id="@+id/f"
+                android:title="Residential">
+            </item>
+            <item
+                android:id="@+id/g"
+                android:title="Other"/>
+       
+    </item>
+    
+          
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+<!-- Pictures below scroll left to right.-->
+    <HorizontalScrollView
+        android:id="horizontalcrolliew1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="imageiew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/abmap" />
+
+            <ImageView
+                android:id="imageiew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ab" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+<!-- Buttongs below. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left" >
+
+        <Button
+            android:id="Back"
+            style="?android:attr/buttontylemall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:textColor="#FAEBD7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right" >
+
+            <Button
+                android:id="Play"
+                style="?android:attr/buttontylemall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:textColor="#FAEBD7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bar"
+        android:background="#00FFFF"
+        android:textColor="#00FFFF"
+        android:textSize="8dp" />
+<!-- Text below -->
+    <ScrollView
+        android:id="scrolliew1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="textiew1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Atlantic Beach is the oldest of the five towns on Bogue Banks. It was originally the site of a small pavilion built on the beach in 1887. The one-story building had a refreshment stand and stalls in the back for changing clothes. The popularity of surf-bathing was growing, and guests at the old Atlantic Hotel in Morehead City and other areas were transported to the sound side of Atlantic Beach by sailboat. The guests then trekked across the island to the pavilion, which faced the ocean. Supplies were dragged over the sand dunes by ox cart.  In 1916 the original pavilion and 100 acres were bought by Von Bedsworth, and the 100-room Atlantic View Beach Hotel was built, a lone sentry on the strip of island. The hotel later burned, but by 1928 a group of county citizens had built a toll bridge from Morehead City to today&apos;s Atlantic Beach and had developed a beach resort with dining facilities, bathhouses and another pavilion. This complex would also perish to fire just a year later. A New York bank took possession of the property and built a new hotel, and Atlantic Beach slowly began to grow into the town it is today. In 1936 the toll bridge was sold to the state, and toll charges were dropped. In 1953 a drawbridge replaced the old bridge, and in the late 1980s, the drawbridge was replaced by the current Morehead City-Atlantic Beach four-lane, high-rise bridge. High-rise bridges play an important role along the Crystal Coast, allowing large vessels to easily maneuver the coastal waters. Past the North Carolina Port at Morehead City you will see tugs with barges, pleasure boats, long-line fishing boats and an occasional passenger cruise liner on the Intracoastal Waterway.  Today Atlantic Beach is home to about just a few thousand year-round residents, although the population swells to a whopping 35,000 during the summer months. Atlantic Beach is a mixture of old-fashioned beach cottages, moderate vacation homes and modern condominiums.  The center of Atlantic Beach, known to old timers and locals as The Circle, is found at the southernmost end of the Atlantic Beach Causeway and offers oceanfront day parking and souvenir shops. Major changes are in the works for The Circle. A developer plans to construct high-rise condos, retail shops, restaurants, lodging and many other upscale improvements. New homes are going up in undeveloped areas throughout Atlantic Beach."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

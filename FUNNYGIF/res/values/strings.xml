@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Mexican Troll</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Mexican Troll</string>
+    <string name="ac_name_image_pager">Mexican Troll</string>
+    <string name="ac_name_image_gallery">Mexican Troll</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Mexican Troll</string>
+    <string name="menu_item_clear_memory_cache">Borrar la memoria caché</string>
+    <string name="menu_item_clear_disc_cache">Borrar la caché de disco</string>
+    <string name="newimt">Obtener nuevo</string>
+     <string name="button_image_list">lista Troll</string>
+    <string name="button_image_grid">rejilla de la imagen</string>
+    <string name="button_image_pager">Imagen Pager</string>
+    <string name="button_image_gallery">Galería de imágenes</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+      android:layout_gravity="bottom"
+      android:gravity="bottom"
+      android:background="@drawable/fstscreen_image"
+     >
+
+  
+	
+	
+
+	 <LinearLayout
+	     android:id="@+id/linearLayout2"
+	     android:layout_marginTop="50dp"
+	       android:layout_marginBottom="30dp"
+	       android:layout_marginRight="20dp"
+	       android:layout_marginLeft="20dp"
+	      android:layout_gravity="bottom"
+	       android:gravity="bottom"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content" >
+		 
+	     <TextView
+		     android:id="@+id/textView3"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:text="Mars"
+		     android:layout_gravity="left"
+		     android:gravity="left"
+		     android:layout_weight="1" />
+
+		 <TextView
+		     android:id="@+id/textView2"
+		     android:layout_width="0dp"
+		     android:layout_height="wrap_content"
+		     android:text="2013"
+		      android:layout_gravity="right"
+		     android:gravity="right"
+		     android:layout_weight="1" />
+		 
+	 </LinearLayout>
+
+	
+
+</LinearLayout>

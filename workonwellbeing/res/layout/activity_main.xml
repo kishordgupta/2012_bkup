@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+      
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:context=".MainActivity" >
+
+        <com.workforwellbeing.wow.VideoEnabledWebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+  <!--   <LinearLayout
+        android:id="@+id/fullscreen_custom_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF000000" >
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#FF000000"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Exit"
+                android:textColor="@android:color/white"
+            android:background="#FF000000"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/ss"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Contact us" 
+                android:textColor="@android:color/white"
+            android:background="#FF000000"
+            android:gravity="center" />  </LinearLayout> -->
+  
+    <!--
+ 	  <WebView 
+    android:id="@+id/webView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+/>
+    -->
+
+</LinearLayout>

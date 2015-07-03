@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="interstitial_id">/1005055/IE_App_Android_Interstitial_320x480</string>
+    <string name="ad_string">/1005055/IE_App_Android_%1$s_320x50</string>
+
+    <string name="calendar_url">http://feedcache.central.ie/api/ie/api_json_ie.aspx?d=%1$s</string>
+    <string name="comments_url">http://m.breakingnews.ie/app/comments/storycomments.aspx?jp=%1$s</string>
+
+    <string name="www_intent_filter_host">www.irishexaminer.com</string>
+    <string name="intent_filter_host">irishexaminer.com</string>
+    <string name="push_notifications_tag">ienews</string>
+</resources>

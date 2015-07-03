@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+    
+    <ImageView 
+            android:src="@drawable/logomain"
+            android:layout_width="440dp"
+            android:layout_height="220dp"/>
+ 
+  
+     <com.kd.hockymain.DateSpinner
+		    android:id="@+id/DateSpinner"
+		    android:layout_width="300dp"
+		    android:layout_height="wrap_content"
+		 /> 
+		 <com.kd.hockymain.TimeSpinner
+		    android:id="@+id/TimefacilitySpinner"
+		    android:layout_width="300dp"
+		    android:layout_height="wrap_content"
+		 /> 
+     <EditText 
+     android:id="@+id/type"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="300dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:layout_marginBottom="12dp"
+        	    android:layout_marginTop="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:hint="Game Type"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      <EditText 
+     android:id="@+id/location"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="300dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:layout_marginBottom="12dp"
+        	    android:layout_marginTop="12dp"
+        	    android:hint="Location"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+   
+   
+     
+  <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/lightGreen"
+            android:text="ADD PLAYER FOR TEAM"/>
+    <ListView
+        android:id="@+id/list_of_players"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+<Button 
+   android:id="@+id/add_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD ANOTHER PLAYER" />
+<Button 
+   android:id="@+id/StartScorring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START SCORE TRACKING"  />
+
+</LinearLayout> 

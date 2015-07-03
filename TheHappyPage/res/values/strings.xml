@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">The Happy Page</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">The Happy Page</string>
+    <string name="ac_name_image_pager">The Happy Page</string>
+    <string name="ac_name_image_gallery">The Happy Page</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">The Happy Page</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">Delete disc chaceo</string>
+    <string name="newimt">Get new </string>
+     <string name="button_image_list">Happy list</string>
+    <string name="button_image_grid">Happy grid</string>
+    <string name="button_image_pager">hapy view</string>
+    <string name="button_image_gallery">Happy gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+</resources>

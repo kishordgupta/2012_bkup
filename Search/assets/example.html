@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+        <title>SCEditor Demo</title>
+
+        <link rel="stylesheet" href="./minified/themes/default.min.css" type="text/css" media="all" />
+
+        <script src="./minified/jquery.min.js"></script>
+        <script src="./minified/jquery.sceditor.bbcode.min.js"></script>
+
+        <style>
+            html {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+            }
+            form div {
+                padding: .5em;
+            }
+            code:before {
+                position: absolute;
+                content: 'Code:';
+                top: -1.35em;
+                left: 0;
+            }
+            code {
+                margin-top: 1.5em;
+                position: relative;
+                background: #eee;
+                border: 1px solid #aaa;
+                white-space: pre;
+                padding: .25em;
+                min-height: 1.25em;
+            }
+            code:before, code {
+                display: block;
+                text-align: left;
+            }
+            .send_button{
+                -moz-box-shadow: 0px 10px 14px -7px #276873;
+                -webkit-box-shadow: 0px 10px 14px -7px #276873;
+                box-shadow: 0px 10px 14px -7px #276873;
+                background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+                background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+                background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+                background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+                background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+                background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+                background-color:#599bb3;
+                -moz-border-radius:8px;
+                -webkit-border-radius:8px;
+                border-radius:8px;
+                display:inline-block;
+                color:#ffffff;
+                font-size: 1.2em;
+                font-family:arial;
+                font-weight:bold;
+                padding: 13px 32px;
+                text-decoration:none;
+                text-shadow:0px 1px 0px #3d768a;
+
+            }
+            .send_button:hover{
+                background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+                background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+                background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+                background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+                background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+                background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+                background-color:#408c99;
+            }
+            .send_button{
+                border: none;
+                padding: 5px 20px;
+                position: relative;
+                top: 1px;
+            }
+        </style>
+
+        <script>
+            function update_plain_text(){
+                var text = $('textarea').sceditor('instance').getBody().find('p').html();
+                $('#plain_text').val(text);
+                return false;
+            }
+            // Source: http://www.backalleycoder.com/2011/03/20/link-tag-css-stylesheet-load-event/
+            var loadCSS = function(url, callback){
+                var link = document.createElement('link');
+                link.type = 'text/css';
+                link.rel = 'stylesheet';
+                link.href = url;
+                link.id = 'theme-style';
+
+                document.getElementsByTagName('head')[0].appendChild(link);
+
+                var img = document.createElement('img');
+                img.onerror = function(){
+                    if(callback) callback(link);
+                }
+                img.src = url;
+            }
+
+            $(document).ready(function() {
+                var initEditor = function() {
+                    $("textarea").sceditor({
+                        plugins: 'xhtml',
+                    
+                        style: "./minified/jquery.sceditor.default.min.css"
+                    });
+                };
+
+                $("#theme").change(function() {
+                    var theme = "./minified/themes/" + $(this).val() + ".min.css";
+
+                    $("textarea").sceditor("instance").destroy();
+                    $("link:first").remove();
+                    $("#theme-style").remove();
+
+                    loadCSS(theme, initEditor);
+                });
+
+                initEditor();
+            });
+        </script>
+    </head>
+    <body>
+        <form action="" method="get">
+            <input type="hidden" name="plain_text" id="plain_text" value=""/>
+            <div>
+                <textarea name="bbcode_field" style="height:300px;width:600px;" id="message"></textarea>
+            </div>
+            <div>
+                <input class="send_button" name="html_data" type="submit" value="Send HTML" onclick="update_plain_text();"/>
+                <input class="send_button" name="plain_data" type="submit" value="Send TEXT" onclick="update_plain_text();"/>
+                  <input class="send_button" name="create_data" type="submit" value="Create HTML" onclick="update_plain_text();"/>
+                <input class="send_button" name="speak_data" type="submit" value="Speaker" onclick="update_plain_text();"/>
+                
+            </div>
+        </form>
+    </body>
+</html>

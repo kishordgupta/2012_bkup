@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">F1 GP Live</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world"> &lt;OBJECT classid=&quot;clsid:D27CDB6E-AE6D-11cf-96B8-444553540000&quot;codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&quot;WIDTH=&quot;320&quot; HEIGHT=&quot;240&quot; id=&quot;player&quot; ALIGN=&quot;&quot;&gt;&lt;PARAM NAME=&quot;movie&quot; VALUE=&quot;http://cdn.livestream.com/grid/LSPlayer.swf?channel=bitvags&quot;&gt;&lt;PARAM NAME=&quot;quality&quot; VALUE=high&gt;&lt;EMBED src=&quot;http://cdn.livestream.com/grid/LSPlayer.swf?channel=bitvags&quot; quality=high WIDTH=&quot;320&quot; HEIGHT=&quot;240&quot;NAME=&quot;player&quot; ALIGN=&quot;&quot; TYPE=&quot;application/x-shockwave-flash&quot;PLUGINSPAGE=&quot;http://www.macromedia.com/go/getflashplayer&quot;&gt;&lt;/EMBED&gt;&lt;/OBJECT&gt;</string>
+
+</resources>

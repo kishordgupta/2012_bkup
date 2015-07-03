@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/news"
+        android:title="News">
+        <menu>
+            <item
+                android:id="@+id/feat"
+                android:title="Featured"/>
+           
+            <item
+                android:id="@+id/inter"
+                android:title="Interviews"/>
+            <item
+                android:id="@+id/tech"
+                android:title="Technical">
+            </item>
+            <item
+                android:id="@+id/vide"
+                android:title="Video"/>
+            <item
+                android:id="@+id/mov"
+                android:title="Movies">
+            </item>
+            <item
+                android:id="@+id/onbvideo"
+                android:title="OnBoard Video"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/races"
+        android:title="Races">
+        <menu>
+            <item
+                android:id="@+id/cal"
+                android:title="Calender"/>
+            <item
+                android:id="@+id/cerc"
+                android:title="Circuits">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/championship"
+        android:title="Championship">
+        <menu>
+            <item
+                android:id="@+id/c13"
+                android:title="2013"/>
+          
+        </menu>
+    </item>
+    <item
+        android:id="@+id/riderteam"
+        android:title="Drivers &amp; Team">
+        <menu>
+            <item
+                android:id="@+id/rider"
+                android:title="Drivers"/>
+            <item
+                android:id="@+id/team"
+                android:title="Teams">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/insidemotogp"
+        android:title="Inside F1">
+        <menu>
+            <item
+                android:id="@+id/rules"
+                android:title="Rules"/>
+            <item
+                android:id="@+id/history"
+                android:title="History">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

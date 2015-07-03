@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+  <item
+        android:id="@+id/product"
+        android:title="Products"/>
+
+    <item
+        android:id="@+id/wishist"
+        android:title="Wish List"/>
+      <item
+        android:id="@+id/cart"
+        android:title="Cart"/>
+
+    <item
+        android:id="@+id/mymars"
+        android:title="My Mars"/>
+      <item
+        android:id="@+id/support"
+        android:title="Support"/>
+
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+      
+    <item
+        android:id="@+id/sync"
+        android:title="Sync"/>
+
+</menu>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Lists" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="images on the right"
+            android:summaryOff="@string/images_on_the_left"
+            android:summaryOn="@string/images_on_the_right"
+            android:title="@string/image_positioning" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show deck"
+            android:summaryOff="@string/not_showing_summary"
+            android:summaryOn="@string/showing_summary"
+            android:title="@string/show_sumamry" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Notifications" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="push notifications"
+            android:summary="Receive news alerts from Irish Examiner"
+            android:title="General news alerts" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification sound"
+            android:summary="Play notification sounds"
+            android:title="Play a sound" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Location" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="can access location"
+            android:summary="Irish Examiner would like to use your location to send push notifications. You change your settings at any time. "
+            android:title="Can access location" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Caching" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="download overnight"
+            android:summary="Download stories every day at 5 am"
+            android:title="Download overnight over WiFi" />
+
+        <Preference
+            android:key="download now"
+            android:title="Download now" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Stories" >
+        <ListPreference
+            android:defaultValue="15"
+            android:entries="@array/font_size_labels"
+            android:entryValues="@array/font_sizes"
+            android:key="text size"
+            android:title="@string/text_size" />
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/orientation_labels"
+            android:entryValues="@array/orientations"
+            android:key="orientation lock"
+            android:title="Orientation lock" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/app_version" >
+        <Preference
+            android:key="app version"
+            android:summary="title_changelog"
+            android:title="@string/app_version_value" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

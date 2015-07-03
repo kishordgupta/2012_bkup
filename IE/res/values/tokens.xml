@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crittercism">5170e5ea46b7c25630000002</string>
+    <string name="newrelic">AAb0d2af74c1e03101be4b404673b2c6b94012127d</string>
+    <string name="facebook_id">297058297106710</string>
+    <string name="parse_app_id">DRp0s5s1H5wNqTzgIhFEbjKFrYMiDQ7FEvwFvh3p</string>
+    <string name="parse_client_key">UiwXV11CDn3NRfdLocCr5A6Xik1HluPytVXhnl44</string>
+    <string name="flurry_token">FBHG9SS8KRB6B57J4SCD</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">walking dead</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">walking dead</string>
+    <string name="ac_name_image_pager">walking dead</string>
+    <string name="ac_name_image_gallery">walking dead</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">walking dead</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">clear</string>
+    <string name="newimt">Refresh Video List</string>
+     <string name="button_image_list">walking dead list</string>
+    <string name="button_image_grid">walking dead grid</string>
+    <string name="button_image_pager">walking dead view</string>
+    <string name="button_image_gallery">walking dead gallery</string>
+    <!-- Content descriptions -->
+     <string name="feeds">http://videofeeds.lilait.com/walkingdead.kd</string>
+    <string name="descr_image">Image</string>
+ <string name="Adid">a1526693312d548</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="10dip"
+     android:background="@android:color/black"
+    android:orientation="vertical" >
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_weight="0.9"
+        android:orientation="horizontal" >
+
+        <cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager
+        
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+        <WebView
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="0dp"
+            android:visibility="gone"
+            android:background="#00CC65"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/learnonelphenus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1.0"
+            android:background="#04B431"
+            android:text="Learn on Ruins in Ephesus"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/specialarticles"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1.0"
+            android:background="#FE2EC8"
+            
+            android:text="Special Articles on Ephesus"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/learnonatractions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#008FD3"
+            android:text="Learn on Attractions Around Ephesus"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/tourstoephesus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#B100FE"
+            android:text="Tours to Ephesus and Around"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dealsarroundephesus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#DB6E66"
+            android:text="Deals Around Ephesus"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/favourite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#017F7E"
+            android:text="About Ephesus Travel App"
+            android:textStyle="bold"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

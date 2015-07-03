@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+       >
+  <LinearLayout
+      
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="center"
+      
+           android:orientation="vertical">
+               <LinearLayout
+     android:layout_width="wrap_content"         
+     android:layout_height="wrap_content"         
+     android:layout_alignParentBottom="true" >  
+
+	<!-- Set myapp:adUnitId to be your publisher ID -->
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a150f1b5df1da15"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+     />
+
+</LinearLayout>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/troll" />
+
+</LinearLayout>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:textColor="#8B0000"
+       android:textStyle="bold"
+        android:text=" Troll Enabled"
+         />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:enabled="false"
+        android:textColor="#8B0000"
+       android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Troll Enabled From"
+        android:background="@android:color/transparent"
+        android:layout_weight="1"/>
+
+      <EditText 
+         android:id="@+id/startrolling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        
+        android:layout_weight="1"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+  android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/customize"
+        android:layout_width="0dp"
+     android:textColor="#8B0000"
+       android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Set Customized troll answer"
+       
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+ <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:enabled="false"
+        android:textColor="#8B0000"
+       android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Tell the truth at"
+         android:background="@android:color/transparent"
+        android:layout_weight="1"/>
+
+    <EditText 
+         android:id="@+id/stoptrolling"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        
+        android:layout_weight="1"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+   android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Troll End Message"
+        android:enabled="false"
+        android:textColor="#8B0000"
+       android:textStyle="bold"
+      android:background="@android:color/transparent"
+        android:layout_weight="1"/>
+
+   <EditText 
+         android:id="@+id/trollmessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        
+        android:layout_weight="1"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+  android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="0dp"
+     android:textColor="#8B0000"
+       android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Back to calculator"
+       
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
+    </LinearLayout>
+</ScrollView>

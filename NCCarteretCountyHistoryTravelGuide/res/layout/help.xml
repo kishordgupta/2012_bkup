@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|left" >
+
+        <Button
+            android:id="ack3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:textColor="#FAEBD7" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right" >
+
+            <Button
+                android:id="lay3"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"
+                android:textColor="#FAEBD7" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="bar13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bar"
+        android:background="#00FFFF"
+        android:textColor="#00FFFF"
+        android:textSize="8dp" />
+
+    <ScrollView
+        android:id="scrolliew13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|left"
+            android:orientation="vertical" >
+
+             <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This application was made to help people explore Carteret County historical locations. Please do the following to use this application. Click on the city you're in or you wish to visit. Following this, click on the location you would like to check out. You should now be prompted with several buttons. \"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Go back= This button takes you to the previous screen."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Directions= This button will pull up Google Maps. The phone should automatically try to find your location, and it will try to direct you to the location of what you picked.  (This may require a working data network)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Street view= This button will pull up the Street View of the area you are checking out. (This feature requires a working data network)"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play= This button will read the text below."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="12dp" /> 
+                
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Below the cyan (blue) line is a summary of the place. To get the fullest experience, please visit the places listed."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> 
+                
+                <TextView
+                android:id="textiew13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000000"
+                android:textSize="12dp" /> 
+                
+                <TextView
+                android:id="textiew31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Please feel free to e-mail me if a place is missed marked, or if a place should be added to the list. If you feel a place should be added, please make sure it's historical. Giving it's historical or a museum, please e-mail me the name of the place, where it is, and some facts about it. "
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" /> <TextView
+                android:id="textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can e-mail me by clicking the button below."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAEBD7"
+                android:textSize="12dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    android:id="email3"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="craigbennettii@techreviewsandhelp.com"
+                    android:textColor="#FAEBD7" />
+                
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

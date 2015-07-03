@@ -1,0 +1,67 @@
+<!DOCUMENT html>
+<html>
+    <head>
+        <title>INSULT CREATOR</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        <script>
+            $(function(){
+                var data = "LAZY,STUPID,INSECURE,IDIOTIC,SLIMY,SLUTTY,SMELLY,POMPOUS,COMMUNIST,DICKNOSE,PIE-EATING,RACIST,ELITIST,WHITH TRASH,DRUG-LOVING,BUTTERFACE,TONE DEAF,UGLY,CREEPY\nDOUCHE,ASS,TURD,RECTUM,BUTT,COCK,SHIT,CROTCH,BITCH,TURD,PRICK,SLUT,TAINT,FUCK,DICK,BONER,SHART,NUT,SPHINCTER\nPILOT,CANOE,CAPTAIN,PIRATE,HAMMER,KNOB,BOX,JOCKEY,NAZI,WAFFLE,GOBLIN,BLOSSUM,BISCUIT,CLOWN,SOCKET,MONSTER,HOUND,DRAGON,BALLOON";
+                var rows = data.split('\n');
+                $.each(rows,function(index, value){
+                    var cols = value.split(',');
+                    var list_holder = $('.list-holder');
+                    list_holder.append('<div id="col' + index + '" class="col" block="#block' + (index + 1) +'" col="#col' + (index + 1) +'"><h4>CHOOSE ONE</h4><ul></ul></div>')
+                    $.each(cols, function(ind, val){
+                        $('#col'+ index).find('ul').append('<li><input value="' + val + '" type="radio" name="insult' + index + '" /><i>' + val + '</i></li>');
+                    });
+                });
+                $('#col1, #col2').find('input').attr('disabled', 'disabled');
+                $('.col input:disabled').parents('li').css('color', '#ccc').css('text-shadow', '1px 1px 1px #666');
+                $('.col ul li').click(function(){
+                    var d_id  = $(this).parents('div').attr('id');
+                    var itag  = $(this).find('i');
+                    var block = $($('#' + d_id).attr('block'));
+                    var col   = $($('#' + d_id).attr('col'));
+                    var new_element = itag.clone();
+                    
+                    new_element.addClass('new_element').css({
+                        left: itag.offset().left,
+                        top:  itag.offset().top
+                    });
+                    block.append(new_element);
+                    $('#' + d_id).find('li').removeClass('selected');
+                    $(this).addClass('selected');
+                    
+                    //block.html($(this).is(':checked') ? $(this).val() : '');
+                    new_element.animate({
+                        left: block.offset().left,
+                        top:  block.offset().top
+                    },500, '', function(){
+                        block.html($(this).html());
+                        if(block.html() != '')
+                            col.find('input').removeAttr('disabled').parents('li').removeAttr('style');
+                        if($('#block1').html() != '' && $('#block2').html() != '' && $('#block2').html() != '&nbsp;' &&  $('#block3').html() != '' && $('#block3').html() != '&nbsp;'){
+                            var text = $('#block0').html() + ' ' + $('#block1').html() + ' ' + $('#block2').html() + ' ' + $('#block3').html();
+                            $('#share').fadeIn(1000).find('a').first().attr('href', ('http://www.share.com/' + text)).next().attr('href', ('http://www.shout.com/' + text));
+                        }
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="main_content">
+            <div id="top_nav"><a class="rate" href="https://play.google.com/store/apps/details?id=com.shishir.insult.creator">RATE US</a><a class="exit" href="http://www.exit.com">EXIT</a></div>
+            <h1 class="page-title">INSULT CREATOR</h1>
+            <div id="insult_block">
+                <span id="block0">You know what? You're nothing but a </span>
+                <span id="block1">---</span>
+                <span id="block2">&nbsp;</span>
+                <span id="block3">&nbsp;</span>
+            </div>
+            <div id="share"><a href="http://www.share.com">SHARE</a> <a href="http://www.share.com">SHOUT</a></div>
+            <div class="list-holder"></div>
+        </div>
+    </body>
+</html>

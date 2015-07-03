@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="20dip"
+         android:typeface="sans"
+        android:text="@string/label_activity_examples"
+        android:textSize="24dip" />
+   
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onImageGridClick"
+        android:text="@string/button_image_grid"
+        android:typeface="sans"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onImagePagerClick"
+        android:text="@string/button_image_pager"
+        android:textColor="@android:color/white" 
+         android:typeface="sans"
+         android:textColorHighlight="@android:color/transparent"/>
+     <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:onClick="onImageListClick"
+        android:visibility="gone"
+        android:text="List of images"
+          android:background="@drawable/button"
+        android:textColor="@android:color/white"
+         android:typeface="sans"
+        android:textColorHighlight="@android:color/transparent" />
+    
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onLoadnewtroll"
+         android:typeface="sans"
+        android:text="@string/button_image_list"
+        android:textColor="@android:color/white" 
+        android:visibility="gone"
+         android:textColorHighlight="@android:color/transparent"/>
+    
+</LinearLayout>

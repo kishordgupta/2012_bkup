@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Image</title>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+<script src="jquery-1.10.2.min.js"></script>
+<script>
+$(function(){
+              $('img').attr('src','http://wallpaper.lilait.com/big_bang_theory/gallery/'+ "*###*");
+               $('iframe').attr('src', 'http://wallpaper.lilait.com/big_bang_theory/iframe.php?url=' + "*###*");
+           });
+</script>
+</head>
+<body>
+<div class="container">
+<div id="rg-gallery" class="rg-gallery">
+<div class="rg-image-wrapper">
+<div class="rg-image">
+<img id="image" src="" />
+</div>
+<div style="text-align:center;margin: 10px;">
+                       <a class="btton" href="file_upload.html" style="padding: 5px;">UPLOAD</a>
+                       <a class="btton" style="padding: 5px;" href="http://www.share.com">SHARE</a>
+                       <a class="btton" style="padding: 5px;" href="http://www.setwallpaper.com">SET AS WALLPAPER</a>
+                       <a class="btton" style="padding: 5px;" href="http://www.download.com">DOWNLOAD</a>
+                   </div
+</div>
+</div><!-- rg-gallery -->
+<iframe src="" style="width: 100%; border: medium none; height: auto; min-height: 300px;"></iframe>
+</div><!-- container -->
+    </body>
+</html>

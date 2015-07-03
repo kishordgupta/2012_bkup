@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal"
+    >
+    <Button
+        android:id="@+id/game_clock_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Clock Start"
+     />
+    <Button
+        android:id="@+id/game_clock_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    
+        android:text="Game Clock Stop" />
+</LinearLayout>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+    >
+   <Button
+        android:id="@+id/shiftstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shift Start" />
+  
+ <Button
+        android:id="@+id/shiftend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shift End" />
+  </LinearLayout>
+  <LinearLayout 
+       android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+    >
+  <Button
+        android:id="@+id/goalfor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal For" />
+   <Button
+        android:id="@+id/goalagainst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal Against" />
+    <Button
+        android:id="@+id/goalscored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Goal Scored" />
+    </LinearLayout>
+    <LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+          android:layout_gravity="center_horizontal"
+    >
+       <Button
+        android:id="@+id/shottaken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shot Taken" />
+    <Button
+        android:id="@+id/turnover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Turnover" />
+       <Button
+        android:id="@+id/penalty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Penalty" />
+       </LinearLayout>
+    <Button
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result" />
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:orientation="horizontal"
+    android:scrollbars="vertical" >
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="70dip"
+        android:layout_height="40dip"
+        
+        android:background="@color/whiteColor"
+      
+        android:text="Buy"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ProductItemID"
+        android:layout_width="180dp"
+        android:layout_height="40dip"
+        android:layout_gravity="left"
+        
+        android:background="@drawable/round_background_black"
+        
+        android:singleLine="true"
+        android:textColor="@color/whiteColor" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/SupplierID"
+        android:layout_width="250dip"
+        android:layout_height="40dip"
+        android:layout_gravity="center"
+        android:layout_marginLeft="12dp"
+        android:background="@drawable/round_background_black"
+        android:padding="6dp"
+        android:singleLine="true"
+        android:textColor="@color/whiteColor"
+        android:visibility="gone" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/VoucherCost"
+        android:layout_width="50dip"
+        android:layout_height="40dip"
+        android:layout_gravity="right"
+     
+        android:background="@drawable/round_background_black"
+      
+        android:singleLine="true"
+        android:textColor="@color/whiteColor" >
+    </TextView>
+
+</LinearLayout>

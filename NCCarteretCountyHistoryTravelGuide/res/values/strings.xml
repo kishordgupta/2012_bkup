@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carteret County History Guide</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="city_array">
+        <item>Select city</item>
+        <item>Atlantic Beach</item>
+        <item>Beaufort</item>
+        <item>Bogue</item>
+        <item>Cape Carteret</item>
+        <item>Cedar Point</item>
+        <item>Emerald Isle</item>
+        <item>Indian Beach</item>
+        <item>Morehead City</item>
+        <item>Newport</item>
+        <item>Peletier</item>
+        <item>Pine Knoll Shores</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Select category</item>
+        <item>Museums &amp; Historic Sites</item>
+        <item>Cemeteries</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="event_array">
+        <item>Select city and category</item>
+    </string-array>
+    <string-array name="beaufort_event_historic_array">
+          <item>Select event</item>
+        <item>Historic site</item>
+        <item>Maritime Museum</item>
+    </string-array>
+    <string-array name="beaufort_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="beaufort_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="bogue_event_historic_array">
+           <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="bogue_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="bogue_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="cape_event_historic_array">
+           <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="cape_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="cape_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="cedar_event_historic_array">
+        <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="cedar_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="cedar_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="emerald_event_historic_array">
+     <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="emerald_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="emerald_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="indian_event_historic_array">
+          <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="indian_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="indian_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="morehead_event_historic_array">
+            <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="morehead_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="morehead_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="newport_event_historic_array">
+             <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="newport_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="newport_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="peletier_event_historic_array">
+          <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="peletier_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="peletier_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="pine_event_historic_array">
+       <item>Select event</item>
+        <item>No event found</item>
+    </string-array>
+    <string-array name="pine_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="pine_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+    </string-array>
+    <string-array name="atlantic_event_historic_array">
+          <item>Select event</item>
+        <item>Fort Macon</item>
+    </string-array>
+    <string-array name="atlantic_event_cemeteries_array">
+        <item>No event found</item>
+    </string-array>
+    <string-array name="atlantic_event_other_array">
+        <item>Select event</item>
+        <item>City history</item>
+        <item>Coast Guard</item>
+    </string-array>
+
+</resources>

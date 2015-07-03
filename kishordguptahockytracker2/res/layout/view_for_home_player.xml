@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/offBlack" >
+
+
+ <EditText 
+     android:id="@+id/player_rank"
+     android:inputType="number"
+     android:singleLine="true"
+   android:layout_width="40dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+   <com.kd.hockymain.PeriodSpinner
+		    android:id="@+id/PeriodSpinner1"
+		 
+		    android:layout_height="wrap_content"
+		    android:layout_width="80dip"
+  
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		 /> 
+       <EditText 
+     android:id="@+id/time"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="200dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+          <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/Goal"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 />
+     <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A1"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 />
+          
+      <com.kd.hockymain.PlayerSpinner
+		    android:id="@+id/A2"
+		    android:layout_width="80dp"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		    android:layout_height="wrap_content"
+		 /> 
+          
+       <EditText 
+     android:id="@+id/Plus"
+     android:inputType="textPersonName"
+     android:singleLine="true"
+    android:layout_width="200dip"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"
+     ></EditText> 
+      <com.kd.hockymain.TypeSpinner
+		    android:id="@+id/Spinnertype1"
+		    android:layout_width="80dp"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+		 /> 
+          
+</LinearLayout>

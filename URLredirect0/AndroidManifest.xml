@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.urlredirect"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.LOCATION_HARDWARE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.example.urlredirect.chooserActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.WEB_SEARCH" />
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPrefix="/.*"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPrefix="/.*"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPattern="/.*"
+                    android:pathPrefix=""
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPattern="/.*"
+                    android:pathPrefix=""
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPattern="/.*"
+                    android:pathPrefix="/"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPattern="/.*"
+                    android:pathPrefix="/"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPattern="\\*"
+                    android:pathPrefix="/"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPattern="\\*"
+                    android:pathPrefix="/"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:path=""
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:path=""
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPattern="\\*"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPattern="\\*"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPrefix="/content-a"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:pathPrefix="/content-a"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:pathPrefix="/c.*"
+                    android:scheme="http" />
+                <data
+                    android:host="rmep.co"
+                    android:scheme="http" />
+                <data android:scheme="rmep" />
+                <data
+                    android:host="www.rehrigpacific.com"
+                    android:pathPrefix="/.*"
+                    android:scheme="http" />
+                <data
+                    android:host="rehrigpacific.com"
+                    android:scheme="http" />
+                <data
+                    android:host="rehrigpacific"
+                    android:scheme="http" />
+                <data
+                    android:host="www.rmep.co"
+                    android:scheme="http" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    
+    </application>
+
+</manifest>

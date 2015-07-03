@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"	
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	
+	<LinearLayout 
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:gravity="center_horizontal"
+		>
+	
+	   <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a150ec49c3b60de"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+     />
+	    
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#ffffff"
+				android:textStyle="bold" android:id="@+id/answers"
+				android:paddingLeft="15dip" android:paddingRight="15dip"
+				android:gravity="center_horizontal"/>
+	
+		</LinearLayout>
+
+		
+			<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<Button android:text="Back" android:id="@+id/finishBtn"
+				android:layout_width="80dip" android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/button_selector"
+	
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:textColor="#ffffff" />
+	
+		</LinearLayout>
+	
+	</LinearLayout>
+</ScrollView>

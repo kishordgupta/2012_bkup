@@ -1,0 +1,261 @@
+body {font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.ui-bar-a {
+	background:#8cd9ff url(../images/bg-head.png) repeat-x;
+	border-top:solid 2px #cdd5df;
+	border-bottom:solid 1px #3abdff;
+	font-weight:bold;
+	text-shadow:#29b8ff 0 -1px 0;
+	color:#fff;
+}
+
+.girl .ui-bar-a {
+	background:#e9a1df url(../images/bg-head-girl.png) repeat-x;
+	text-shadow:#ff5be8 0 -1px 0;
+	border-top:solid 2px #ffd3f9;
+	border-bottom:solid 1px #ff5be8;
+}
+
+.ui-title {
+	font-size : 20px;
+}
+
+.ui-content { 
+	color:#000;
+	background:#d8f1fe url(../images/bg.png) repeat-x;
+}
+
+.girl .ui-content {
+	color:#000;
+	background:#ffd5f9 url(../images/bg-girl.png) repeat-x;
+}
+
+.face {
+	display : table;
+}
+
+.faceRow {
+	display : table-row;
+	vertical-align:middle;
+}
+
+.faceImage {
+	background: url(../images/boy.png) no-repeat top left;width:155px;height:160px;
+	display: table-cell; vertical-align: middle;
+}
+
+.girl .faceImage {
+	background: url(../images/girl.png) no-repeat top left;width:155px;height:160px;
+}
+
+.babyName {
+	padding-left : 15px;
+	display: table-cell; vertical-align: middle;
+}
+
+.babyFirstName {
+	font-weight:bold;
+	text-shadow:#fff 0 1px 0;
+	line-height:22px;
+	font-size:28px;
+	color: #5293B6;
+}
+.babyLastName {
+	font-size:18px;
+	color: #8EB7CE;
+}
+.girl .babyFirstName {
+	color:#ff7db5;
+}
+.girl .babyLastName {
+	color:#ff7db5;
+}
+
+.statsLine {
+	background-color : #fff;
+}
+
+.statsLine img {
+	padding : 15px;
+}
+
+
+.ui-li {
+	background : -webkit-linear-gradient(#ffffff, #f1f1f1);
+}
+
+.done {
+	background : -webkit-linear-gradient(#ffffff, #c1f1c1);
+}
+.current {
+	background : -webkit-linear-gradient(#ffffff, #ffCC00);
+}
+
+
+
+#growth .ui-li-desc {
+	white-space : normal;
+		
+}
+
+#growth h3 {
+	margin : 0px;
+	margin-bottom : 5px;
+}
+	
+h2 {
+	color: #5293B6;
+	font-size: 16px;
+	font-weight: bold;
+	text-shadow: white 0 1px 0;	
+}
+
+.girl h2 {
+	color:#ff7db5;
+}
+
+body {
+	background : #8cd9ff;	
+}
+
+body.girl {
+	background : #e9a1df;
+}
+
+
+.progressBar {
+	height: 20px;
+	position: relative;
+	background: -webkit-linear-gradient(#fff,#ccc);
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px 10px 10px 10px;
+	
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+
+	width : 65%;
+	float : left;
+
+}
+
+.progressBar > span {
+
+	display: block;
+	height: 100%;
+	width : 0;
+
+	-webkit-border-top-right-radius: 20px;
+ 	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	background-color: rgb(43,194,83);
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, rgb(43,194,83)),
+	  color-stop(1, rgb(84,240,84))
+	 );
+	background-image: -webkit-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+	-webkit-box-shadow:
+	  inset 0 2px 9px  rgba(255,255,255,0.3),
+	  inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+	overflow: hidden;
+}
+
+.progressBar > span:after {
+	content: "";
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-image:
+	   -webkit-gradient(linear, 0 0, 100% 100%,
+	      color-stop(.25, rgba(255, 255, 255, .2)),
+	      color-stop(.25, transparent), color-stop(.5, transparent),
+	      color-stop(.5, rgba(255, 255, 255, .2)),
+	      color-stop(.75, rgba(255, 255, 255, .2)),
+	      color-stop(.75, transparent), to(transparent)
+	   );
+	background-image:
+		-webkit-linear-gradient(
+		  -45deg,
+	      rgba(255, 255, 255, .2) 25%,
+	      transparent 25%,
+	      transparent 50%,
+	      rgba(255, 255, 255, .2) 50%,
+	      rgba(255, 255, 255, .2) 75%,
+	      transparent 75%,
+	      transparent
+	   );
+	z-index: 1;
+	-webkit-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	-webkit-border-top-right-radius: 20px;
+	-webkit-border-bottom-right-radius: 20px;
+	-webkit-border-top-left-radius: 20px;
+	-webkit-border-bottom-left-radius: 20px;
+	overflow: hidden;
+}
+	
+	
+.progressBarPct {
+	background: -webkit-linear-gradient(#888,#666);
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	width : 20%;
+	height: 20px;
+	color : #fff;
+	font-weight:normal;
+	text-align : center;
+	float : right;
+	padding:10px;
+
+}
+
+body.boy .progressBarPct {background: #48a9d8 url(../images/bg-head.png) repeat-x;color:#5293B6;text-shadow: white 0 1px 0;}
+
+body.boy .ui-btn-up-a {
+border: 1px solid #008bcf;
+background: #333;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#4bc0f9),to(#2288ba));
+background-image: -webkit-linear-gradient(#4bc0f9,#2288ba);}
+
+body.girl .progressBarPct {background: -webkit-linear-gradient(#FF7DB5,#e7438a);}
+body.girl .ui-btn-up-a {
+border: 1px solid #c53573;
+background: #333;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#ed78aa),to(#e7438a));
+background-image: -webkit-linear-gradient(#ed78aa,#e7438a);}
+
+
+body.girl .ui-btn-active {
+border: 1px solid #c53573;
+background-image: -webkit-gradient(linear,left top,left bottom,from(#ed78aa),to(#e7438a));
+background-image: -webkit-linear-gradient(#ed78aa,#e7438a);
+}
+
+body.girl .ui-checkbox-on .ui-icon, body.girl .ui-radio-on .ui-icon {
+background-color: #e7438a;
+}
+
+
+/* Portrait */
+@media screen and (max-width: 321px) {
+    .progressBar {
+		padding: 5px;
+	 }
+	 .progressBarPct {padding:5px 3px 5px 3px;width:20%;font-size:12px}
+}
+
+.progressBarPct {
+text-shadow: #333 0px 1px 0px;!important;
+}

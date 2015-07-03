@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Anime Music Video</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">Anime Music Video</string>
+    <string name="ac_name_image_pager">Anime Music Video</string>
+    <string name="ac_name_image_gallery">Anime Music Video</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Anime Music Video</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">clear</string>
+    <string name="newimt">Refresh Video List</string>
+     <string name="button_image_list">Anime Music Video list</string>
+    <string name="button_image_grid">Anime Music Video grid</string>
+    <string name="button_image_pager">Anime Music Video view</string>
+    <string name="button_image_gallery">Anime Music Video gallery</string>
+    <!-- Content descriptions -->
+     <string name="feeds">http://videofeeds.lilait.com/animemusic.kd</string>
+     <string name="urlchat">http://www.videofeeds.lilait.com/chat/animemusicvideo/</string>
+    <string name="descr_image">Image</string>
+ <string name="Adid">a1526c390f95770</string>
+</resources>

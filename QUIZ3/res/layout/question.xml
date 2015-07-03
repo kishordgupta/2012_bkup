@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads" 
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="15dip"
+       >
+
+        <com.google.ads.AdView
+            android:id="@+id/ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3919172384518296/5354087566"
+            ads:refreshInterval="30" />
+        <!-- Set myapp:adUnitId to be your publisher ID -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <RadioGroup
+            android:id="@+id/group1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingBottom="5dip"
+                android:paddingTop="5dip" >
+
+                <TextView
+                    android:id="@+id/question"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@drawable/border"
+                    android:paddingBottom="5dip"
+                    android:paddingLeft="5dip"
+                    android:paddingRight="5dip"
+                    android:paddingTop="5dip"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/answer1"
+                android:layout_width="fill_parent"
+                android:background="@drawable/radiobutton_bacckground"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="@android:color/white"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer2"
+                android:layout_width="fill_parent"
+                android:background="@drawable/radiobutton_bacckground"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="@android:color/white"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer3"
+                android:layout_width="fill_parent"
+                android:background="@drawable/radiobutton_bacckground"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="@android:color/white"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="20dp" />
+
+            <RadioButton
+                android:id="@+id/answer4"
+                android:layout_width="fill_parent"
+                android:background="@drawable/radiobutton_bacckground"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="@android:color/white"
+                android:paddingBottom="20dp"
+                android:paddingLeft="50dp"
+                android:paddingTop="20dp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="center_horizontal|right"
+        android:orientation="horizontal"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="Next"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

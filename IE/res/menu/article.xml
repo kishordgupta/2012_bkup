@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_item_share_article"
+        android:actionLayout="@layout/share"
+        android:showAsAction="always"
+        android:title="@string/share"/>
+    <item
+        android:icon="@drawable/ic_action_text_size"
+        android:showAsAction="ifRoom"
+        android:title="@string/text_size">
+        <menu>
+            <item
+                android:id="@+id/menuTextSizeSmall"
+                android:title="@string/small"/>
+            <item
+                android:id="@+id/menuTextSizeMedium"
+                android:title="@string/medium"/>
+            <item
+                android:id="@+id/menuTextSizeLarge"
+                android:title="@string/large"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menu_item_save"
+        android:icon="@drawable/ic_action_unsaved_large"
+        android:showAsAction="ifRoom"
+        android:title="Save article">
+    </item>
+    <item
+        android:id="@+id/menu_item_comments"
+        android:icon="@drawable/ic_action_comments"
+        android:showAsAction="ifRoom"
+        android:title="@string/coments">
+    </item>
+
+</menu>

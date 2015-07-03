@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">الرقص الشرقي فيديو</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">الرقص الشرقي فيديو</string>
+    <string name="ac_name_image_pager">الرقص الشرقي فيديو</string>
+    <string name="ac_name_image_gallery">الرقص الشرقي فيديو</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">الرقص الشرقي فيديو</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">clear</string>
+    <string name="newimt">تحديث قائمة فيديو</string>
+     <string name="button_image_list">الرقص الشرقي فيديو قائمة</string>
+    <string name="button_image_grid">الرقص الشرقي فيديو شبكة</string>
+    <string name="button_image_pager">الرقص الشرقي فيديو رأي</string>
+    <string name="button_image_gallery">الرقص الشرقي فيديو رواق</string>
+    <!-- Content descriptions -->
+     <string name="feeds">http://videofeeds.lilait.com/belly_dance_hot.kd</string>
+     <string name="urlchat">http://www.videofeeds.lilait.com/chat/todaysfasion/</string>
+    <string name="descr_image">Image</string>
+ <string name="Adid">a1527fe2d105bcb</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/races"
+        android:title="Browse">
+    </item>
+    <item
+        android:id="@+id/cartru"
+        android:title="Cars and Trucks">
+    </item>
+    <item
+        android:id="@+id/moto"
+        android:title="Motorcycles">
+    </item>
+    <item
+        android:id="@+id/pp"
+        android:title="Powersports">
+    </item>
+      <item
+        android:id="@+id/boats"
+        android:title="Boats">
+    </item>
+     <item
+        android:id="@+id/Ov"
+        android:title="Other Vehicles">
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:wingokuFlatButton="http://schemas.android.com/apk/res/com.wingoku.flatUI"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".WinGokuFlatButton" >
+
+    <com.wingoku.flatUI.WinGokuFlatButton
+      
+        android:id="@+id/wingoku3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="wingoku"
+        android:textColor="#fff"
+        wingokuFlatButton:normalStateColor="#EB974E"
+        wingokuFlatButton:pressedStateColor="#F2784B" />
+
+    <com.wingoku.flatUI.WinGokuFlatButton
+       
+        android:id="@+id/wingoku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="51dp"
+        android:text="wingoku"
+        android:textColor="#fff"
+        wingokuFlatButton:normalStateColor="#66CC99"
+        wingokuFlatButton:pressedStateColor="#049372" />
+
+    <com.wingoku.flatUI.WinGokuFlatButton
+       
+        android:id="@+id/wingoku2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wingoku"
+        android:layout_below="@+id/wingoku"
+        android:layout_marginTop="52dp"
+        android:text="wingoku"
+        android:textColor="#fff"
+        wingokuFlatButton:normalStateColor="#9b59b6"
+        wingokuFlatButton:pressedStateColor="#8e44ad" />
+
+    <com.wingoku.flatUI.WinGokuFlatButton
+       
+        android:id="@+id/wingoku4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="wingoku"
+        android:textColor="#fff"
+        wingokuFlatButton:normalStateColor="#6BB9F0"
+        wingokuFlatButton:pressedStateColor="#3498DB" />
+
+<!--     <com.wingoku.flatUI.WinGokuFlatEditText
+       
+        android:id="@+id/mEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/wingoku4"
+        android:layout_below="@+id/wingoku4"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:hint="wingoku EditText"
+        wingokuFlatEditText:backgroundColor="#36D7B7" >
+
+        <requestFocus />
+    </com.wingoku.flatUI.WinGokuFlatEditText> -->
+
+</RelativeLayout>

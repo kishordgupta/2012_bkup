@@ -1,0 +1,28 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.siliconorchard.hoteldealsfinder.MainActivity" >
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login"
+      android:showAsAction="always|withText"/>
+      <item
+        android:id="@+id/register"
+        android:orderInCategory="100"
+        android:title="Register"
+        app:showAsAction="never"/>
+       
+        <item
+        android:id="@+id/cntact"
+        android:orderInCategory="100"
+        android:title="Contact us"
+        app:showAsAction="never"/>
+          <item
+        android:id="@+id/seefeaturedvendor"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"/>
+</menu>

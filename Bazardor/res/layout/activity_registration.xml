@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offBlack"
+    android:padding="6dp" 
+    android:orientation="vertical">
+
+   
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@color/offBlack">
+        	<TextView 
+        	    android:text="@string/fullname"
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+        	    android:textColor="@color/black"/>
+        	<EditText 
+        	    android:id="@+id/textRegistrationName"
+        	    android:layout_width="180dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@color/offBlack">
+        	<TextView 
+        	    android:text="@string/sur_name"
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+        	    android:textColor="@color/black"/>
+        	<EditText 
+        	    android:id="@+id/textRegistrationSurName"
+        	    android:layout_width="180dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        		    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@color/offBlack">
+        	<TextView 
+        	    android:text="@string/id_passport"
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+        	    android:textColor="@color/black"/>
+        	<EditText 
+        	    android:id="@+id/textRegistrationIDPassport"
+        	    android:layout_width="180dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	    	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"/>
+    </LinearLayout>
+      <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@color/offBlack">
+        	<TextView 
+        	    android:text="@string/mobile_number"
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+        	    android:textColor="@color/black"/>
+        	<EditText 
+        	    android:id="@+id/textRegistrationMobile"
+        	    android:layout_width="180dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	   	    android:textColor="@color/whiteColor"
+        	    android:inputType="phone"
+        	    android:background="@drawable/round_background_black"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="6dp"
+        android:background="@color/offBlack">
+        	<TextView 
+        	    android:text="@string/password"
+        	    android:layout_width="100dp"
+        	    android:layout_height="wrap_content"
+        	    android:textColor="@color/black"/>
+        	<EditText 
+        	    android:id="@+id/textRegistrationPassword"
+        	    android:layout_width="180dp"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginLeft="12dp"
+        	    android:padding="6dp"
+        	   	    android:textColor="@color/whiteColor"
+        	    android:background="@drawable/round_background_black"/>
+    </LinearLayout>
+  
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/offBlack">
+        	<CheckBox
+		        android:id="@+id/termsAgreementCheckbox"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/terms_accept" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@color/offBlack" >
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="4.76"
+         
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/register"
+          	    android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    
+     
+ 
+
+</LinearLayout>

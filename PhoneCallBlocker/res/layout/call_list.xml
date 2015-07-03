@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:orientation="vertical"
+    tools:context=".InfoViewActivity" >
+
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" 
+     android:background="#0c2f70">
+     
+     <Button
+	     android:id="@+id/btnAddNumber"
+	     android:layout_width="fill_parent"
+	     android:layout_height="50dip"
+	     android:textSize="20dip"
+	     android:background="@drawable/addphoneplus"
+		 android:layout_weight="1" />
+        
+     <Button
+         android:id="@+id/btnMyNumberHeader"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:gravity="left"
+         android:background="@drawable/myblockednumbers"
+         android:textColor="@android:color/black"
+         android:textSize="20dip" />
+
+    <ListView
+        android:id="@+id/list_of_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:clickable="true"
+        android:dividerHeight="0dip"
+        android:minHeight="60dp"
+        android:textAlignment="center"
+        android:textSize="100sp" />
+
+    </LinearLayout>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical" 
+		android:background="#0c2f70">
+	    
+	    <Button
+         android:id="@+id/btnDBBlockedNumberHeader"
+         android:layout_width="fill_parent"
+         android:layout_height="40dip"
+         android:gravity="left"
+         android:background="@drawable/dbblcokednumbers"
+         android:textColor="@android:color/black"
+         android:textSize="20dip" />
+	 	
+	 	<ListView
+	        android:id="@+id/list_of_db_number"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:cacheColorHint="#00000000"
+	        android:dividerHeight="0dip"
+	        android:minHeight="60dp"
+	        android:textAlignment="center"
+	        android:textSize="100sp"
+	        android:clickable="true" />
+	    
+	</LinearLayout>
+	
+</LinearLayout >

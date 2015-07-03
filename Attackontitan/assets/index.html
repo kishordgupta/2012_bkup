@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" /> 
+        <link rel="stylesheet" type="text/css" href="css/custom.css" />
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function() {
+                $.mobile.defaultPageTransition = "slide";
+                $.mobile.autoInitializePage = false;
+            });
+        </script>
+        <script src="js/jquery.mobile-1.3.2.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/trivia.js"></script>
+        <script type="text/javascript" src="js/jqrss.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    <body >
+        <div data-role="page" id="index" data-theme="a">
+            <div data-role="header" data-position="fixed">
+                <h1>QUIZ</h1>
+            </div>
+            <div data-role="content">	
+                <div class="home-menu ui-grid-a">
+                    <div class="ui-block-a">
+                        <div class="icon-springboard">
+                            <a href="#quiz">
+                                <img src="images/start.png" alt="START">
+                                <span class="icon-label">START</span>
+                            </a>	
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="icon-springboard">
+                            <a href="#quiz_options" data-role="none">
+                                <img src="images/system_options.png" alt="OPTIONS">
+                                <span class="icon-label">OPTIONS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div class="icon-springboard">
+                            <a href="#add_question" data-role="none">
+                                <img src="images/add.png" alt="Add Question">
+                                <span class="icon-label">ADD QUE.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="icon-springboard">
+                            <a href="#" id="update_quiz">
+                                <img src="images/update.png" alt="UPDATE Q.">
+                                <span class="icon-label">UPDATE Q.</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div class="icon-springboard">	
+                            <a href="#video_gallery" data-role="none">
+                                <img src="images/video_camera.png" alt="VIDEO">
+                                <span class="icon-label">VIDEO</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="icon-springboard">
+                            <a href="#image_gallery">
+                                <img src="images/gallery.png" alt="PHOTOS">
+                                <span class="icon-label">PHOTOS</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-a">
+                        <div class="icon-springboard">	
+                            <a href="#" data-role="none">
+                                <img src="images/chat.png" alt="VIDEO">
+                                <span class="icon-label">CHAT</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <div class="icon-springboard">
+                            <a href="http://www.exit.com">
+                                <img src="images/exit.png" alt="PHOTOS">
+                                <span class="icon-label">EXIT</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="quiz" data-theme="a">
+            <div data-role="header">
+                <h2>Quiz</h2>
+                <a href="#index" data-role="button" data-theme="a" data-mini="true" data-icon="back" onclick="return obTrivia.cancel_quiz();">Back</a>
+            </div>
+            <div data-role="content">
+                <div style="position: relative;margin: 0.6em 11% 0.8em;height: 25px;">
+                    <span id="sctimer">0</span>
+                    <div class="informer">Question <em id="nqansw"></em> of <span id="ntotalq"></span></div>
+                </div>
+                <div id="quiz_viewport"></div>
+            </div>
+            <div data-role="popup" id="cancel_quiz" class="ui-corner-all" data-dismissible="false" data-overlay-theme="a" data-theme="c">
+                <div data-role="header" class="ui-corner-top" data-theme="a">
+                    <h1>Confirm</h1>
+                </div>
+                <div data-role="content" style="padding:20px;">
+                    <h3>Are you sure you want to leave the quiz?</h3>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a">
+                            <a href="#index" data-role="button" data-theme="a">Yes</a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a href="#" data-role="button" data-rel="back" data-theme="a">No</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-role="popup" id="quiz_answers" class="ui-corner-all" data-dismissible="false" data-overlay-theme="a" data-theme="c">
+                <div data-role="header" class="ui-corner-top" data-theme="a">
+                    <h1>Answers</h1>
+                </div>
+                <div data-role="content" style="padding:20px;">
+                    <div class="answer_viewport"></div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a">
+                            <a href="#index" data-role="button" data-theme="a" data-icon="home">Home</a>
+                        </div>
+                        <div class="ui-block-b">
+                            <a href="#" data-role="button" data-rel="back" data-theme="a">Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="quiz_options">
+            <div data-role="header">
+                <h2>Quiz Options</h2>
+                <a href="#" data-rel="back" data-role="button" data-theme="a" data-mini="true" data-icon="back" data-inline="true">Back</a>
+            </div>
+            <div data-role="content" data-theme="a" >
+                <label for="timer">Countdown Timer</label>
+                <select name="timer" id="timer" data-role="slider" data-overlay-theme="d">
+                    <option value="0">No</option>
+                    <option value="1" selected="">Yes</option>
+                </select>
+                <fieldset data-role="controlgroup" data-type="horizontal">
+                    <legend>Level</legend>
+                    <label for="level1" class="font12">Easy</label>
+                    <input class="level" name="level" id="level1" value="1" type="radio" />
+                    <label for="level2" class="font12">Medium</label>
+                    <input class="level" name="level" id="level2" value="2" type="radio" />
+                    <label for="level3" class="font12">Hard</label>
+                    <input class="level" name="level" id="level3" value="3" checked="checked" type="radio" />
+                </fieldset>
+            </div>
+        </div>
+        <div data-role="page" id="add_question" data-theme="a">
+            <div data-role="header">
+                <h2>Submit A Question</h2>
+            </div>
+            <div data-role="content">
+                <form id="add_question_form" action="">
+                    <fieldset>
+                        <legend>Question Information</legend>
+                        All fields are required.
+                        <label for="email">Email</label>
+                        <input type="text" value="" class="required email" id="email" name="email" />
+                        <label for="que">Question</label>
+                        <input type="text" value="" class="required" id="que" name="que" />
+                        <label for="ca">Correct Ans</label>
+                        <input type="text" value="" class="required" id="ca" name="ca" />
+                        <label for="ia1">Incorrect Ans 1</label>
+                        <input type="text" value="" class="required" id="ia1" name="ia[]" />
+                        <label for="ia2">Incorrect Ans 2</label>
+                        <input type="text" value="" class="required" id="ia2" name="ia[]" />
+                        <label for="ia3">Incorrect Ans 3</label>
+                        <input type="text" value="" class="required" id="ia3" name="ia[]" />
+                        <input type="submit" value="Submit" data-inline="true" data-icon="check" data-theme="b"/>
+                        <a href="#" data-rel="back" data-role="button" data-icon="back" data-inline="true">Back</a>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div data-role="popup" id="alert_box2" data-overlay-theme="a" data-theme="c" class="ui-corner-all" data-dismissible="false">
+                <div data-role="header" data-theme="a" class="ui-corner-top">
+                    <h1>ERROR</h1>
+                </div>
+                <div data-role="content" data-theme="c" class="ui-corner-bottom ui-content">
+                    <div class="center-text" data-inset="true" id="alert_box2_text">ERROR</div>
+                </div>
+                <div class="center-text">
+                    <a href="#" data-rel="back" data-role="button" data-theme="a" data-mini="true" data-icon="back" data-inline="true">Back</a>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="video_gallery">
+            <div data-role="header" data-position="fixed">
+                <h1>Video Gallery</h1>
+                <a href="#" data-rel="back" data-role="button" data-icon="back" data-inline="true">Back</a>
+            </div>
+            <div data-role="content">	
+                <ul data-role="listview" class="playlist" data-theme="a">
+                </ul>
+            </div>
+            <div data-role="popup" id="alert_box3" data-overlay-theme="a" data-theme="c" class="ui-corner-all" data-dismissible="false">
+                <div data-role="content" data-theme="c" class="ui-corner-bottom ui-content">
+                    <div class="center-text" data-inset="true" id="alert_box3_text">ERROR</div>
+                </div>
+                <div class="center-text">
+                    <a href="#" data-rel="back" data-role="button" data-theme="a" data-mini="true" data-icon="back" data-inline="true">Back</a>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="youtube_video">
+            <div data-role="header">
+                <h1></h1>
+                <a href="#" data-rel="back" data-role="button" data-icon="back" data-inline="true">Back</a>
+                <a href="http://www.nativeplay.com?v_id=" data-rel="back" data-role="button" data-inline="true" id="direct_play">Direct Play</a>
+            </div>
+            <div data-role="content" data-theme="a">
+                <div id="player"></div>
+            </div>
+        </div>
+        <div data-role="page" id="image_gallery">
+            <div data-role="header" data-position="fixed">
+                <h1>Photo Gallery</h1>
+                <a href="#" data-rel="back" data-role="button" data-icon="back" data-inline="true">Back</a>
+            </div>
+            <div data-role="content">
+                <div class="image_list">
+                    <div class="ui-loader ui-corner-all ui-body-a ui-loader-default" style="display: block"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <a href="#" class="load_new_img previous ui-disabled" data-role="button" data-icon="back" data-inline="true" data-icon="arrow-l">Previous</a>
+                <a href="#" class="load_new_img next ui-disabled" data-role="button" data-inline="true" data-icon="arrow-r" data-iconpos="right" style="float: right;">Next</a>
+            </div>
+            <div data-role="popup" id="popupImage" data-overlay-theme="a" data-theme="d" data-corners="false">
+                <a href="#" data-rel="back" data-role="button" data-theme="a" data-icon="delete" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-btn-right">Close</a>
+                <img class="popphoto" src="" alt=""/>
+                <div data-role="footer">
+                    <div data-role="controlgroup" data-type="horizontal" class="center-text">
+                        <a href="#" id="download_image" data-role="button" data-inline="true">Download</a>
+                        <a href="#" id="set_as_wallpaper" data-role="button" data-inline="true">Set As Wallpaper</a>
+                        <a href="#" id="share_image" data-role="button" data-inline="true">Share</a>
+<!--                        <a href="#" id="prevbtn" data-role="button" data-iconpos="notext" data-icon="arrow-l" data-inline="true">Previous</a>
+                        <a href="#" id="nextbtn" data-role="button" data-iconpos="notext" data-icon="arrow-r" data-inline="true">Next</a>-->
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end page image_gallery-->
+    </body>
+</html>

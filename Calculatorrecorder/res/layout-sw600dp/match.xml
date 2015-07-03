@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+       android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+          android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" >
+
+            <!-- Set myapp:adUnitId to be your publisher ID -->
+
+            <com.google.ads.AdView
+                android:id="@+id/ad"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="a150f44c0cd0171"
+                ads:refreshInterval="30" />
+        </LinearLayout>
+
+     
+
+        <LinearLayout
+              android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+           
+               <Button
+                android:id="@+id/Clearkd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               
+                android:text="Clear"
+               
+                android:textStyle="bold" />
+                     <Button
+                android:id="@+id/edit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               
+                android:text="Do Edit"
+               
+                android:textStyle="bold" />
+                 <Button
+                android:id="@+id/Savekd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+               
+                android:text="Save in Excel"
+                
+                android:textStyle="bold" />
+</LinearLayout>
+      <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center"
+    
+    >
+         
+    <Button 
+        android:id="@+id/bsms" 
+       android:gravity="center_vertical|center_horizontal"
+         android:text="SMS"
+         android:layout_gravity="left"
+        android:layout_width="wrap_content" 
+        android:layout_height="60dip"
+        android:textSize="20sp" 
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+       
+   >
+    </Button>
+    <Button 
+        android:id="@+id/bemail" 
+       android:text="Email"
+        android:gravity="center_vertical|center_horizontal" 
+       android:layout_gravity="center_horizontal"
+       android:layout_width="wrap_content" 
+        android:layout_height="60dip"
+        android:textSize="20sp"
+     
+            android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+       
+        >
+    </Button>
+    <Button 
+        android:id="@+id/bpass" 
+         android:gravity="center_vertical|center_horizontal"
+       android:layout_gravity="right"
+        android:text="Share"
+        android:layout_width="wrap_content" 
+        android:layout_height="60dip"
+        android:textSize="20sp"
+      
+            android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+     >
+    </Button>
+</LinearLayout>
+<EditText
+        android:id="@+id/Resulttext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.50"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+    </LinearLayout>
+
+</ScrollView>

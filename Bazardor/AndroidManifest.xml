@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kd.mobilemediacms"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk android:minSdkVersion="10" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+       <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+         >
+        <activity
+            android:name=".Firstactivity"
+            android:theme="@android:style/Theme.Dialog"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+             <activity
+                  android:icon="@drawable/logo"
+            android:name=".LoginActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CatagoryActivity"
+            android:label="@string/title_activity_user_specific_pin" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_vendor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:label="@string/title_activity_vendor_item" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ConfirmActivity"
+            android:label="@string/title_activity_confirm" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/title_activity_registration"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.codenginebd.mobilemediacms.PrintTestAcitvity"
+            android:label="@string/title_activity_printer_demo" >
+          
+        </activity>
+         <activity
+            android:name="com.kd.galery.GalleryDemoActivity"
+            android:label="@string/title_activity_printer_demo" >
+          
+        </activity>
+         <activity
+            android:name=".PricelistActivity"
+            android:label="@string/title_activity_printer_demo" >
+          
+        </activity>
+        
+    </application>
+
+</manifest>

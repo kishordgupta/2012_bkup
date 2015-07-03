@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">SNK WALLPAPER</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">SNK WALLPAPER</string>
+    <string name="ac_name_image_pager">SNK WALLPAPER</string>
+    <string name="ac_name_image_gallery">SNK WALLPAPER</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">SNK WALLPAPER</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">Delete disc chaceo</string>
+    <string name="newimt">Get new </string>
+     <string name="button_image_list">SNK WALLPAPER list</string>
+    <string name="button_image_grid">SNK WALLPAPER grid</string>
+    <string name="button_image_pager">SNK WALLPAPER view</string>
+    <string name="button_image_gallery">SNK WALLPAPER gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+<string name="rules">
+        The series follows the story of Eren Yeager, his adopted sister Mikasa Ackerman, and their friend Armin Arlert. After the outermost Wall is breached by Titans, including the 60-meter tall skinless Colossus Titan and the abnormally intelligent Armored Titan, and his mother dying in the resulting destruction, Eren vows revenge against the Titans and later enlists in the military, accompanied by Mikasa and Armin. Years later during his first battle against the Titans, Eren discovers that he has the ability to transform into a Titan at will. Seen as a threat to mankind by some, and as a ray of hope by others, Eren joins his companions in a desperate fight to protect what remains of their society while looking for answers to the mysteries surrounding the Titans, the Walls, and his own existence as well.
+</string>
+</resources>

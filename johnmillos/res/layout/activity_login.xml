@@ -1,0 +1,120 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF6CE"
+    tools:context="com.siliconorchard.com.ecoupon.cards.free.FullscreenActivity" >
+
+    <!--
+         The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc.
+    -->
+    <LinearLayout 
+          android:id="@+id/fullscreen_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+          android:layout_gravity="center"
+        android:gravity="center"
+        >
+      
+        <LinearLayout 
+    android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+         <ImageView 
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/logo"
+        android:layout_gravity="center"
+        android:gravity="center" />
+         <EditText 
+              android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+          android:layout_marginTop="25dp"
+         android:background="@drawable/background_ed"
+        android:keepScreenOn="true"
+        android:hint="User email"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColorHint="@color/black_overlay"
+        android:textColor="#33b5e5"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+             <EditText 
+              android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:hint="password"
+       android:background="@drawable/background_ed"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="5dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPassword"
+        
+        android:textColorHint="@color/black_overlay"
+        android:textColor="#33b5e5"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+         <LinearLayout 
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        ></LinearLayout>
+         <CheckBox android:id="@+id/remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textColor="@color/black_overlay"
+        android:checked="false"
+        android:gravity="center"/>
+     
+               </LinearLayout>
+    </LinearLayout>
+
+ 
+
+    <!--
+         This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows.
+    -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+            <Button
+                android:id="@+id/submit"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Submit" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

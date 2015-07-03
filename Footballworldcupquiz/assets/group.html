@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2014 FIFA World Cup Group stage Standings Simulator</title>
+        <link href='css/group.css' rel='stylesheet'>
+        <link href='css/falgs.css' rel='stylesheet'>
+        <link rel="stylesheet" href="css/default/jquery.mobile-1.3.2.css" />
+        <link rel="stylesheet" href="css/default/jquery.mobile.theme-1.3.2.css" />
+        <link href='css/common.css' rel='stylesheet'>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.3.2.min.js"></script>
+    </head>
+    <body class="col2d soccer">
+        <div id="container">
+            <div data-theme="a" data-role="header" class="ui-header ui-bar-a" role="banner" style="margin-top: 40px;">
+                <h1 class="ui-title" role="heading" aria-level="1">Group Standings</h1>
+                <a data-icon="back" data-ajax="false" href="index.html" onclick="change_page(this.attributes.href);" class="ui-btn-left ui-btn ui-shadow ui-btn-corner-all ui-btn-icon-left ui-btn-up-a" data-corners="true" data-shadow="true" data-iconshadow="true" data-wrapperels="span" data-theme="a"><span class="ui-btn-inner"><span class="ui-btn-text">Back</span><span class="ui-icon ui-icon-back ui-icon-shadow">&nbsp;</span></span></a>
+            </div>
+            <div id="group" class="tab-head" style="margin-top:0">
+                <a class="tab-btn" id="ga" href="javascript:void(0)" onclick="loadGroup('a')" title="Group A">A</a>
+                <a class="tab-btn" id="gb" href="javascript:void(0)" onclick="loadGroup('b')" title="Group B">B</a>
+                <a class="tab-btn" id="gc" href="javascript:void(0)" onclick="loadGroup('c')" title="Group C">C</a>
+                <a class="tab-btn" id="gd" href="javascript:void(0)" onclick="loadGroup('d')" title="Group D">D</a>
+                <a class="tab-btn" id="ge" href="javascript:void(0)" onclick="loadGroup('e')" title="Group E">E</a>
+                <a class="tab-btn" id="gf" href="javascript:void(0)" onclick="loadGroup('f')" title="Group F">F</a>
+                <a class="tab-btn" id="gg" href="javascript:void(0)" onclick="loadGroup('g')" title="Group G">G</a>
+                <a class="tab-btn" id="gh" href="javascript:void(0)" onclick="loadGroup('h')" title="Group H">H</a>
+            </div>
+            <div class="tab-body body-bg">
+                <table class="tbl1" id="t2">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th class="ctxt" title="Points">Pts</th>
+                            <th class="ctxt" title="Played">MP</th>
+                            <th class="ctxt" title="Won">W</th>
+                            <th class="ctxt" title="Draw">D</th>
+                            <th class="ctxt" title="Lost">L</th>
+                            <th class="ctxt" title="Goals for">GF</th>
+                            <th class="ctxt" title="Goals Against">GA</th>
+                            <th class="ctxt" title="Goal Difference">GD</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <table class="tbl1" id="t1">
+                    <tr><td>Loading...</td></tr>
+                </table>
+                <table class="tbl1" id="t1s">
+                    <tr><td>Loading...</td></tr>
+                </table>
+                <div id="t1ope" class="clearfix">
+                    <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+                        <input class="timezone" name="timezone" id="radio-choice-c" value="l" type="radio">
+                        <label for="radio-choice-c">Local Time</label>
+                        <input class="timezone" name="timezone" id="radio-choice-d" value="y" checked="checked" type="radio">
+                        <label for="radio-choice-d">Your Time Zone</label>
+                    </fieldset>
+                    <div class="calculate_btns clearfix">
+                        <!--<a class="btn" href="javascript:realSet()" title="Score of the game have ended">Score</a>-->
+                        <a href="javascript:randSet()" title="Set a RANDOM SCORE in the blank field" data-theme="a" data-role="button" data-inline="true" data-mini="true">Random Score</a>
+                        <a href="javascript:clear()" title="Clear all fields" data-theme="a" data-role="button" data-inline="true" data-mini="true">Clear</a>
+                    </div>
+                </div>
+                <table id="t3" style="border:none;">
+                    <tr>
+                        <td id="a1" class="rtxt">1A</td>
+                        <td rowspan="8" class="link-bg"></td>
+                        <td id="b1" class="ltxt">1B</td>
+                    </tr>
+                    <tr><td id="b2" class="rtxt">2B</td><td id="a2" class="ltxt">2A</td></tr>
+                    <tr><td id="c1" class="rtxt">1C</td><td id="d1" class="ltxt">1D</td></tr>
+                    <tr><td id="d2" class="rtxt">2D</td><td id="c2" class="ltxt">2C</td></tr>
+                    <tr><td id="e1" class="rtxt">1E</td><td id="f1" class="ltxt">1F</td></tr>
+                    <tr><td id="f2" class="rtxt">2F</td><td id="e2" class="ltxt">2E</td></tr>
+                    <tr><td id="g1" class="rtxt">1G</td><td id="h1" class="ltxt">1H</td></tr>
+                    <tr><td id="h2" class="rtxt">2H</td><td id="g2" class="ltxt">2G</td></tr>
+                </table>
+                <div style="clear:both;text-align:center;"><a id="Knockoutstage" onclick="change_page(this.attributes.href);" data-role="button" style="margin:0 auto 20px;display:none" data-ajax="false" data-inline="true">Simulate Knockout stage</a></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/timerrioen.js"></script>
+        <div data-role="footer">
+            <p id="counttimerx">about...</p>
+                <script type="text/javascript">
+                    starttimerxx();
+                </script>
+        </div>
+        <script type="text/javascript" src="js/score.js"></script>
+    </body>
+</html>

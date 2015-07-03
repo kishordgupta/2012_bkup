@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"	
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+<LinearLayout 
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal"
+	>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="15dip" android:paddingBottom="15dip"
+		android:gravity="center_horizontal">
+<!-- Set myapp:adUnitId to be your publisher ID -->
+    <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a151c49cd5d72e9"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+     />
+	    
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+	
+		android:gravity="center_horizontal">
+
+		<RadioGroup android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:id="@+id/group1">
+			
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textColor="#e34234"
+				
+				android:textStyle="bold" android:textSize="40dip"  android:id="@+id/question"/>
+			
+			<RadioButton android:checked="false" android:id="@+id/answer1"  android:textSize="40dip" android:textStyle="bold"  android:textColor="#e34234" />
+			
+			<RadioButton android:checked="false" android:id="@+id/answer2" android:textSize="40dip" android:textStyle="bold"  android:textColor="#e34234"/>
+			
+			<RadioButton android:checked="false" android:id="@+id/answer3"  android:textSize="40dip"  android:textStyle="bold"  android:textColor="#e34234"/>
+			
+			<RadioButton android:checked="false" android:id="@+id/answer4"  android:textSize="40dip" android:textStyle="bold"  android:textColor="#e34234"/>
+			
+		</RadioGroup>
+
+	</LinearLayout>
+	
+	
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<Button android:text="Next" android:id="@+id/nextBtn"
+			android:layout_width="80dip" android:layout_alignParentRight="true"
+			android:layout_height="wrap_content" android:background="@drawable/button_selector"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textColor="#ffffff" />
+
+	</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

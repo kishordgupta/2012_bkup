@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+    The string named "app_name" defines the application's visible name.
+    The string array "Planets" defines an array of 9 strings. The application loads
+    this array into the spinner's array adapter.
+    The string "planet_prompt" defines the prompt for the result text box.
+ -->
+<resources>
+    <string name="app_name">২১ আমার অহঙ্কার</string>
+    <string name="share">আমার ভাইয়ের রক্তে রাঙানো একুশে ফেব্রুয়ারি
+\n
+আমি কি ভুলিতে পারি
+\n
+ছেলেহারা শত মায়ের অশ্রু গড়ায়ে ফেব্রুয়ারি
+\n
+আমি কি ভুলিতে পারি
+\n
+আমার সোনার দেশের রক্তে রাঙানো একুশে ফেব্রুয়ারি
+\n
+আমি কি ভুলিতে পারি।।
+\n\n\n\n
+Amar Bhaiyer Rokte Rangano Ekushe February\n
+Amar Bhaiyer Rokte Rangano Ekushe February\n
+Ami Ki Bhulite Pari\n
+Chhele Hara Shato Mayer Ashru Goriye February\n
+Ami Ki Bhulite Pari\n
+Amar Sonar Desher Rangano Ekushe February\n
+Ami Ki Bhulite Pari\n\n\n\n
+
+My Brothers Blood Spattered 21 February\n
+My Brothers Blood Spattered 21 February\n
+Can I forget the twenty-first of February\n
+incarnadined by the love of my brother?v
+The twenty-first of February,\n
+built by the tears\n
+of a hundred mothers robbed of their sons,\n
+Can I ever forget it?\n\n\n
+
+জাগো নাগিনীরা জাগো নাগিনীরা জাগো কালবোশেখীরা\n
+
+শিশু হত্যার বিক্ষোভে আজ কাঁপুক বসুন্ধরা,\n
+
+দেশের সোনার ছেলে খুন করে রোখে মানুষের দাবী\n
+
+দিন বদলের ক্রান্তিলগ্নে তবু তোরা পার পাবি?\n
+
+না, না, না, না খুন রাঙা ইতিহাসে শেষ রায় দেওয়া তারই\n
+
+একুশে ফেব্রুয়ারি একুশে ফেব্রুয়ারি।\n\n\n
+
+Jaago Naginira Jaago Naginira Jago Kalboshhekhira\n
+Shishu Hotyar Bikshove Aj Kapuk Busundara,\n
+Desher Shonar Chhele Khun Kore Rokhe Manusher Dabi\n
+Din Badoler Krantilagne Tobu Tora Par Pabi?\n
+Na, Na, Na, Na Khun Ranga Itihase Shesh Ray Dewa Taroi\n
+Ekushe February Ekushe February.\n\n\n
+
+Wake up all serpents,\n
+wake up all summer thunder-storms,\n
+let the whole world rise up\n
+in anger and protest against the massacre of innocent children.\n
+They tried to crush the demand of the people\n
+by murdering the golden sons of the land.\n
+Can they get away with it\n
+at this hour when the times are poised\n
+for a radical change?\n
+No, no, no, no,\n
+in the history reddened by blood\n
+the final verdict has been given already\n
+by the twenty-first of February..\n\n\n
+
+সেদিনও এমনি নীল গগনের বসনে শীতের শেষে\n
+
+রাত জাগা চাঁদ চুমো খেয়েছিল হেসে;\n
+
+পথে পথে ফোটে রজনীগন্ধা অলকনন্দা যেন,\n
+
+এমন সময় ঝড় এলো এক ঝড় এলো খ্যাপা বুনো।।\n
+
+Sedino Emoni Nil Gogoner Bashone Shiter Sheshe\n
+Rat Jaaga Chand Chumo Khaiyechhilo Heshe;\n
+Pathe Pathe Fote Rojonigandha Oloknanda Jeno,\n
+Emon Somoy Jhorh Elo Ek Khepa Buno.\n\n\n
+
+It was a smooth and pleasant night,\n
+with the winter nearly gone\n
+and the moon smiling in the blue sky\n
+and lovely fragrant flowers blossoming on the roadside,\n
+and all of a sudden rose a storm,\n
+fierce like a wild horde of savage beasts.\n
+Even in the darkness we know who those beasts were.\n\n\n
+
+সেই আঁধারের পশুদের মুখ চেনা,\n
+
+তাহাদের তরে মায়ের, বোনের, ভায়ের চরম ঘৃণা\n
+
+ওরা গুলি ছোঁড়ে এদেশের প্রাণে দেশের দাবীকে রোখে\n
+
+ওদের ঘৃণ্য পদাঘাত এই সারা বাংলার বুকে\n
+
+ওরা এদেশের নয়,\n
+
+দেশের ভাগ্য ওরা করে বিক্রয়\n
+
+ওরা মানুষের অন্ন, বস্ত্র, শান্তি নিয়েছে কাড়ি\n
+
+একুশে ফেব্রুয়ারি একুশে ফেব্রুয়ারি।।\n\n\n
+
+Sei Andharer Poshuder Mukh Chena,\n
+Tahader Tore Mayer, Boner, Bhaiyer Charom Grina\n
+Ora Guli Chhore Edesher Prane Desher Dabike Rokhe\n
+Oder Grinya Padaghat Ei Sara Banglar Buke\n
+Ora Edesher Noy,\n
+Desher Bhagya Ora Kare Bikroy\n
+Ora Manusher Onno, Shanti Niyechhe Kari\n
+Ekushe February Ekushe February.\n\n\n
+
+On them we shower the bitterest hatred\n
+of all mothers brothers and sisters.\n
+They fired at the soul of this land,\n
+They tried to silence the demand of the people,\n
+They kicked at the bosom of Bengal.\n
+They did not belong to this country.\n
+They wanted to sell away her good fortune.\n
+They robbed the people of food, clothing and peace.\n
+On them we shower our bitterest hatred.\n\n\n
+
+তুমি আজ জাগো তুমি আজ জাগো একুশে ফেব্রুয়ারি\n
+
+আজো জালিমের কারাগারে মরে বীর ছেলে বীর নারী\n
+
+আমার শহীদ ভায়ের আত্মা ডাকে\n
+
+জাগো মানুষের সুপ্ত শক্তি হাটে মাঠে ঘাটে বাটে\n
+
+দারুণ ক্রোধের আগুনে আবার জ্বালবো ফেব্রুয়ারি\n
+
+একুশে ফেব্রুয়ারি একুশে ফেব্রুয়ারি।\n</string>
+  
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SeekBarseekbar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_light
+        </item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo_light</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+
+    <style name="ListViewAppTheme" parent="android:Widget.ListView">
+        <item name="android:listSelector">@drawable/list_selector_holo_light</item>
+        <item name="android:divider">@color/light_grey</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+  <!--   <style name="IeActionBar" parent="Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/action_bar_bg</item>
+        <item name="android:background">@drawable/action_bar_bg</item>
+    </style>
+
+    <style name="BaseIeTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <item name="android:seekBarStyle">@style/SeekBarseekbar</item>
+        <item name="android:listViewStyle">@style/ListViewAppTheme</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.Sherlock.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style> -->
+<!-- 
+    <style name="AppTheme" parent="BaseIeTheme">
+        <item name="actionBarStyle">@style/IeActionBar</item>
+    </style>
+
+    <style name="Gallery" parent="Theme.Sherlock">
+        <item name="android:windowFullscreen">true</item>
+    </style> -->
+</resources>

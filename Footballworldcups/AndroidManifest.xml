@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football"
+    android:versionCode="5"
+    android:versionName="1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="5" />
+
+     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+       <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+         android:hardwareAccelerated="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+         >
+           <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.Firstactivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> 
+        </activity>
+         <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.Knockactivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden" >
+            <!-- <intent-filter>
+<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+ 
+          >
+        </activity>
+          <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.web.StackParser"
+            android:label="@string/app_name"
+         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize" >
+            
+        </activity>
+        <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.HomeActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+            
+        </activity>
+      
+        <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.CategoryListActivity"
+            android:label="@string/ac_name_image_grid"
+             android:screenOrientation="portrait"  />
+       
+        <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.CategoryGridActivity"
+            android:label="@string/ac_name_image_grid"
+             android:screenOrientation="portrait"  />
+        <activity
+            android:name="com.lilait.Soccer.Brazil2014.FIFA.World.Cup.GroupStage.Points.simulator.football.ImagePagerActivity"
+            android:label="@string/ac_name_image_pager"
+             android:screenOrientation="portrait"  />
+    
+               <activity
+            android:name="com.peakcoders.backgroundTasks.Adderparser"
+            android:label="@string/ac_name_image_gallery" 
+             android:screenOrientation="portrait"/>
+                <activity
+            android:name="com.peakcoders.backgroundTasks.killerparser"
+            android:label="@string/ac_name_image_gallery" 
+             android:screenOrientation="portrait"/>
+              <activity
+            android:name="com.peakcoders.backgroundTasks.StackParser"
+            android:label="@string/ac_name_image_gallery"
+             android:screenOrientation="portrait" />
+  <activity android:name="com.google.ads.AdActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"  />
+              
+   
+    </application>
+
+</manifest>

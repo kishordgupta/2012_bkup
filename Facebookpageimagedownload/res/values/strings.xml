@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">Facebook Image Downloader</string>
+    <string name="ac_name_image_list">Facebook Image Downloader</string>
+    <string name="ac_name_image_grid">Facebook Image Downloader</string>
+    <string name="ac_name_image_pager">Facebook Image Downloader</string>
+    <string name="ac_name_image_gallery">Facebook Image Downloader</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">Facebook Image Downloader</string>
+    <string name="menu_item_clear_memory_cache">Clear memory cache</string>
+    <string name="menu_item_clear_disc_cache">Clear disc cache</string>
+    <string name="button_image_list">Get New</string>
+    <string name="button_image_grid">Image Grid</string>
+    <string name="button_image_pager">Image Pager</string>
+    <string name="button_image_gallery">Image Gallery</string>
+    <!-- Content descriptions -->
+    <string name="descr_image">Image</string>
+
+    
+     <color name="black">#000000</color>
+    <color name="opaqueBlack">#161616</color>
+    <color name="transperant">#00000000</color>
+    <color name="lightGreen">#2fc176</color>
+    <color name="whiteColor">#ffffff</color>
+    <color name="offBlack">#606060</color>
+    <color name="buttonBackgroundLight">#8c8a8d</color>
+</resources>

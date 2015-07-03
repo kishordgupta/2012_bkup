@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dip"
+    android:background="@drawable/background_widget"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_widget_current_playing"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="4dip"
+        android:textSize="12sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/widget_text" >
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/description_btn_play"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btn_play_radio" />
+
+</LinearLayout>

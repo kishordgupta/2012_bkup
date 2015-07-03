@@ -1,0 +1,227 @@
+.news-block
+{
+    background: #eee;
+    position: relative;
+}
+.news-block .title
+{
+    background: rgb(229, 233, 237) url("http://www.defense.gov/images/2.1/background_contentblocktitle1.gif") repeat-x scroll left top;
+    border: 1px solid #D7DDE3;
+    clear: both;
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 4px 10px;
+    position: relative;
+}
+.news-block .title span
+{
+    border: medium none;
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+.news-block .title a 
+{
+    color: #084476;
+    font-weight: normal;
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.news-block .title .rss
+{
+
+}
+.news-block .title .rss img
+{
+    border: medium none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: 0px;
+    top: -1px;
+    vertical-align: middle;
+}
+.news-block .title .more
+{
+
+}
+.news-block .content
+{
+    margin: 0px;
+    padding: 6px 10px 10px 10px;
+    position: relative;
+}
+.news-block .content .loader{
+    text-align: center;
+}
+.news-block .content .expanded 
+{
+    clear: both;
+    border-bottom: 1px solid #CACACA;
+    margin: 0px 0px .6em 0px;
+    padding: 0px 0px .6em 0px;
+}
+.news-block .content .expanded span
+{
+    color: #8d8d8d;
+    font-size: .9em;
+}
+.news-block .content .expanded h4
+{
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 0px;
+}
+.news-block .content .expanded h4 a
+{
+    color: #084476;
+    text-decoration: none;
+}
+.news-block .content .expanded p
+{
+    margin: 0px;
+    padding: 0px;
+}
+.news-block .content .expanded p a
+{
+    color: #084476;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.news-block .content ul 
+{
+    font-size: 1.1em;
+    margin: .6em 0px 0px 0px;
+    padding: 0px;
+    list-style-image: none;
+    list-style-type: none;
+}
+.news-block .content li 
+{
+    background: transparent url("http://www.defense.gov/images/2.1/bullet_square1.gif") no-repeat scroll 0px .43em;
+    margin: 0px 0px .6em 0px;
+    padding: 0px 0px 0px 10px;
+}
+.news-block .content li a
+{
+    color: #084476;
+    text-decoration: none;
+}
+
+
+/*  Features Carousel   */
+.features-wrapper
+{
+    background: rgb(1, 51, 102) url("http://www.defense.gov/images/2.1/background_topfeatures2.gif") repeat-x scroll left top;
+    height: 316px;
+    overflow: hidden;
+    position: relative;
+    width: 720px;
+}
+.feature 
+{
+    /*background: transparent url("http://www.defense.gov/images/2.1/topfeatureimageshadow4.png") no-repeat scroll 256px 8px;*/
+    background: transparent;
+    color: #fff;
+    left: 20px;
+    min-height: 316px;
+    position: absolute;
+    top: 0px;
+    width: 700px;
+}
+.feature ~ .feature { display: none; }  /*  Hide all but first one on start */
+.feature .title
+{
+    background: none !important;
+    border: none !important;
+    float: left;
+    margin: 15px 0px 12px 0px;
+    padding: 0px;
+    font-size: 1.6em;
+    width: 240px;
+}
+.feature .image
+{
+    float: right;
+    height: 285px;
+    margin: 12px 12px 0px 0px;
+    width: 427px;
+}
+.feature .image img
+{
+    height: 285px;
+    width: 427px;
+}
+.feature .image p
+{
+    color: #BFCEE1;
+    font-size: .9em;
+    margin-top: .2em;
+    text-align: right;
+}
+.feature .blurb
+{
+    float: left;
+    font-size: 1.1em;
+    padding: 0px 0px 1em 0px;
+    width: 240px;
+}
+.feature .links
+{
+    float: left;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    width: 240px;
+}
+.feature .links li
+{
+    display: inline-block;
+    background: rgb(28, 63, 101) url("http://www.defense.gov/images/2.1/background_topfeaturesbutton2.gif") repeat-x scroll left center;
+    border: 1px solid #B2C5D4;
+    margin: 0 auto;
+    width: 78px;
+}
+.feature .links li ~ li { margin-left: 3px; }
+.feature .links li a
+{
+    display: block;
+    color: #FFF;
+    font-size: .9em;
+    font-weight: bold;
+    padding: .4em 0px;
+    text-decoration: none;
+    width: 78px;
+}
+.features-wrapper .index 
+{
+    bottom: 22px;
+    display: block;
+    left: 20px;
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    text-align: center;
+    width: 240px;
+}
+.features-wrapper .index li
+{
+    border: 1px solid #FFF;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0px 3px;
+    padding: 0px;
+}
+.features-wrapper .index .selected { background-color: rgb(125, 156, 185); }
+.features-wrapper .index li a
+{
+    display: block;
+    height: 14px;
+    width: 14px;
+}

@@ -1,0 +1,13 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+ <color name="abc_search_url_text_normal">#7fa87f</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#303030</color>
+    <color name="list_background_pressed">#992416</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+</resources>

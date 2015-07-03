@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/i" >
+ <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             ads:adUnitId="@string/Adid"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+            ads:loadAdOnCreate="true" 
+            />
+ 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dip"
+        android:paddingLeft="10dip"
+        android:paddingTop="20dip"
+        android:text="@string/label_activity_examples"
+        android:textSize="24dip" />
+ <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onImageListClick"
+        android:text="@string/button_image_list"
+        android:textColor="@android:color/white" 
+         android:textColorHighlight="@android:color/transparent"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onImageGridClick"
+        android:text="@string/button_image_grid"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/transparent" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onImagePagerClick"
+        android:text="@string/button_image_pager"
+        android:textColor="@android:color/white" 
+         android:textColorHighlight="@android:color/transparent"/>
+    
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onLoadnewtroll"
+        android:text="@string/newimt"
+        android:textColor="@android:color/white" 
+         android:textColorHighlight="@android:color/transparent"/>
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/button"
+        android:onClick="onChat"
+        android:text="Chat Zone"
+        android:textColor="@android:color/white" 
+         android:textColorHighlight="@android:color/transparent"/>
+    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg" >
+
+    <RelativeLayout
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upon_upon_bottom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dip" >
+
+        <ListView
+            android:id="@+id/lst_view_show_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000" >
+        </ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/upon_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_bar"
+        android:background="@drawable/add_line"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/wbg" >
+
+        <com.google.ads.doubleclick.DfpAdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad_view_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="a151b9a69e4bac0"
+            ads:loadAdOnCreate="true"
+            android:gravity="center" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/upon_upon_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upon_bottom"
+        android:layout_alignParentLeft="true"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btn_back_word_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/back_selector" />
+
+        <Button
+            android:id="@+id/btn_archive_word_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/refresh_selector" />
+
+        <android.atomix.wordcombat.supports.MyCustomTextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btn_archive_word_list"
+            android:layout_alignBottom="@+id/btn_archive_word_list"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/btn_archive_word_list"
+            android:text="@string/matched_word" />
+    </RelativeLayout>
+
+</RelativeLayout>

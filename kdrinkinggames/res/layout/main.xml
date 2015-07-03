@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	
+<LinearLayout  
+xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"    
+	android:layout_height="fill_parent"    
+    android:orientation="vertical"
+    android:gravity="center"
+ 
+	>
+
+
+	
+<Button android:text="TimeLine" android:id="@+id/load"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:layout_gravity="center_horizontal"
+	android:textColor="@android:color/white"
+	android:background="@drawable/button"></Button>
+
+	<Button android:text="Drinking Games" android:textColor="@android:color/white"  android:background="@drawable/button" android:id="@+id/create" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="center_horizontal"></Button>
+
+<Button  android:text="Trivia n Tips" android:textColor="@android:color/white" android:background="@drawable/button"  android:id="@+id/edit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal"></Button>
+<Button android:text="Exit" android:textColor="@android:color/white" android:background="@drawable/button" android:id="@+id/help" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:layout_gravity="center_horizontal"></Button>
+	
+	
+</LinearLayout>
+

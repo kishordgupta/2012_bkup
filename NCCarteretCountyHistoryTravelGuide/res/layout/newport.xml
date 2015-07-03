@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <HorizontalScrollView
+        android:id="horizontalcrolliew1t"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="imageiew2t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fortmacon" />
+
+            <ImageView
+                android:id="imageiew3t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fortcasement" />
+            
+            <ImageView
+                android:id="imageiew4t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/fortside" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="ackt"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go back"
+            android:textColor="#FAEBD7" />
+
+        <Button
+            android:id="irectionst"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directions"
+            android:textColor="#FAEBD7" />
+
+        <Button
+            android:id="treett"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Street view"
+            android:textColor="#FAEBD7" />
+
+        <Button
+            android:id="layt"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play" 
+            android:textColor="#FAEBD7"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="bar1t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bar"
+        android:background="#00FFFF"
+        android:textColor="#00FFFF"
+        android:textSize="8dp" />
+
+    <ScrollView
+        android:id="scrolliew1t"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="textiew1t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Five-sided Fort Macon is constructed of brick and stone. Twenty-six vaulted rooms (also called casements) are enclosed by outer walls that are 4.5 feet (1.4 m) thick.In modern times, the danger of naval attack along the North Carolina coast seems remote, but during the 18th and 19th centuries the region around Beaufort was highly vulnerable to attack.  Blackbeard and other infamous pirates were known to have passed through Beaufort Inlet at will, while successive wars with Spain, France and Great Britain during the Colonial Period provided a constant threat of coastal raids by enemy warships. Blackbeard&apos;s ship, the Queen Anne&apos;s Revenge &quot;QAR&quot; is thought to have been discovered in shallow water right off the park in the Atlantic Ocean and is being recovered. Beaufort was captured and plundered by the Spanish in 1747 and again by the British in 1782.  North Carolina leaders recognized the need for coastal defenses to prevent such attacks and began efforts to construct forts. The eastern point of Bogue Banks was determined to be the best location for a fort to guard the entrance to Topsail inlet now identified as the Beaufort Inlet. In 1756 construction of Fort Dobbs began. Fort Dobbs was commissioned as a small fascine fort but was never fully completed leaving the Topsail inlet undefended during the American Revolution. During the same time frame and with an escalating Indian War on the western frontier of North Carolina; another fortification was being constructed in the piedmont region of the state near Statesville, North Carolina. Fort Dobbs was constructed to specifically provide defense on the edge of the western frontier during the French and Indian War. The Embargo Act of 1807 was a general embargo enacted by the United States Congress against Great Britain and France during the Napoleonic Wars referred to as Orders in Council (1807) and the second attempt at building a fort to protect the town and port at Beaufort, North Carolina began as a part of the United States Government desire to build a National Defense Chain of coastal fortifications. Construction began on Fort Hampton, a small masonry fort with a horseshoe-shaped parapet facing the channel. The parapet was seven feet high and made using oyster shell cement called tabby, or tapia. The parapet wall was fourteen feet thick at its base tapering down to eight feet as the wall rose to its top. Located behind the parapet was a gun platform 23 feet wide where there were to be five 18-pounder cannons mounted. Each cannon could fire an 18-pound iron shot with an estimated range of just under one mile.  At the rear of this fort at the two prongs of the horseshoe were located, the walls were eighteen inches thick at the top and were loopholed for riflemen to fire their rifles through. Connecting the two prongs and enclosing the fortification&apos;s rear was a two-story barracks roughly 82 feet long and 30 feet wide. Each story contained five 13×16-foot rooms, three laid out for enlisted men and two for the fort&apos;s officers. The barracks could accommodate a single company consisting of fifty men. Beside the barracks on the right-hand prong was a small 15×16-foot brick building for a gunpowder magazine. From rear wall to front the fort was 90 feet long, 123 feet wide and had a perimeter of about 440 feet.  In July, the United States engaged in the War of 1812 and Fort Hampton&apos;s soldiers withdrew the fort&apos;s garrison to other service for the war. However, North Carolina Governor William Hawkins ordered four local militia companies to occupy the fort and the surrounding harbor area in anticipation of an English attack. When no attack ensued, the militia was withdrawn until November 1812 when the 10th US Infantry was garrisoned there and remained for 9 months until reassigned in June 1813. In July 1813 the British assaulted Ocracoke Inlet at which time North Carolina Militia was re-instated to protect Beaufort and the interests of the state. The fort&apos;s armament was increased with the addition of two 6-pounders and a 4-pounder cannon to supplement the main battery of 18-pounders cannon already in place at the fort. In 1814 after much internal struggle the State of North Carolina convinced the United States Department of War to secure the fort with Federal Troops. The War Department garrisoned elements of the 43rd US Infantry where they remained until the end of the war.  By 1820 and 1821 engineers surveying the fort noted that the high tide mark had advanced to the point of lapping the base of the fort&apos;s rounded front. Still, there was limited interest in Fort Hampton because by now the federal government had begun the construction of a chain of permanent forts for a new system of Seacoast defense in the United States known as the Third System. Fort Hampton for reasons of an eroding facade and beach at Bogue Point. During a survey in February, 1826, the high tide mark lay over 200 feet to the rear of the spot where Fort Hampton stood. By 1834, Fort Hampton lay in now Beaufort inlet along the line of a 12-foot deep ship channel.  Initially the new fort at Bogue Point was designated by the engineers to be 130 feet SW of Fort Hampton, by 1826 with Fort Hampton in the channel, the US Army Corps of Engineers elected to move 300 yards west of Fort Hampton where Fort Macon now stands.  The War of 1812 demonstrated the weakness of existing coastal defenses of the United States coastline and prompted the United States government to develop an improved coastal defenses through a chain of coastal fortifications. The present fort, Fort Macon, was a part of this chain. Fort Macon&apos;s purpose was to guard Beaufort Inlet and Beaufort Harbor, North Carolina&apos;s only major deepwater ocean port.  Named after U.S. Senator from the State of North Carolina, Nathaniel Macon, who procured the funds to build the facility, Fort Macon was designed by Brig. Gen. Simon Bernard and built by the US Army Corps of Engineers. Construction began in 1826 and lasted eight years. The fort was completed in December, 1834, and it was improved with further modification during 1841–46. The total cost of the fort was $463,790. In the 1840s, a system of erosion control was initially engineered by Robert E. Lee, who later became general of the Confederate Army. At the beginning of the Civil War, North Carolina seized the fort from Union forces. The fort was later attacked in 1862, and it fell back into Union hands. For the duration of the war, the fort was a coaling station for navy ships. Often an ordnance sergeant acting as a caretaker was the only person stationed at the fort.  The Civil War began on April 12, 1861, and only two days elapsed before local North Carolina militia forces from Beaufort arrived to seize the fort for the state of North Carolina and the Confederacy. North Carolina Confederate forces occupied the fort for a year, preparing it for battle and arming it with 54 heavy cannons.  Early in 1862, Union forces commanded by Maj. Gen. Ambrose E. Burnside swept through eastern North Carolina, and part of Burnside&apos;s command under Brig. Gen. John G. Parke was sent to capture Fort Macon. Parke&apos;s men captured Morehead City and Beaufort without resistance, then landed on Bogue Banks during March and April to fight to gain Fort Macon. Col. Moses J. White and 400 North Carolina Confederates in the fort refused to surrender even though the fort was hopelessly surrounded. On April 25, 1862, Parke&apos;s Union forces bombarded the fort with heavy siege guns for 11 hours, aided by the fire of four Union gunboats in the ocean offshore and floating batteries in the sound to the east.  While the fort easily repulsed the Union gunboat attack, the Union land batteries, utilizing new rifled cannons, hit the fort 560 times. There was such extensive damage that Col. White was forced to surrender the following morning, April 26, with the fort&apos;s Confederate garrison being paroled as prisoners of war. This battle was the second time in history new rifled cannons were used against a fort, demonstrating the obsolescence of such fortifications as a way of defense. The Union held Fort Macon for the remainder of the war, while Beaufort Harbor served as an important coaling and repair station for its navy.  During the Reconstruction Era, the US Army actively occupied Fort Macon until 1877. During this time, because there were no state or federal penitentiaries in the military district of North Carolina and South Carolina, Fort Macon was used for about 11 years as a civil and military prison. The fort was deactivated after 1877 only to be garrisoned by state troops once again during the summer of 1898 for the Spanish-American War. Finally, in 1903, the US Army completely abandoned the fort.  In 1923, Fort Macon was offered for sale as surplus military property. However, at the bidding of North Carolina leaders, a Congressional Act on June 4, 1924, sold the fort and surrounding reservation for the sum of $1 to the state of North Carolina to be used as a public park. This was the second area acquired by the state for the purpose of establishing a state parks system.  During 1934−35, the Civilian Conservation Corps restored the fort and established public recreational facilities, which enabled Fort Macon State Park to officially open May 1, 1936, as North Carolina&apos;s first functioning state park.  At the outbreak of World War II, the US Army leased the park from the state and actively manned the old fort with Coast Artillery troops to protect a number of important nearby facilities. The fort was occupied from December 1941 to November 1944. During the occupation some unsuspecting soldiers rolled cannonballs into the fireplaces as andirons, mistaking them for solid iron shot. The powder-filled balls exploded, killing two men and injuring others- thus firing the &quot;last shot of the Civil War&quot;. On October 1, 1946, the Army returned the fort and the park to the state."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="12dp"
+                android:textColor="#FAEBD7" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

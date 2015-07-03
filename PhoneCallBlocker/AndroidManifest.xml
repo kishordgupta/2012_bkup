@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kd.phonecall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    
+    <uses-feature android:name="android.hardware.telephony" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+   	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   	<uses-permission android:name="android.permission.VIBRATE"/>
+   	
+	<uses-permission android:name="android.permission.SEND_MAIL" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+   	   	
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.iqrasys.callblocker.activity.BlockNumberListActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+           <activity android:name="com.iqrasys.callblocker.activity.CallBlockerTabActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iqrasys.callblocker.activity.CallBlockSettingsActivity"></activity>
+        <activity android:name="com.iqrasys.callblocker.activity.HomePageActivity" 
+            	  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.iqrasys.callblocker.activity.DataInputActivity"
+                  android:theme="@android:style/Theme.Dialog"></activity>
+                
+        <activity android:name="com.iqrasys.callblocker.activity.LogInActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.iqrasys.callblocker.activity.DateExpireNotifyActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.iqrasys.callblocker.activity.InfoViewActivity" 
+            	  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.iqrasys.utility.StackParser" 
+            	  android:screenOrientation="portrait"></activity>
+        <activity android:name="com.iqrasys.callblocker.activity.IncomingCallScreen" 
+            	  android:screenOrientation="portrait" ></activity>
+        
+        <service android:name=".PhoneCallReceive" android:enabled="true"/>
+        <receiver  android:name="com.iqrasys.callblocker.model.PhoneCallReceiver">
+            <intent-filter  android:priority="1000" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+             	
+    </application>
+
+</manifest>

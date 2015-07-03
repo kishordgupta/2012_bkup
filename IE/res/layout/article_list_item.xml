@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:paddingBottom="8dp"
+             android:paddingRight="8dp"
+             android:paddingLeft="8dp">
+
+    <LinearLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageArticleList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="300dp"
+            android:maxWidth="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/placeholder"/>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/textArticleListTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textIsSelectable="false"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textArticleListDeck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Summary"
+                android:textColor="@color/black_text"
+                android:textSize="14sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textArticleListTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="5 hours ago"
+                android:textColor="@color/grey_subtext"
+                android:textIsSelectable="false"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/textArticleListSponsored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:text="SPONSORED"
+                android:textColor="@color/grey_subtext"
+                android:textIsSelectable="false"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+      android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   
+    android:orientation="vertical">
+<LinearLayout 
+     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   
+    android:orientation="vertical">
+ <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a150facfa67e958"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+     /></LinearLayout>
+<LinearLayout 
+     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+   
+    android:orientation="vertical">
+	<ListView android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        />
+  	
+    </LinearLayout>    
+</LinearLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+  <LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+
+><EditText
+        android:id="@+id/bank"
+         android:layout_gravity="left"
+        android:layout_width="0sp" 
+        android:layout_height="60dip"
+        android:textSize="20sp" 
+        android:layout_weight="3"
+        android:hint="only video code"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+       android:inputType="textNoSuggestions" />
+         <Button 
+        android:id="@+id/search" 
+   
+         android:text="GO"
+         android:layout_gravity="left"
+        android:layout_width="0sp" 
+        android:layout_height="60dip"
+        android:textSize="20sp"
+        android:layout_weight="1" 
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+       
+   ></Button>
+</LinearLayout>
+
+</RelativeLayout>

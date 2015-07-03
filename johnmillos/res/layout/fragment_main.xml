@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  
+    tools:context="com.siliconorchard.hoteldealsfinder.MainActivity$PlaceholderFragment" >
+
+    
+    <EditText
+        android:id="@+id/key"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="Destination/postcode" />
+    <TextView 
+         
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Arrival Date" />
+     <DatePicker
+        android:id="@+id/date"
+      
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         />
+      <EditText
+        android:id="@+id/day"  
+        android:layout_width="fill_parent"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Nights" />
+      <Button
+        android:id="@+id/sub"  
+        android:layout_width="fill_parent"
+        
+        android:layout_height="wrap_content"
+        android:hint="Search" />
+    
+</LinearLayout>

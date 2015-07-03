@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" >
+
+      
+
+     
+    </RelativeLayout>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/app_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_btn_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="1"
+            android:button="@drawable/gift_active"
+            android:checked="true" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/order_inactive" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_gacha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/news_inactive" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@drawable/game_inactive" />
+
+    </RadioGroup>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_admob"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_above="@+id/radioGroup" >
+      <!--     <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             ads:adUnitId="a153090fb6e6cc5"
+        ads:adSize="BANNER"
+        ads:refreshInterval="60"
+            ads:loadAdOnCreate="true" 
+            /> -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative_layout_main_fragment_area"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/relative_layout_admob"
+        android:layout_alignParentLeft="true" >
+    </RelativeLayout>
+
+</RelativeLayout>

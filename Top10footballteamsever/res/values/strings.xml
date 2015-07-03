@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+    The string named "app_name" defines the application\'s visible name.
+    The string array "Planets" defines an array of 9 strings. The application loads
+    this array into the spinner\'s array adapter.
+    The string "planet_prompt" defines the prompt for the result text box.
+ -->
+<resources>
+    <string name="app_name">Top 10 Football teams Ever</string>
+    <string name="share">One of the truly enthralling things about following football is the chance to watch the great teams at work.
+Whether it be in domestic football or on the international stage, we have been blessed to see some truly unforgettable teams over the last century.
+We know picking a top 50 will always be contentious, and we know you will want to have your say . we welcome it. 
+Perhaps you have a favourite team from British football . maybe Manchester United\'s treble winners from 1999, Liverpool\'s 1984 vintage or Celtic\'s Lisbon Lions?
+It could be that one of the great European club sides will top your list, the great Real Madrid or AC Milan teams?
+Or maybe its one of those special international teams that have graced our summers down the years . Brazil\'s magical stars of 1970 or Holland and their total footballers? 
+We haven\'t only selected teams on strength of trophies alone . there\'s more to the game than that. Style, panache and skill are all characteristics that any true lover of football will recognise and appreciate...
+</string>
+  
+</resources>

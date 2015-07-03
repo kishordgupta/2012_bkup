@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.quiz.pretest.exam.s3a1"
+      android:versionCode="3"
+      android:versionName="2.1">
+       <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />  
+    <application android:icon="@drawable/chuck_icon_bg" android:label="Power Prep" android:theme="@android:style/Theme.Holo.Light" android:name="com.quiz.pretest.exam.s3a1.ChuckApplication">
+           <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity android:name="com.quiz.pretest.exam.s3a1.SplashScreen"
+                  android:label="@string/app_name"
+                   android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity android:name="com.quiz.pretest.exam.s3a1.SplashActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden" />
+		<activity android:name="com.quiz.pretest.exam.s3a1.QuestionActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden" />
+		<activity android:name="com.quiz.pretest.exam.s3a1.RulesActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden"/>
+		<activity android:name="com.quiz.pretest.exam.s3a1.EndgameActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden"
+                  android:theme="@android:style/Theme.DeviceDefault.Dialog"/>
+		<activity android:name="com.quiz.pretest.exam.s3a1.SettingsActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden"
+                  />
+		<activity android:name="com.quiz.pretest.exam.s3a1.AnswersActivity"  android:screenOrientation="portrait"
+                  android:configChanges="keyboard|keyboardHidden"
+                   android:theme="@android:style/Theme.DeviceDefault.Dialog"/>
+		    <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" /><service android:name="com.parse.PushService" />
+		
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+
+</manifest> 

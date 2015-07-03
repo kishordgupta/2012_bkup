@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="b">#19479B</color>
+	<color name="grey">#A1A1A1</color>
+	<color name="gr">#EDEDED</color>
+    <string name="app_name">Call Blocker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="list">List</string>
+    <string name="settings">Settings</string>
+    <string name="addnew">+ Add New</string>
+    <string name="myblockednumbers">&#160;&#160;&#160;My blocked numbers</string>
+    <string name="blockednumbersfromnumbers">&#160;&#160;Blocked numbers from database</string>
+    <string name="unknown">UnKnown</string>
+    <string name="update">Update</string>
+    <string name="options">Blocking Options</string>
+    <string name="selectoption">Select Option</string>
+    <string name="option_normal">Normal</string>
+    <string name="option_vibration">Vibration</string>
+    <string name="optionallblock">All Block</string>
+    <string name="dialoguewating">Please wait, Number fletching from server</string>
+<string name="info">Vad gör appen Communify?
+Appen varnar er när blufföretag och telefonförsäljare ringer er. Listan över blockerade telefonnummer kommer från Communify’s dagligen uppdaterade databas av blufföretag samt era tips.
+Ni kan även komplettera er personliga lista genom att klicka på Lista och sedan lägg till nummer.
+ 
+Tipsa Communify
+Har ni fått ett samtal från ett blufföretag eller en telefonförsäljare som inte är registrerat i vår databas kan du enkelt lägga till den i din Lista och samtidigt bocka i Tipsa Communify.
+Har tillräckligt många tipsat om samma nummer lägger vi till numret för samtliga användare.f
+ 
+Om Communify
+Communify jobbar aktivt för att förebygga dessa blufföretag som växer varje år i omsättning.
+Har du fått en bluffaktura så kan ni genom vår tjänst Trygghetspaketet få den hjälp du behöver och slippa dessa skojare.
+Vi har inga problem med att möta dem i rätten om det skulle gå så långt.</string>
+</resources>

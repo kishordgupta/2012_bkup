@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lilait.troll.football.realmadrd.madrista.cr7.laliga.uefa.soccar.app"
+    android:versionCode="10"
+    android:versionName="4.2" 
+   >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.SET_WALLPAPER" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+         android:hardwareAccelerated="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+         >
+           <activity
+            android:name="com.lilait.troll.football.realmadrd.madrista.cr7.laliga.uefa.soccar.app.Firstactivity"
+            android:label="@string/app_name"
+            android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+<action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lilait.troll.football.realmadrd.madrista.cr7.laliga.uefa.soccar.app.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+ 
+          >
+        </activity>
+        <activity
+            android:name="com.atomix.slot.FlurryActivity"
+            android:label="" >
+        </activity>
+          <activity
+            android:name="com.lilait.troll.football.realmadrd.madrista.cr7.laliga.uefa.soccar.app.StackParser"
+            android:label="@string/app_name"
+         android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize" >
+              <!-- Flurry SDK ! -->
+        <activity
+            android:name="com.flurry.android.FlurryFullscreenTakeoverActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+        <!-- Flurry SDK ! -->
+              
+        </activity>
+        <activity android:name="com.google.ads.AdActivity"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"  />
+    		 <!-- Tapjoy -->
+        <activity
+            android:name="com.tapjoy.TJCOffersWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyFullScreenAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyDailyRewardAdWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TapjoyVideoView"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.TJAdUnitView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name="com.tapjoy.mraid.view.ActionHandler"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name="com.tapjoy.mraid.view.Browser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <serviceֲ android:name="com.ironsource.mobilcore.MobileCoreReport" 
+            android:enabled="true" android:exported="false" 
+            android:process=":mcServiceProcess"/> 
+            <receiver android:name="com.ironsource.mobilcore.InstallationTracker" 
+                android:enabled="true" android:process=":installationTracker"/>
+    </application>
+
+</manifest>

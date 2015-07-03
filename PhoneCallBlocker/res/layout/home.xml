@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:textSize="35sp"
+    android:textStyle="bold" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0.05"
+        android:orientation="vertical"
+        android:paddingTop="15dp" />
+   
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="46dp"
+        android:layout_weight="0.10"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="220dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"
+            android:paddingTop="50dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.65"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="SSR vill att ni som företagare ska ägna er åt det viktiga i er verksamhet och vill försöka hjälpa er att förebygga onödiga problem. Därför varnar vi er när blufföretag och telefonförsäljare ringer er."
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:textSize="35sp"
+        android:textStyle="bold" >
+
+        <Button
+            android:id="@+id/btnUpdateData"
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:text="UPPDATERA"
+            android:textColor="@color/orange" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="120dp"
+            android:layout_height="45dip"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:text="INFO"
+            android:textColor="@color/orange" />
+       
+   </LinearLayout>
+   
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/updatetime"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Senaste uppdaterad: "
+            android:textColor="@color/grey"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

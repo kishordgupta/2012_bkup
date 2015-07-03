@@ -1,0 +1,34 @@
+<html><head/><body><script type='text/javascript' src='jwplayer.js'></script><div id='mediaplayer'></div>
+
+		<script type="text/javascript">
+			jwplayer('mediaplayer').setup({
+				'id': 'playerID',
+				'width': '100%',
+				'height': '100%',
+				'provider': 'rtmp',
+				'streamer': 'rtmp://50.7.98.234/rtv',
+				'plugins': 'fbit-1,tweetit-1',
+				'autostart': 'true',
+				'file': 'videortv',
+				'skin': 'http://conceptoweb-studio.com/radio/reproductores/bekle.zip',
+				'modes': [
+					{type: 'flash', src: 'http://conceptoweb-studio.com/radio/video/player59/player.swf'},
+						{
+							type: 'html5',
+							config: {
+								'file': 'http://50.7.98.234:1935/rtv/videortv/playlist.m3u8',
+								'provider': 'video'
+								}
+						},
+						{
+							type: 'download',
+							config: {
+								'file': 'http://50.7.98.234:1935/rtv/videortv/playlist.m3u8',
+								'provider': 'video'
+								}
+						}
+				]
+				});
+		</script>
+
+</body></html>

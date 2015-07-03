@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame_l_item_category_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight=".5"
+    android:background="#000000" >
+
+    <android.support.v4.view.ViewPager
+        
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/img_btn_image_pager_set_as_wp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Share" />
+        <Button
+            android:id="@+id/wall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:text="Set as wallpaper"
+            />
+ <com.google.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+            android:id="@+id/ad"
+            android:layout_height="wrap_content"
+             android:layout_width="fill_parent"
+             ads:adUnitId="a1515773f586e89"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+            ads:loadAdOnCreate="true" 
+            />
+    </LinearLayout>
+
+</FrameLayout>

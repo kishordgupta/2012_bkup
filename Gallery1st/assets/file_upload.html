@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UPLOAD IMAGE</title>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+        <link href="mini_upload/css/style.css" rel="stylesheet" />
+        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+        
+        <!-- JavaScript Includes -->
+        <script>
+        	$(function(){
+        	    $('#drop a').click(function(){
+        			// Simulate a click on the file input button
+        			// to show the file browser dialog
+        			$(this).parent().find('input').click();
+    			});
+        	})
+        </script>
+     
+    </head>
+    <body>
+        <div class="container">
+            <!-- The main CSS file -->
+            <form id="upload" method="post" action="http://wallpaper.lilait.com/big_bang_theory/upload.php" enctype="multipart/form-data">
+                <div >
+                    Drop Here
+                    <a>Browse</a>
+                    <input type="file" name="upl" multiple  />
+                </div>
+
+                <ul>
+                    <!-- The file uploads will be shown here -->
+                </ul>
+            </form>
+        </div>
+
+    </body>
+</html>

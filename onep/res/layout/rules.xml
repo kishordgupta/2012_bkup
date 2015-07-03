@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal"
+	android:background="@drawable/a1">
+<LinearLayout 
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal"
+>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="15dip" android:paddingBottom="15dip"
+		android:gravity="center_horizontal">
+   <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="a151c965bfc5cba"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"
+     />
+	    
+	</LinearLayout>
+
+
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<TextView android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textColor="@android:color/black"
+			android:textStyle="bold" android:id="@+id/rulesText"
+			android:paddingLeft="15dip" android:paddingRight="15dip"
+			android:text="@string/rules"/>
+
+	</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<Button android:text="Download Hitman Reborn Quiz" android:id="@+id/hitman"
+				android:layout_width="fill_parent" android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/button_selector"
+	
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:textColor="#ffffff" />
+	
+		</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<Button android:text="Guess the Anime Quiz" android:id="@+id/ganime"
+				android:layout_width="fill_parent" android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/button_selector"
+	
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:textColor="#ffffff" />
+	
+		</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<Button android:text="Fairy Tail quiz" android:id="@+id/fairytale"
+				android:layout_width="fill_parent" android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/button_selector"
+	
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:textColor="#ffffff" />
+	
+		</LinearLayout>
+				<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+	
+			<Button android:text="D Grey Man quiz" android:id="@+id/dgrayman"
+				android:layout_width="fill_parent" android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/button_selector"
+	
+				android:paddingTop="5dip" android:paddingBottom="5dip"
+				android:textColor="#ffffff" />
+	
+		</LinearLayout>
+			
+		<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+		android:gravity="center_horizontal">
+
+		<Button android:text="Back" android:id="@+id/backBtn"
+			android:layout_width="80dip" android:layout_alignParentRight="true"
+			android:layout_height="wrap_content" android:background="@drawable/button_selector"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textColor="#ffffff" />
+
+	</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

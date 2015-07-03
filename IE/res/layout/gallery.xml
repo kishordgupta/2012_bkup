@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imageArticle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:scaleType="centerInside"
+        android:src="@drawable/placeholder" />
+
+    <TextView
+        android:id="@+id/textGallery"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageArticle"
+        android:layout_alignRight="@id/imageArticle"
+        android:layout_alignTop="@id/imageArticle"
+        android:background="@color/black_overlay"
+        android:paddingBottom="2dip"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dip"
+        android:text="@string/gallery"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/viewClick"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/imageArticle"
+        android:layout_alignRight="@+id/imageArticle"
+        android:background="@drawable/carousel_bg" />
+
+</RelativeLayout>

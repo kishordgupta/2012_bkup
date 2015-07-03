@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal" >
+	 <LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:gravity="center_horizontal">
+				<Button android:text="" android:id="@+id/fast"
+				android:layout_width="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/first"
+	             
+				android:textColor="#ffffff" />	
+		<Button android:text="" android:id="@+id/back"
+				android:layout_width="wrap_content"
+				android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/history_back"
+	             
+				android:textColor="#ffffff" />	 
+				<EditText android:id="@+id/pagenumber"
+				android:layout_width="60dip"
+				android:inputType="number"
+				 android:layout_alignParentRight="true"
+				android:layout_height="wrap_content"/>
+					<Button android:text="" android:id="@+id/next"
+				android:layout_width="wrap_content"
+				 android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/history_next"
+	
+				android:textColor="#ffffff" />
+					<Button android:text="" android:id="@+id/end"
+				android:layout_width="wrap_content"
+				 android:layout_alignParentRight="true"
+				android:layout_height="wrap_content" android:background="@drawable/last"
+	
+				android:textColor="#ffffff" />
+					<EditText android:id="@+id/pagenumbertogo"
+				android:layout_width="60dip"
+				android:inputType="number"
+				
+				 android:layout_alignParentRight="true"
+				android:layout_height="wrap_content"/>
+			</LinearLayout>
+			
+	  <WebView 
+    android:id="@+id/webView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+/>
+			
+			
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/settings"
+       
+        android:showAsAction="always"
+        android:icon="@drawable/settings"
+        
+        />
+ <item
+        android:id="@+id/share"
+        
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+    />
+</menu>

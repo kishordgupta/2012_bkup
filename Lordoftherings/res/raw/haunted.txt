@@ -1,0 +1,21 @@
+﻿xxxx  Frodo Baggins  yyyy 11-11froddo_baggins.jpg11-11A young well-to-do hobbit. When he discovers that the magic ring left to him by his eccentric "Uncle" Bilbo is the One Ring, he reluctantly takes on the quest to destroy it. Often referred to as the Ringbearer.
+
+xxxx Gandalf the Grey  yyyy 11-11gandalf.jpg11-11A wizard best known among hobbits for his fireworks and mischievous sense of humor, but actually one of the greatest powers of Middle-earth. He reveals the truth about the Ring to Frodo and acts as a guide and counselor. The leader of the Fellowship. Other names: Stormcrow, Mithrandir, the Grey Pilgrim, the White Rider, Tharkûn, Olórin, Incánus, and Gandalf the White.
+
+xxxx Samwise "Sam" Gamgee  yyyy 11-11samwise.jpg11-11A hobbit, Frodo's gardener at home, and his servant and friend on the quest. Sam is very fond of stories about dragons and elves. A member of the Fellowship, he stays with Frodo after it is broken.
+
+xxxx Meriadoc "Merry" Brandybuck yyyy 11-11Meriadoc.jpg11-11 A young hobbit, one of Frodo's many cousins. A member of the Fellowship. Friend of Treebeard the Ent and companion of King Théoden of Rohan.
+
+xxxx Peregrin "Pippin" Took yyyy 11-11pippin.jpg11-11 A young hobbit, one of Frodo's many cousins. A member of the Fellowship. Later, a member of the Tower Guard of Minas Tirith.
+
+xxxx  Aragorn yyyy 11-11aragorn.jpeg11-11The heir of Isildur and the rightful king of Gondor, a mighty warrior and healer. He was raised by the elves of Rivendell and now lives in exile as leader of the Dúnedain, the Rangers of the North. The time has now come for him to reclaim the throne. He leads the Fellowship after Gandalf's fall. Other names: Strider, Elessar, Elfstone, Dúnadan.
+
+xxxx Legolas yyyy 11-11legolas.jpg11-11Son of Thranduil, king of the Mirkwood elves. He is a great archer with keen eyesight. A member of the Fellowship. Close friend of Gimli the dwarf and companion of Aragorn.
+
+xxxx Gimli yyyy 11-11gimily.jpg11-11Son of Glóin, a dwarf of the Lonely Mountain. A member of the Fellowship. Close friend of Legolas the elf and companion of Aragorn. He falls in love with Galadriel.
+
+xxxx Boromir  yyyy 11-11boromir.jpg11-11Son of Denethor, the Steward of Gondor. Sent to Rivendell to decipher a prophetic dream, he joins the Fellowship. He believes that the Ring should be used as a weapon against the Enemy and that trying to destroy it is foolish. He succumbs to the temptation of the Ring and tries to take it from Frodo. He dies defending Merry and Pippin from orcs.
+
+xxxx  Sauron yyyy 11-11sauron.jpg11-11A powerful spirit of evil who now takes the form of a disembodied flaming eye, Sauron represents the worst aspects of power — especially greed, cruelty, and the desire for domination. He created the One Ring long ago as a weapon, lost it nearly three thousand years ago, and now needs it to achieve his conquest of Middle-earth. Other names: the Enemy, the Dark Lord, the Necromancer, the Eye, the Lord of the Rings.
+
+

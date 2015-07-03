@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://www.ibaby-app.com/apps/mypregnancy/ -->
+<html class="ui-mobile"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><!--<base href="http://www.ibaby-app.com/apps/mypregnancy/">--><base href="."> 
+	<title>iBaby</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<link rel="stylesheet" type="text/css" href="./iBaby_files/jquery.mobile-1.1.0-rc.1.min.css">
+	<link rel="stylesheet" type="text/css" href="./iBaby_files/jquery.mobile.datebox.css"> 
+	<link rel="stylesheet" type="text/css" href="./iBaby_files/style.css">
+
+	<script type="text/javascript" src="./iBaby_files/jquery-1.7.1.js"></script><style type="text/css"></style>
+	<script type="text/javascript">
+		$(document).bind("mobileinit", function(){
+			$.mobile.defaultPageTransition = "slide";
+			$.mobile.autoInitializePage = false;
+		});	
+	</script>
+	<script type="text/javascript" src="./iBaby_files/jquery.mobile-1.1.0-rc.1.min.js"></script>
+	<script type="text/javascript" src="./iBaby_files/jquery.mobile.datebox.min.js"></script>
+	<script type="text/javascript" src="./iBaby_files/ibaby.js"></script>
+</head> 
+<body class="boy ui-mobile-viewport"> 
+
+<div data-role="page" id="index" data-url="index">
+	<div data-role="header">
+		<h1>iBaby</h1>
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#edit" data-icon="gear" class="ui-btn-right">Edit</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>		
+		<div id="stats">
+			<h2 id="statsTitle">Pregnancy statistics</h2>
+			<ul id="statsList" data-role="listview" data-inset="true">
+				<li class="statsLine" id="statsStart"><img src="./iBaby_files/sperm.png"><span>I got pregnant on Invalid Date</span></li>
+				<li class="statsLine" id="statsCurrent"><img src="./iBaby_files/calendar.png"><span>I have been pregnant for NaN weeks and NaN days.</span></li>
+				<li class="statsLine" id="statsDue"><img src="./iBaby_files/babyseat.png"><span>My baby is due on Invalid Date which is in NaN weeks and NaN days</span></li>
+			</ul>
+		</div>
+		
+		<div id="growth">
+			<h2 id="growthTitle">Development of your Baby</h2>
+			<ul id="growthList" data-role="listview" data-inset="true">
+				<li id="month0">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month0">
+						<img src="./iBaby_files/month0.png">						
+						<h3>Week 1 - 4</h3>            		
+           				<p>See what happens inside you during the conception process.</p>
+           				<div class="progressBar">
+           					<span id="progress0"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct0">NaN%</div>
+             		</a> 
+           		</li>
+           		
+           		<li id="month1">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month1">
+						<img src="./iBaby_files/month1.png">						
+						<h3>Week 5 - 8</h3>            		
+           				<p>Your baby is an embryo consisting of two layers of cells from which all her organs and body parts will develop.</p>
+           				<div class="progressBar">
+           					<span id="progress1"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct1">NaN%</div>
+             		</a> 
+           		</li>
+           		
+           		<li id="month2">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month2">
+						<img src="./iBaby_files/month2.png">						
+						<h3>Week 9 - 12</h3>            		
+           				<p>Your baby is now about the size of a kidney bean and is constantly moving. He has distinct, slightly webbed fingers.</p>
+           				<div class="progressBar">
+           					<span id="progress2"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct2">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month3">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month3">
+						<img src="./iBaby_files/month3.png">						
+						<h3>Week 13 - 16</h3>            		
+           				<p>By now your baby is around 7 to 8 centimetres (3 inches) long and weighs about the same as half a banana. Her tiny, unique fingerprints are now in place.</p>
+           				<div class="progressBar">
+           					<span id="progress3"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct3">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month4">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month4">
+						<img src="./iBaby_files/month4.png">						
+						<h3>Week 17 - 20</h3>            		
+           				<p>Your baby is now about 13 centimetres ( 5.5 inches) long and weighs 140 grams (5 ounces). His skeleton is starting to harden from rubbery cartilage to bone.</p>
+           				<div class="progressBar">
+           					<span id="progress4"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct4">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month5">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month5">
+						<img src="./iBaby_files/month5.png">						
+						<h3>Week 21 - 24</h3>            		
+           				<p>Eyebrows and eyelids are now in place. Your baby would now be more than 27 centimetres (10.5 inches) long if you stretched out her legs. </p>
+           				<div class="progressBar">
+           					<span id="progress5"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct5">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month6">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month6">
+						<img src="./iBaby_files/month6.png">						
+						<h3>Week 25 - 28</h3>            		
+           				<p>Your baby weighs about a 660 grams (1.5 pounds). His wrinkled skin is starting to smooth out as he puts on baby fat.</p>
+           				<div class="progressBar">
+           					<span id="progress6"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct6">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month7">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month7">
+						<img src="./iBaby_files/month7.png">						
+						<h3>Week 29 - 32</h3>            		
+           				<p>By now, your baby is more than 40 centimetres (15 inches) long. She can open and close her eyes and probably see what's around her.</p>
+           				<div class="progressBar">
+           					<span id="progress7"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct7">NaN%</div>
+             		</a> 
+           		</li>
+
+           		<li id="month8">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month8">
+						<img src="./iBaby_files/month8.png">						
+						<h3>Week 33 - 36</h3>            		
+           				<p>Your baby now weighs around 2.2 kilos (4.7 pounds). His layers of fat are filling him out, making him rounder, and his lungs are well developed.</p>
+           				<div class="progressBar">
+           					<span id="progress8"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct8">NaN%</div>
+             		</a> 
+           		</li>
+           		
+           		<li id="month9">
+  					<a href="http://www.ibaby-app.com/apps/mypregnancy/#month9">
+						<img src="./iBaby_files/month9.png">						
+						<h3>Week 37 - 40</h3>            		
+           				<p> Your baby is almost due. At birth, the average baby is more than 51 centimetres (20.5 inches) long from head to toe and weighs approximately 3.4 kilograms (7.5 pounds), but babies vary widely in size at this stage.</p>
+           				<div class="progressBar">
+           					<span id="progress9"></span>
+           				</div>
+           				<div class="progressBarPct" id="progressPct9">NaN%</div>
+             		</a> 
+           		</li>
+			</ul>
+		</div>
+		
+		<h2>About due dates:</h2>
+        <ul data-role="listview" data-inset="true">
+        	<li>Due dates are an estimate and it is normal for babies to arrive within two weeks of the due date - either two weeks "early," or two weeks "late."  Remember, babies arrive on nature's timetable, and precise calculations are difficult due to differences in the length of menstrual cycles, etc. Your physician is your best source of information about your unique pregnancy and your labor and delivery.</li>
+        </ul>
+		
+	</div>
+</div>
+
+<div data-role="page" id="edit" data-url="edit" tabindex="0" class="ui-page ui-body-c ui-page-active" style="min-height: 624px;">
+	<div data-role="header" class="ui-header ui-bar-a" role="banner">
+		<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">iBaby - My Baby</h1>
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-direction="reverse" class="ui-btn-left ui-btn ui-btn-up-a ui-btn-corner-all ui-shadow" data-corners="true" data-shadow="true" data-iconshadow="true" data-inline="false" data-wrapperels="span"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Save</span></span></a>
+	</div><!-- /header -->
+
+	<div data-role="content" class="ui-content" role="main">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>
+
+	<form id="settingsForm">
+	<h2>Baby name</h2>
+	<ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+	<li class="ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom">
+		<div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+	         <label for="inputFirstName" class="ui-input-text">First Name</label>
+	         <input type="text" value="" name="inputFirstName" id="inputFirstName" class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset">
+        </div>
+        <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br"> 
+	         <label for="inputLastName" class="ui-input-text">Last Name</label>
+	         <input type="text" value="" name="inputLastName" id="inputLastName" class="ui-input-text ui-body-c ui-corner-all ui-shadow-inset">
+		</div>
+	</li>
+	</ul>
+	<h2>Gender</h2>
+	<ul data-role="listview" data-inset="true" class="ui-listview ui-listview-inset ui-corner-all ui-shadow">
+	<li class="ui-li ui-li-static ui-body-c ui-corner-top ui-corner-bottom">
+		<div>
+			<fieldset data-role="controlgroup" data-type="horizontal" class="ui-corner-all ui-controlgroup ui-controlgroup-horizontal">
+	         	<div class="ui-radio"><input type="radio" name="gender" id="genderOptionBoy" value="boy" checked="checked"><label for="genderOptionBoy" data-corners="true" data-shadow="false" data-iconshadow="true" data-inline="false" data-wrapperels="span" class="ui-btn ui-btn-up-c ui-radio-on ui-btn-active ui-corner-left"><span class="ui-btn-inner ui-corner-left"><span class="ui-btn-text">Boy</span></span></label></div>
+	         	
+	
+	         	<div class="ui-radio"><input type="radio" name="gender" id="genderOptionGirl" value="girl"><label for="genderOptionGirl" data-corners="true" data-shadow="false" data-iconshadow="true" data-inline="false" data-wrapperels="span" class="ui-btn ui-btn-up-c ui-radio-off ui-corner-right ui-controlgroup-last"><span class="ui-btn-inner ui-corner-right ui-controlgroup-last"><span class="ui-btn-text">Girl</span></span></label></div>
+	         			         	
+		    </fieldset>
+		</div>
+	</li>
+	</ul>
+	
+	<h2>Due date</h2>
+	<p>
+		Babies are born on nature's timetable, but you can make a good estimate of your due date based on last menstrual period or 
+		from measurements made during an ultrasound. Either enter your due date if you already know it or enter the first day of your 
+		last menstrual period below.
+	</p>
+
+	<div>
+		<fieldset data-role="controlgroup" class="ui-corner-all ui-controlgroup ui-controlgroup-vertical">
+         	<div class="ui-radio"><input type="radio" name="dateType" id="dateTypeDueDate" value="dueDate" checked="checked"><label for="dateTypeDueDate" data-corners="true" data-shadow="false" data-iconshadow="true" data-inline="false" data-wrapperels="span" data-icon="radio-off" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-radio-on ui-corner-top"><span class="ui-btn-inner ui-corner-top"><span class="ui-btn-text">Due date</span><span class="ui-icon ui-icon-shadow ui-icon-radio-on"></span></span></label></div>
+         	
+
+         	<div class="ui-radio"><input type="radio" name="dateType" id="dateTypeStartDate" value="startDate"><label for="dateTypeStartDate" data-corners="true" data-shadow="false" data-iconshadow="true" data-inline="false" data-wrapperels="span" data-icon="radio-off" class="ui-btn ui-btn-up-c ui-btn-icon-left ui-radio-off ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-inner ui-corner-bottom ui-controlgroup-last"><span class="ui-btn-text">First day of last period</span><span class="ui-icon ui-icon-radio-off ui-icon-shadow"></span></span></label></div>
+         			         	
+	    </fieldset>
+	</div>
+
+	<div class="ui-input-datebox ui-shadow-inset ui-corner-all ui-body-c" style="display: none;"><input name="dateInput" id="dateInput" type="text" data-role="datebox" data-options="{&quot;mode&quot;: &quot;calbox&quot;, &quot;calHighToday&quot; : false, &quot;useInline&quot;: true, &quot;useInlineHideInput&quot;: true}" class="ui-input-text ui-body-c"><a href="http://www.ibaby-app.com/apps/mypregnancy/#" class="ui-input-clear ui-btn ui-btn-up-c ui-btn-icon-notext ui-btn-corner-all ui-shadow" title="Open Date Picker" data-corners="true" data-shadow="true" data-iconshadow="true" data-inline="false" data-wrapperels="span" data-icon="grid" data-iconpos="notext" style="vertical-align: middle; display: none;"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Open Date Picker</span><span class="ui-icon ui-icon-grid ui-icon-shadow"></span></span></a></div>
+	
+	<div class="ui-datebox-container ui-overlay-shadow ui-corner-all pop ui-body-b ui-datebox-inline" style="z-index: 500;"><div class="ui-datebox-gridheader"><div class="ui-datebox-gridminus ui-btn ui-btn-up-a ui-btn-inline ui-btn-icon-notext ui-btn-corner-all ui-shadow" data-corners="true" data-shadow="true" data-iconshadow="true" data-inline="true" data-wrapperels="span" data-icon="minus" data-iconpos="notext" data-theme="a" title="Previous Month"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text"><a href="http://www.ibaby-app.com/apps/mypregnancy/#">Previous Month</a></span><span class="ui-icon ui-icon-minus ui-icon-shadow"></span></span></div><div class="ui-datebox-gridplus ui-btn ui-btn-up-a ui-btn-inline ui-btn-icon-notext ui-btn-corner-all ui-shadow" data-corners="true" data-shadow="true" data-iconshadow="true" data-inline="true" data-wrapperels="span" data-icon="plus" data-iconpos="notext" data-theme="a" title="Next Month"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text"><a href="http://www.ibaby-app.com/apps/mypregnancy/#">Next Month</a></span><span class="ui-icon ui-icon-plus ui-icon-shadow"></span></span></div><div class="ui-datebox-gridlabel"><h4>October 2013</h4></div></div><div class="ui-datebox-grid"><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Su</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Mo</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Tu</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">We</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Th</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Fr</div><div class="ui-datebox-griddate ui-datebox-griddate-empty ui-datebox-griddate-label">Sa</div></div><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-datebox-griddate-empty">29</div><div class="ui-datebox-griddate ui-datebox-griddate-empty">30</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">1</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">2</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">3</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">4</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">5</div></div><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">6</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">7</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">8</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">9</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">10</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">11</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">12</div></div><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">13</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">14</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">15</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">16</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">17</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-e">18</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">19</div></div><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">20</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">21</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">22</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">23</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">24</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">25</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">26</div></div><div class="ui-datebox-gridrow"><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">27</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">28</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">29</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">30</div><div class="ui-datebox-griddate ui-corner-all ui-btn-up-a">31</div><div class="ui-datebox-griddate ui-datebox-griddate-empty">1</div><div class="ui-datebox-griddate ui-datebox-griddate-empty">2</div></div></div><div class="ui-datebox-controls"></div></div></form>
+	</div>	
+<div class="ui-datebox-screen ui-datebox-hidden" style="z-index: 499;"></div></div>
+	
+<div data-role="page" id="month0" data-url="month0">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 1 - 4</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>	
+
+		<h2>Week One: the week of your last menstrual period</h2>
+        <ul data-role="listview" data-inset="true" id="detailWeek1">
+          <li> This is the week of your last menstrual period. The first day of menstrual bleeding is considered the official start date of pregnancy and the 40 weeks of pregnancy are calculated by this date. </li>
+        </ul>
+        <h2>Week Two: Fertilization</h2>
+        <ul data-role="listview" data-inset="true" id="detailWeek2">
+          <li> Every month, about three to 10 eggs receive a hormonal signal that cues them to mature and prepare for ovulation. At the same time, the uterus is forming a blood rich lining that is called the endometrium. This will thicken, upon fertilization, to form a sack strong enough to carry and cushion your baby throughout the entire pregnancy. </li>
+        </ul>
+        <h2>Week Three: Cells Join, Divide - New life begins</h2>
+        <ul data-role="listview" data-inset="true" id="detailWeek3">
+          <li> Once a month around the 14th day, one of the eggs travels down into the fallopian tube. This is ovulation. If in the next 36 to 48 hours just one of the 350 million sperm in the average ejaculate can get all the way from the vagina through the uterus and into the fallopian tube to penetrate the egg, the egg will become fertilized. Sperm can live for up to 5 days in this environment, therefore making pregnancy possible for up to 5 days after intercourse. </li>
+        </ul>
+        <h2>Week Four: Implantation</h2>
+        <ul data-role="listview" data-inset="true" id="detailWeek4">
+          <li> The fertilized egg immediately begins dividing and floats down into the uterus. Immediately upon fertilization your little one is set as a boy or a girl. Ladies, this is one that you can not take credit for since it is up to the sperm to determine the sex of your baby. Sperm carries either a "X" (girl) chromosome or a "Y" (boy) chromosome.
+            The sex of your baby is predetermined by the fathers sperm chromosomes. </li>
+        </ul>
+	</div>
+</div>
+
+<div data-role="page" id="month1" data-url="month1">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 5 - 8</h1>
+	</div>
+			
+	<div data-role="content">
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>		
+	
+        <h2>Week Five: The embryonic stage begins</h2>
+        <p>You are 5 weeks pregnant. (about three weeks from conception)</p>
+        <ul data-role="listview" data-inset="true" id="detailWeek5">
+          <li>The amniotic fluid is being built up. </li>
+          <li>The embryo grows from a tiny speck about 2mm - the size of a pin head. </li>
+          <li>By the end of the week the embryo will have more than doubled in size 
+            to about 4-5mm. </li>
+          <li>The egg has now completely grown into the mucous membrane of the 
+            uterus which covers the egg, the umbilical sac and the amniotic fluid 
+            cavity. </li>
+          <li>A fibrin clot closes the hole to the uterus cavity. </li>
+          <li>The placenta is developing. </li>
+          <li>The embryo starts receiving oxygen and nutrition through the placenta.</li>
+        </ul>
+        <h2>Week Six: The heart begins to beat</h2>
+        <p>You are 6 weeks pregnant. (four weeks from conception)</p>
+        <ul data-role="listview" data-inset="true" id="detailWeek6">
+          <li>The amniotic fluid is being built up. </li>
+          <li>The embryo grows from a tiny speck about 2mm - the size of a pin head. </li>
+          <li>By the end of the week the embryo will have more than doubled in size 
+            to about 4-5mm. </li>
+          <li>The egg has now completely grown into the mucous membrane of the 
+            uterus which covers the egg, the umbilical sac and the amniotic fluid 
+            cavity. </li>
+          <li>A fibrin clot closes the hole to the uterus cavity. </li>
+          <li>The placenta is developing. </li>
+          <li>The embryo starts receiving oxygen and nutrition through the placenta.</li>
+        </ul>
+        <h2>Week Seven: Arms and legs begin to grow</h2>
+        <p>You are 7 weeks pregnant. (five weeks from conception)</p>
+        <ul data-role="listview" data-inset="true" id="detailWeek7">
+          <li>The amniotic fluid is being built up. </li>
+          <li>The embryo grows from a tiny speck about 2mm - the size of a pin head. </li>
+          <li>By the end of the week the embryo will have more than doubled in size 
+            to about 4-5mm. </li>
+          <li>The egg has now completely grown into the mucous membrane of the 
+            uterus which covers the egg, the umbilical sac and the amniotic fluid 
+            cavity. </li>
+          <li>A fibrin clot closes the hole to the uterus cavity. </li>
+          <li>The placenta is developing. </li>
+          <li>The embryo starts receiving oxygen and nutrition through the placenta.</li>
+        </ul>
+        <h2>Week Eight: Starts to practice moving</h2>
+        <p>You are 8 weeks pregnant. (six weeks from conception) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek8">
+          <li>The embryo is measures about 18 mm (3/4 inch) in length. </li>
+          <li>Their arms and legs are growing and location of the elbows and toes 
+            are visible..</li>
+          <li>The feet and hand buds have appeared.</li>
+          <li>Starts to practice moving (not felt by mom till week 20) </li>
+          <li>The stomach is being made from part of the gut. </li>
+          <li>The face is beginning to take shape.</li>
+          <li>Your baby's mouth and nostrils are starting to develop. </li>
+          <li>Teeth begin to develop under the gums.</li>
+          <li>The eyes can now be seen as small hollows on each side of the head.</li>
+        </ul>
+		
+	</div>
+</div>
+
+<div data-role="page" id="month2" data-url="month2">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 9 - 12</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>
+		<h2>Week 9: Fingers and Toes form</h2>
+        <p>You are in week nine of pregnancy. (seven weeks from conception) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek9">
+          <li>The embryo has grown to measure 30 mm (1.2 inches) in length. </li>
+          <li>The fingers and toes are well defined. Cartilage and bones begin to 
+            form.</li>
+          <li>The upper lip as well as the nose tip is being formed. </li>
+          <li>The tongue begins to develop and the larynx is developing. </li>
+          <li>The eyelids are developed, although they stay closed for several 
+            months.</li>
+          <li>The main construction of the heart is complete.</li>
+        </ul>
+        <h2>Week Ten: Embryo is now a Fetus</h2>
+        <p>You are 10 weeks pregnant. (eight weeks after conception) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek10">
+          <li>From this week until birth, the developing organism is called a 
+            fetus.</li>
+          <li>The fetus is now the size of a small strawberry. </li>
+          <li>The feet are 2mm long (one tenth of an inch). </li>
+          <li>The neck is beginning to take shape.</li>
+          <li>The body muscles are almost developed. Baby has begun movement.</li>
+          <li>While still too small for you to feel, your little one is 
+            wriggling and shifting.</li>
+          <li>The jaws are in place. The mouth cavity and the nose are joined.</li>
+          <li>The ears and nose can now be seen clearly. </li>
+          <li>Fingerprints are already evident in the skin. </li>
+          <li>Nipples and hair follicles begin to form.</li>
+        </ul>
+        <h2>Week Eleven: Neurons multiply</h2>
+        <p>You are 11 weeks pregnant. (nine weeks after conception) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek11">
+          <li>The fetus CRL is about 1<b>.</b>5 inches (35mm) in size. </li>
+          <li>The fingers and toes have completely separated. </li>
+          <li>The taste buds are starting to develop.</li>
+          <li>Baby has tooth buds, the beginning of the complete set of 20 milk 
+            teeth.</li>
+          <li>Baby can swallow and stick out his or her tongue. </li>
+          <li>Whole body except tongue is sensitive to touch. </li>
+          <li>Cartilage now calcifying to become bone.</li>
+          <li>If it is a boy, the testicles are starting to produce the testosterone 
+            hormone.</li>
+        </ul>
+        <h2>Week Twelve: Fingernails and toenails appear</h2>
+        <p>You are 12 weeks pregnant. (fetal age 10 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek12">
+          <li>The fetus is now about 2<b>.</b>5 inches (6cm) length and weighs about 
+            0<b>.</b>7 ounce (20 g).</li>
+          <li>The feet are almost half an inch (1cm) long.</li>
+          <li>The fetus starts moving spontaneously.</li>
+          <li>The face is beginning to look like a baby's face. </li>
+          <li>The pancreas is functioning and producing insulin. </li>
+          <li>Fingernails and toenails appear.</li>
+          <li>The baby can suck his thumb, and get hiccups.</li>
+        </ul>	
+	</div>
+</div>
+
+<div data-role="page" id="month3" data-url="month3">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 13 - 16</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>	
+		
+		<h2>Week Thirteen: Baby flexes and kicks</h2>
+        <p>You are 13 weeks pregnant. (fetal age 11 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek13">
+          <li>The fetus has grown to about 3 inches (8cm) long. </li>
+          <li>Weight approximately 1 ounce (25 grams).</li>
+          <li>Bone is beginning to replace cartilage and the ribs are appearing. </li>
+          <li>The nose and chin are well defined.</li>
+          <li>Movements can be measured.</li>
+          <li>The child will begin to learn to suck its thumb. </li>
+          <li>The child can open and close its mouth.</li>
+          <li>The external genitalia are well defined making it is possible to 
+            determine the baby's gender.</li>
+        </ul>
+        <h2>Week Fourteen: Hormones start up</h2>
+        <p>You are 14 weeks pregnant. (fetal age 12 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek14">
+          <li>The fetus is 3 and half inches (9cm) long.</li>
+          <li>Weight is about 1 and half ounces (45 grams). </li>
+          <li>The eyes are slowly moving towards the centre of the face. </li>
+          <li>The nose is more pronounced. The ears are fully developed. </li>
+          <li>The cheekbones are visible. The first hair is appearing. </li>
+          <li>The kidneys are producing urine.</li>
+          <li>In girls, the ovaries are moving down towards the pelvis. </li>
+          <li>In boys, the prostate gland is developing.</li>
+          <li>For girls, the ovaries move into the pelvis.</li>
+        </ul>
+        <h2>Week Fifteen: Bones and muscles grow</h2>
+        <p>You are 15 weeks pregnant. (fetal age 13 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek15">
+          <li>Baby is now over 4 inches (10cm) long</li>
+          <li>and weighs about 2<b>.</b>5 ounces (75 grams). </li>
+          <li>He or she can move its arms and make a fist.</li>
+          <li>Fingernails and toenails are present.</li>
+          <li>Baby's skin is still very thin.</li>
+        </ul>
+        <h2>Week Sixteen: Facial expressions are possible</h2>
+        <p>You are 16 weeks pregnant. (fetal age 14 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek16">
+          <li>The fetus measures nearly 5 inches (12cm) from head to buttocks. </li>
+          <li>The fetus weighs about 3<b>.</b>5 ounces (100 grams). </li>
+          <li>The fetus is covered with a protective soft down to regulate its 
+            temperature.</li>
+          <li>Fat begins to form underneath skin.</li>
+          <li>Baby hears external voices, sleeps and dreams.</li>
+        </ul>
+	</div>
+		
+</div>
+
+<div data-role="page" id="month4" data-url="month4">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 17 - 20</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>
+	
+	        <h2>Week Seventeen: Fat accumulates</h2>
+        <p>You are 17 weeks pregnant. (fetal age 15 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek17">
+          <li>The umbilical cord is growing thicker and stronger. </li>
+          <li>Fetus weight is just over 5 ounces (150g). </li>
+          <li>Baby is about 5 inches (14cm) long crown to rump. </li>
+          <li>and would be about 9 inches (23cm) head to toe, if it could stretch 
+            out. </li>
+          <li>The retina has become sensitive to light. </li>
+          <li>The first stools (meconium) are now beginning to accumulate.</li>
+        </ul>
+        <h2>Week Eighteen: Baby begins to hear</h2>
+        <p>You are 18 weeks pregnant. (fetal age 16 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek18">
+          <li>The fetus is now 6 inches long and weighs 7 ounces. </li>
+          <li>The fetus measures about 15cm and weighs almost 200 grams. </li>
+          <li>They can hear sounds and may be startled by loud noises. </li>
+          <li>Recognizable active and rest periods. </li>
+          <li>The skin is building a protective wax layer (vernix).</li>
+        </ul>
+        <h2>Week Nineteen: Genitals recognizable</h2>
+        <p>You are 19 weeks pregnant. (fetal age 17 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek19">
+          <li>Fetus is around 6<b>.</b>5 inches (17cm) and 9 ounces (250gm). </li>
+          <li>Your placenta continues to grow and nourish the baby. </li>
+          <li>Features of your baby's heart, should be visible during an ultrasound. </li>
+          <li>Your baby's genitals are distinct and recognizable. </li>
+          <li>Scalp hair has sprouted and continues to grow.</li>
+        </ul>
+        <h2>Week Twenty: The halfway point</h2>
+        <p>You are 20 weeks pregnant. (fetal age 18 weeks) </p>
+        <p><strong>Congratulations!</strong><br>
+          You are halfway through your pregnancy, 20 weeks marks the midpoint. Remember, pregnancy is counted as 40 weeks from the beginning of your last period if you go full term.</p>
+        <ul data-role="listview" data-inset="true" id="detailWeek20">
+          <li>Baby now weighs about 11 ounces and is roughly 7 inches long. </li>
+          <li>Baby is 17cm long crown to rump, and weighs about 310 grams. </li>
+          <li>The baby can hear and recognize the mother's voice. </li>
+          <li>The mother will probably start feeling the first fetal movements. </li>
+          <li>The toenails and fingernails are growing. </li>
+          <li>The growth of hair on the rest of the body has started. </li>
+          <li>The skin is getting thicker. </li>
+          <li>The heart can now be heard with a stethoscope.</li>
+        </ul>
+	
+		
+	</div>
+</div>
+
+<div data-role="page" id="month5" data-url="month5">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 21 - 24</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>
+
+        <h2>Week Twenty One: Nourishment evolves</h2>
+        <p>You are 21 weeks pregnant. (fetal age 19 weeks)</p>
+        <ul data-role="listview" data-inset="true" id="detailWeek21">
+          <li>Length is now measured crown to heel. </li>
+          <li>The fetus has grown to 10<b>.</b>5 inches (27 cm) - 12<b>.</b>7 ounces 
+            (360 grams). </li>
+          <li>It is now gaining weight steadily, with fat being added to the body. </li>
+          <li>Bone marrow has started making blood cells. </li>
+          <li>Their small intestine is starting to absorb sugars.</li>
+        </ul>
+        <h2>Week Twenty Two: Taste buds develop</h2>
+        <p>You are 22 weeks pregnant. (fetal age 20 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek22">
+          <li>The fetus reacts to loud sounds. </li>
+          <li>Baby starts having a regular sleeping and waking rhythm. </li>
+          <li>The mother's movements can wake her baby. </li>
+          <li>Taste buds are forming on your baby's tongue. </li>
+          <li>The baby is 28cm long (crown to heel) and weighs over 450 grams. </li>
+          <li>The weekly weight gain has increased to around 70 grams.</li>
+        </ul>
+        <h2>Week Twenty Three: Sense of balance develops</h2>
+        <p>You are 23 weeks pregnant. (fetal age 21 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek23">
+          <li>He or she measures over 28cm and weighs up to 550 grams. </li>
+          <li>The baby is over 11 inches tall, weighs about a pound. </li>
+          <li>The eyebrows are visible. </li>
+          <li>The child can successfully suck. </li>
+          <li>Bones located in the middle ear harden.</li>
+        </ul>
+        <h2>Week Twenty Four: Practices breathing</h2>
+        <p>You are 24 weeks pregnant. (fetal age 22 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek24">
+          <li>The child is now gaining around 3 ounces (90 grams) a week. </li>
+          <li>Baby weighs about 1<b>.</b>3 pounds and is 12 inches long. </li>
+          <li>Baby weighs about 600 grams and is 30cm (crown to heel) long. </li>
+          <li>The eyelids can be seen very clearly. </li>
+          <li>If born at this stage is officially considered viable, they may well 
+            be able to survive.</li>
+        </ul>
+	</div>
+</div>
+
+<div data-role="page" id="month6" data-url="month6">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 25 - 28</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>
+
+        <h2>Week Twenty Five: Exploration continues</h2>
+        <p>You are 25 weeks pregnant. (fetal age 23 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek25">
+          <li>The unborn child is 34 cm in length and weighs almost 690 grams. </li>
+          <li>Baby is around 13<b>.</b>5 inches in length and weighs 1 and half 
+            pounds.</li>
+          <li>Bones are becoming solid, hands are now fully developed. </li>
+          <li>The brain is growing rapidly, the brain cells are starting to mature. </li>
+          <li>The sexual organs are fully developed.</li>
+        </ul>
+        <h2>Week Twenty Six: Second trimester ends</h2>
+        <p>You are 26 weeks pregnant. (fetal age 23 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek26">
+          <li>The baby measures 14 inches long and weighs over 1<b>.</b>7 pound. </li>
+          <li>Baby measures 35<b>.</b>5cm long and weighs over 760 grams. </li>
+          <li>The feet are 2 inches (5cm) long. Hands are very active. </li>
+          <li>The baby's eyes begin to open around this time.</li>
+        </ul>
+        <h2>Week Twenty Seven: Eyes can open</h2>
+        <p>You are 27 weeks pregnant. (fetal age 25 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek27">
+          <li>The fetus weighs almost 2 pounds now and is about 14<b>.</b>5 inches 
+            long.</li>
+          <li>Baby now weighs about 875 grams and is 36.5 cm in length. </li>
+          <li>The head is over 2<b>.</b>5 inches (7cm) in diameter. </li>
+          <li>Your baby's hearing continues to develop.</li>
+          <li>The eyes can blink, open and close.</li>
+        </ul>
+        <h2>Week Twenty Eight: May recognize your voice</h2>
+        <p>You are 28 weeks pregnant. (fetal age 26 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek28">
+          <li>The fetus has its own regular intervals for sleeping and being awake. </li>
+          <li>The weight has increased to 1000 grams and is 37<b>.</b>5cm in length. </li>
+          <li>2<b>.</b>2 pounds weight and is 14<b>.</b>8 inches in length from head 
+            to heel.</li>
+          <li>The feet are just over 2 inches (5.5cm) long. </li>
+          <li>The hair on the head is now clearly visible.</li>
+          <li>The milk teeth have developed under the gums. </li>
+          <li>The eyes are starting to move in their sockets.</li>
+        </ul>
+
+
+	</div>
+</div>
+
+<div data-role="page" id="month7" data-url="month7">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 29 - 32</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>	
+
+        <h2>Week Twenty Nine: Movement is more forceful</h2>
+        <p>You are 29 weeks pregnant. (fetal age 27 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek29">
+          <li>Your baby now weighs about 2 and a half pounds (1150gm) </li>
+          <li>and is about 15 inches (38.5cm) long from head to heel. </li>
+          <li>Brain is busy developing billions of neurons. </li>
+          <li>Baby's muscles and lungs are continuing to mature. </li>
+          <li>The fetus can taste and respond to pain. </li>
+          <li>The milk teeth have developed under the gums.</li>
+        </ul>
+        <h2>Week Thirty: Baby puts on pounds</h2>
+        <p>You are 30 weeks pregnant. (fetal age 28 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek30">
+          <li>Baby measurements are 16 inches and weighs about 3 pounds. </li>
+          <li>Length is 40cm and your baby's weight is 1.4 kilograms. </li>
+          <li>The head is almost 3.5 inches (8cm) in diameter. </li>
+          <li>The feet are nearly 2<b>.</b>5 inches (6cm) long. </li>
+          <li>The wrinkled skin is becoming smoother now. </li>
+          <li>In boys, the testicles have moved down to the groin. </li>
+          <li>The baby controls its own body temperature.</li>
+        </ul>
+        <h2>Week Thirty One: Baby detects light</h2>
+        <p>You are 31 weeks pregnant. (fetal age 29 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek31">
+          <li>Baby weighs 3.5 pounds and measures 16.5 inches from the head to heel. </li>
+          <li>Baby's weight is about 1.6 kg and length around 42cm. </li>
+          <li>The eyes have now completely opened and are responding to light and 
+            darkness. </li>
+          <li>A loud noise near you may cause your little one to jump.</li>
+        </ul>
+        <h2>Week Thirty Two: Reproductive development continues</h2>
+        <p>You are 32 weeks pregnant. (fetal age 30 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek32">
+          <li>The baby is 17 inches (43cm) long and weighs 4 pounds (1<b>.</b>8 
+            kilograms). </li>
+          <li>The diameter of the head is almost 4 inches (10cm). </li>
+          <li>Under the skin the fat layer is getting thicker. </li>
+          <li>The toenails and fingernails are completely formed. </li>
+          <li>In boys, the testicles will be descending from the groin down into his 
+            scrotum.</li>
+        </ul>
+
+
+	</div>
+</div>
+
+<div data-role="page" id="month8" data-url="month8">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 33 - 36</h1>
+	</div>
+		
+	<div data-role="content">
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>		
+
+        <h2>Week Thirty Three: Lanugo is disappearing</h2>
+        <p>You are 33 weeks pregnant. (fetal age 31 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek33">
+          <li>The baby is now 4.4 pounds (2 kg) and around 17.5 inches (44cm) in 
+            length.</li>
+          <li>The diameter of the head is about 8.5cm.</li>
+          <li>The baby fuzz, lanugo, is disappearing.</li>
+          <li>Your baby drinks about a pint of amniotic fluid a day. </li>
+          <li>You may gain a pound a week (500g) for the rest of your pregnancy. </li>
+          <li>Half of your weight gain will go directly to your baby.</li>
+        </ul>
+        <h2>Week Thirty Four: Rapid growth continues</h2>
+        <p>You are 34 weeks pregnant. (fetal age 32 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek34">
+          <li>Your baby now is approximately 18 inches long and weighs about 5.25 
+            pounds.</li>
+          <li>Baby is now 46cm crown to heel and the weight is 2400 grams. </li>
+          <li>Your child has now an excellent chance of survival outside the womb. </li>
+          <li>Fat accumulations plumps up the arms and legs this week. </li>
+          <li>Eyes opened when awake and closed when sleeping. </li>
+          <li>The fingernails are now completely formed.</li>
+        </ul>
+        <h2>Week Thirty Five: Reflexes are coordinated</h2>
+        <p>You are 35 weeks pregnant. (fetal age 33 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek35">
+          <li>Your baby is now about 18<b>.</b>5 inches in length and weighs over 5<b>.</b>5 
+            pounds.</li>
+          <li>Baby is about 47cm crown to heel and weighs almost 2<b>.</b>7 Kg. </li>
+          <li>The body is growing round due to developing fat layers. </li>
+          <li>Your baby's reflexes are coordinated.</li>
+          <li>Lungs are almost fully developed.</li>
+          <li>About 90% of babies born this week survive.</li>
+        </ul>
+        <h2>Week Thirty Six: Baby may drop into the birth canal</h2>
+        <p>You are 36 weeks pregnant. (fetal age 34 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek36">
+          <li>The baby is about 19 inches (48 cm) long.</li>
+          <li>Weight is around 6 pounds (2<b>.</b>7 kg).</li>
+          <li>The baby's body is becoming chubby as fat layers build. </li>
+          <li>Between now and birth they may gain about an ounce (30g) a day </li>
+          <li>You may feel contractions of the womb, called Braxton Hicks 
+            contractions.</li>
+        </ul>
+
+
+	</div>
+</div>
+
+<div data-role="page" id="month9" data-url="month9">
+	<div data-role="header">
+		<a href="http://www.ibaby-app.com/apps/mypregnancy/#index" data-rel="back">Back</a>
+		<h1>iBaby - Week 37 - 40</h1>
+	</div>
+		
+	<div data-role="content">	
+		<div class="face">
+			<div class="faceRow">
+				<div class="faceImage"></div>
+				<div class="babyName">
+					<div class="babyFirstName"></div>
+					<div class="babyLastName"></div>
+				</div>
+			</div>
+		</div>	
+
+        <h2>Week Thirty Seven: Baby is full term</h2>
+        <p>You are 37 weeks pregnant. (fetal age 35 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek37">
+          <li>Typically, baby now measures 19<b>.</b>5 inches (50 cm) from the head 
+            to the heel.</li>
+          <li>Baby weighs up to 7 pounds or 3 kilograms.</li>
+          <li>The head diameter is over 3<b>.</b>5 inches (9cm). </li>
+          <li>The water could break at any time.</li>
+          <li>If it does happen, see a doctor immediately.</li>
+        </ul>
+        <h2>Week Thirty Eight: Development is complete</h2>
+        <p>You are 38 weeks pregnant. (fetal age 36 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek38">
+          <li>Baby is about 20 inches (51 cm) and weighs about 7<b>.</b>5 pounds (3<b>.</b>4 
+            kilograms).</li>
+          <li>The soft down, which covered the body throughout the pregnancy, is now 
+            disappearing.</li>
+          <li>The body fat is continuing to build up.</li>
+          <li>The wrinkled skin is becoming 'baby' smooth.</li>
+          <li>The baby may have reached its final birth position. </li>
+          <li>Most babies are born head first with only about 3 percent coming out 
+            feet first.</li>
+          <li>About one in eight births are caesarean.</li>
+        </ul>
+        <h2>Week Thirty Nine: Very close now</h2>
+        <p>You are 39 weeks pregnant. (fetal age 37 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek39">
+          <li>The average baby is about 20 inches (51 cm) and weighs about 7<b>.</b>5 
+            pounds (3400 grams).</li>
+          <li>The baby has reached its final birth position. </li>
+          <li>It will be cramped inside your uterus for much movement. </li>
+          <li>Your baby will continue to punch and kick but lower in your abdomen, 
+            under your pelvis.</li>
+          <li>The head is about 4 inches (10 cm) in diameter. </li>
+          <li>Most of the baby's downy coating of lanugo has now disappeared.</li>
+        </ul>
+        <h2>Week Forty: Your due date arrives</h2>
+        <p>You are 40 weeks pregnant. (fetal age 38 weeks) </p>
+        <ul data-role="listview" data-inset="true" id="detailWeek40">
+          <li>You have now reached the time of delivery.</li>
+          <li>All systems are developed and ready to go.</li>
+          <li>Now it is just a matter of time.</li>
+          <li>Baby is about 20 inches (51cm) and weighs approximately 7<b>.</b>5 
+            pounds (3<b>.</b>5 kg).</li>
+          <li>The head has a diameter of about 4 inches (10 cm). </li>
+          <li>The contractions could begin at any moment.</li>
+          <li><b>Congratulations!</b></li>
+        </ul>
+	</div>
+</div>
+
+<div class="ui-loader ui-corner-all ui-body-a ui-loader-default"><span class="ui-icon ui-icon-loading"></span><h1>loading</h1></div><div data-role="dialog" class="ui-dialog-datebox ui-page ui-body-b ui-dialog ui-overlay-a pop" data-theme="b" tabindex="0" style="min-height: 0px; z-index: 500;"><div role="dialog" class="ui-dialog-contain ui-corner-all ui-overlay-shadow ui-corner-top ui-corner-bottom"><div data-role="header" data-backbtn="false" data-theme="a" class="ui-corner-top ui-header ui-bar-a" role="banner"><a href="http://www.ibaby-app.com/apps/mypregnancy/#" data-icon="delete" data-iconpos="notext" class="ui-corner-top ui-btn-left ui-btn ui-btn-up-a ui-btn-icon-notext ui-btn-corner-all ui-shadow" data-corners="true" data-shadow="true" data-iconshadow="true" data-inline="false" data-wrapperels="span" title="Close"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Close</span><span class="ui-icon ui-icon-delete ui-icon-shadow"></span></span></a><div class="ui-title ui-corner-bottom">First NameLast NameBoyGirlDue dateFirst day of last period</div></div><div data-role="content" class="ui-corner-bottom ui-content ui-body-b" role="main"></div></div></div></body></html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_gravity="center"
+	android:layout_height="fill_parent" android:gravity="center_horizontal"
+	android:background="@drawable/background">
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingTop="15dip" android:paddingBottom="15dip"
+		android:gravity="center_horizontal">
+  <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adUnitId="ca-app-pub-3919172384518296/8608068769"
+        ads:adSize="BANNER"
+        ads:refreshInterval="30"></com.google.ads.AdView>
+     
+	    
+	</LinearLayout>
+
+
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:layout_gravity="center"
+		android:gravity="center_horizontal">
+
+		<Button android:text="Start Exam" android:id="@+id/playBtn"
+			android:layout_width="fill_parent" android:layout_alignParentRight="true"
+			android:layout_height="0dp" android:background="@drawable/button_selector"
+            android:layout_weight="1"
+            android:textSize="50dp"
+            android:textStyle="bold"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textColor="#ffffff" />
+
+	
+
+		<Button android:text="Practice Exam" android:id="@+id/rulesBtn"
+			android:layout_width="fill_parent" android:layout_alignParentRight="true"
+			android:layout_height="0dp" android:background="@drawable/button_selector"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textColor="#ffffff"
+			 android:textSize="50dp"
+			 android:textStyle="bold"
+			android:layout_weight="1" />
+
+
+		<Button android:text="Settings" android:id="@+id/settingsBtn"
+			android:layout_width="fill_parent" android:layout_alignParentRight="true"
+			android:layout_height="0dp" android:background="@drawable/button_selector"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textStyle="bold"
+			android:textColor="#ffffff" 
+			 android:textSize="50dp"
+			android:layout_weight="1"/>
+
+
+		<Button android:text="Exit" android:id="@+id/exitBtn"
+			android:layout_width="fill_parent" android:layout_alignParentRight="true"
+			android:layout_height="0dp" android:background="@drawable/button_selector"
+			android:paddingTop="5dip" android:paddingBottom="5dip"
+			android:textColor="#ffffff" 
+			android:textStyle="bold"
+			 android:textSize="50dp"
+			android:layout_weight="1"/>
+
+	</LinearLayout>
+
+</LinearLayout>

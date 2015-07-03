@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:wingoku="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.wingoku.flatUI.WinGokuFlatButton
+        android:id="@+id/wingoku3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="wingoku"
+        android:textColor="#fff"
+        wingoku:normalStateColor="#EB974E"
+        wingoku:pressedStateColor="#F2784B" />
+
+    <com.wingoku.flatUI.WinGokuFlatEditText
+        android:id="@+id/mEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wingoku3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:hint="wingoku EditText"
+        wingoku:backgroundColor="#36D7B7" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/mEditText"
+        android:layout_below="@+id/wingoku3"
+        android:layout_marginTop="43dp" >
+
+        <com.wingoku.flatUI.WinGokuFlatRadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="WinGoku 1"
+            wingoku:rbColor="#6BB9F0" />
+
+        <com.wingoku.flatUI.WinGokuFlatRadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WinGoku 2"
+            wingoku:rbColor="#6BB9F0" />
+
+        <com.wingoku.flatUI.WinGokuFlatRadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WinGoku 3"
+            wingoku:rbColor="#6BB9F0" />
+    </RadioGroup>
+
+    <com.wingoku.flatUI.WinGokuFlatCheckBox
+        android:id="@+id/mCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        wingoku:cbColor="#BF55EC" />
+
+
+</RelativeLayout>

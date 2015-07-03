@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background" >
+
+    <RelativeLayout android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:focusable="true">
+		
+	    <ImageView android:src="@drawable/logo_radio"
+		    android:id="@+id/imageView1"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentTop="true"/>
+	    
+	    <TextView  android:layout_below="@+id/imageView1"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/currentSongView"
+		    android:gravity="center"
+		    android:text="@string/textview_currentsong_default"
+		    android:textColor="@android:color/primary_text_light"/>
+	
+		<ImageButton 
+		    android:layout_below="@+id/currentSongView"
+			android:id="@+id/ButtonTestPlayPause" 
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content"
+			android:src="@drawable/button_play"
+			android:layout_marginRight="0dp"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="0dp"
+			android:layout_marginLeft="20dp"
+			android:padding="0dp"
+			android:scaleType="matrix"/>
+		<SeekBar 
+			android:layout_toRightOf="@+id/ButtonTestPlayPause"
+			android:layout_below="@+id/currentSongView"
+			android:id="@+id/SeekBarTestPlay" 
+			android:layout_height="wrap_content" 
+			android:layout_width="match_parent"
+			android:thumb="@drawable/thumb_transparent"
+			android:layout_marginTop="5dp"/>
+		<LinearLayout android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_below="@+id/ButtonTestPlayPause">
+		 <com.google.ads.AdView android:id="@+id/adView"
+	                         android:layout_width="match_parent"
+	                         android:layout_height="wrap_content"
+	                         ads:adUnitId="a1514a6ab614535"
+	                         ads:adSize="BANNER"
+	                         ads:loadAdOnCreate="true"/>
+		 
+		 
+		  <!-- <ListView android:layout_width="match_parent"
+		         android:layout_height="wrap_content"
+		         android:id="@+id/programList"
+		         android:cacheColorHint="#00000000"
+		         android:paddingTop="5dip"
+		         android:visibility="gone">		         
+		  </ListView> -->
+		 
+		</LinearLayout>
+	</RelativeLayout>
+
+</RelativeLayout>

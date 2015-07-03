@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <declare-styleable name="wingokuflatui">
+        <attr name="pressedStateColor" format="string"/>
+        <attr name="normalStateColor" format="string"/>
+         <attr name="backgroundColor" format="string"/>
+         <attr name="rbColor" format="string"/>
+         <attr name="cbColor" format="string"/>
+    </declare-styleable>
+
+    
+</resources>

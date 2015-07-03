@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:qwerjk="http://schemas.android.com/apk/res/com.qwerjk.better_text"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:layout_width="fill_parent">
+<LinearLayout
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/b"
+	android:layout_width="fill_parent">
+	   <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white" >
+
+      
+    <com.qwerjk.better_text.MagicTextView
+         android:id="@+id/Count"
+         xmlns:qwerjk="http://schemas.android.com/apk/res/com.unlock.briefcase.password"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:textStyle="bold"
+        android:padding="10dp"
+        qwerjk:foreground="@drawable/wheel_bg"
+        qwerjk:innerShadowDy="1"
+        qwerjk:innerShadowColor="#FF000000"
+        qwerjk:innerShadowRadius="1"
+        android:layout_gravity="center_horizontal"
+        qwerjk:outerShadowDy="1"
+        qwerjk:outerShadowColor="#ffffff"
+        qwerjk:outerShadowRadius="7"
+        qwerjk:strokeColor="#FFff0000"
+        qwerjk:strokeJoinStyle="round"
+        qwerjk:strokeWidth="3"
+        android:text="Unlock the Password " />
+
+     
+    </LinearLayout>
+	<com.qwerjk.better_text.BorderedTextView
+	    android:id="@+id/head"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:layout_gravity="center_horizontal"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		android:textColor="@android:color/holo_red_dark"
+		android:text="Please enter PIN"/>
+			
+	<LinearLayout
+		android:layout_marginTop="24dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		
+		<kankan.wheel.widget.WheelView android:id="@+id/passw_1"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/passw_2"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/passw_3"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+		<kankan.wheel.widget.WheelView android:id="@+id/passw_4"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"/>
+	</LinearLayout>
+	
+   <TextView android:id="@+id/pwd_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#FFF"
+        android:text="Wrong PIN"/>
+	
+	<Button android:id="@+id/btn_mix"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="12dp"
+		android:textSize="18sp"
+		android:text="   Mix  "/>
+
+</LinearLayout>
+</ScrollView>

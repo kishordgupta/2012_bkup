@@ -1,0 +1,33 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.siliconorchard.hoteldealsfinder.MainActivity" >
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Editprofile"
+        app:showAsAction="always|withText"/>
+      <item
+        android:id="@+id/edit"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"/>
+        <item
+        android:id="@+id/giftcards"
+        android:orderInCategory="100"
+        android:title="See Redeemed Cards"
+        app:showAsAction="never"/>
+           
+        <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="Contact us"
+        app:showAsAction="never"/>
+          <item
+        android:id="@+id/seefeaturedvendor"
+        android:orderInCategory="100"
+        android:title="Exit"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Activity titles -->
+    <string name="app_name">বাংলা টিভি নিউজ Video</string>
+    <string name="ac_name_image_list">Image List Example</string>
+    <string name="ac_name_image_grid">বাংলা টিভি নিউজ Video</string>
+    <string name="ac_name_image_pager">বাংলা টিভি নিউজ Video</string>
+    <string name="ac_name_image_gallery">বাংলা টিভি নিউজ Video</string>
+    <!-- Labels -->
+    <string name="label_activity_examples">বাংলা টিভি নিউজ Video</string>
+    <string name="menu_item_clear_memory_cache">Clear memory caché</string>
+    <string name="menu_item_clear_disc_cache">clear</string>
+    <string name="newimt">"আপডেট করুন "</string>
+     <string name="button_image_list">বাংলা টিভি নিউজ Video list</string>
+    <string name="button_image_grid">বাংলা টিভি নিউজ Video grid</string>
+    <string name="button_image_pager">বাংলা টিভি নিউজ Video view</string>
+    <string name="button_image_gallery">বাংলা টিভি নিউজ Video gallery</string>
+    <!-- Content descriptions -->
+     <string name="feeds">http://videofeeds.lilait.com/banglatv.kd</string>
+     <string name="urlchat">http://videofeeds.lilait.com/chat/bangla/</string>
+    <string name="descr_image">Image</string>
+ <string name="Adid">a15274168b93b07</string>
+</resources>

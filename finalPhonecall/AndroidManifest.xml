@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kd.phonecall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+    <uses-feature android:name="android.hardware.telephony" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+<uses-permission android:name="android.permission.WRITE_SMS" />
+<uses-permission android:name="android.permission.SEND_SMS" />
+<uses-permission android:name="android.permission.RECEIVE_SMS" />
+<uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.kd.phonecall.MainActivity"
+            android:label="@string/app_name" >
+            
+        </activity>
+        
+           <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.MyAndroidAppActivity"
+                  android:label="@string/app_name"
+                  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.CitiesActivity"></activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.CitiesActivity1"></activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.SecondActivityGroup"></activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.FirstGroup"></activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.FirstGroup1"></activity>
+         <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.Start"></activity>
+        <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.ShowCity"></activity>
+              <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.Datainput"
+                  android:theme="@android:style/Theme.Dialog"></activity>
+                     <activity android:name="com.ekushevashaandolon.motherlanguageday.myandroid.MaindActivity"
+                 >
+              </activity>
+                 <activity android:name="com.lilakhelait.kishor.utility.StackParser"></activity>
+           
+               <service android:name=".PhoneCallReceive" android:enabled="true"/>
+        <receiver  android:name=".PhoneCallReceiver">
+            <intent-filter  android:priority="100" >
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+         <service android:name=".MessageReceiver" android:enabled="true"/>
+      <receiver android:name=".MessageReceiver">
+        <intent-filter android:priority="2147483645">
+         <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+        </intent-filter>
+      </receiver>
+    </application>
+
+</manifest>

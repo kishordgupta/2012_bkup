@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World SplashActivity!</string>
+    <string name="app_name">Death Note Anime Quiz app</string>
+    <string name="rules">
+       Light Yagami is an intelligent young adult who resents all things evil. He also wishes to end crime in the world and create a utopia in which he reigns supreme. His life undergoes a drastic change when he discovers the Death Note, a notebook that contains five written instructions:
+
+The human whose name is written in this notebook shall die.
+This notebook will not take effect unless the writer has the subjects face in their mind when writing his/her name. Therefore, people sharing the same name will not be affected.
+If the cause of death is written within 40 seconds of writing the persons name, it will happen.
+If the cause of death is not specified, the person will simply die of a heart attack.
+After writing the cause of death, the details of the death should be written in the next 6 minutes and 40 seconds.
+There are other rules that are revealed as the story develops, usually in the form of chapter title pages. After several experiments with the Death Note, Light realizes the notebooks authenticity and encounters the previous owner, a shinigami called Ryuk. Light tells Ryuk of his plan of exterminating all the criminals in the world, until there are only people who he has judged to be honest and kind. Once he finishes this, he will begin his reign as the god of this new world.
+
+Soon, the number of inexplicable deaths of criminals catches the attention of the International Police Organization and the world-famous detective, "L". L quickly learns that the serial killer, publicly known as "Kira" (キラ?, derived from the Japanese pronunciation of the word "killer"), is located in Japan and can kill people without laying a finger on them. Light realizes that L will be his greatest nemesis, and begins a cat and mouse game with L.
+
+Light attempts to create an alibi by helping L and his investigative team track down Kira. His plan is impeded by a second Kira, famous model Misa Amane, and her shinigami Rem. Misa and Light meet and work together, and become increasingly suspected by L. To save themselves from execution, Misa and Light temporarily relinquish control of their Death Notes—erasing their memories of the shinigami and the notebooks—and are placed under constant surveillance by L.
+
+During their detention, a third Kira under the employ of the Yotsuba Group appears. Light and Misa are freed when it becomes apparent that they are not responsible for the murders of Yotsubas rivals. The investigative team infiltrate Yotsuba and discover the third Kira is Yotsuba member Kyosuke Higuchi and attempt to capture him. Upon Higuchis capture, Light regains ownership of the Death Note "just as [he] planned" and kills Higuchi, while the investigative team learn of the Death Notes and shinigami. Light completes his complex plan by manipulating Rem into killing both L and herself. Light becomes the "new L" upon Ls death, and continues a charade of searching for Kira.
+
+The narrative continues four years later, with Kira attracting a large network of contacts and a swell of public support. Two children, Near and Mello, raised by Ls former guardian Watari to follow Ls legacy, serve as antagonists to Light: Near as an independent detective; and Mello as a member of the Mafia. Mellos first action to oppose Kira is to kidnap the director of Japans National Police Agency, and after his murder, Lights sister Sayu, to use as a bargaining chip to obtain the Death Note. Lights task force recapture Sayu and learn Mellos real name after Lights father Soichiro trades half of his remaining life to Ryuk for the ability to discover anyones names, but Soichiro later dies of gunshot wounds.
+
+Concurrently, Near and several members of the task force begin to suspect Light of being Kira. In response, Light persuades Misa to give up her Death Note and raises another "Kira", Teru Mikami, a prosecutor and fervent supporter of Kira. Mikami kills Kiras former spokesman for being greedy and recruits Kiyomi Takada, a newscaster and Lights former girlfriend, to replace him. Mello returns and kidnaps Kiyomi, who manages to kill Mello with a hidden Death Note piece. Light then makes Kiyomi commit suicide to prevent her from implicating him, but Mikami, unaware of Lights actions, attempts to kill her with his own Death Note. Near reveals that he replaced Mikamis notebook with a fake, and by the names written in it is able to prove Light is Kira. In desperation, Light tries to use the last Death Note piece in his watch to kill the rest of the task force, but Matsuda shoots him several times. Realizing Light has lost, Ryuk uses his Death Note to kill Light with a heart attack, which was a part of their original agreement.</string>
+</resources>

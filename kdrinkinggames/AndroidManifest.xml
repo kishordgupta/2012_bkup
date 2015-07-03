@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.kd.dasinnovation.movie.chickflicksurvivalguide"
+      android:versionCode="2"
+      android:versionName="1.1">
+ <uses-sdk android:minSdkVersion="5" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name"  android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name="com.kd.kdstagemanagement.view.Firstactivity"
+                  android:label="@string/app_name"
+                   android:theme="@android:style/Theme.Dialog"
+                 >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity android:name="com.kd.kdstagemanagement.view.DrinkGame" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+          <activity android:name="com.kd.kdstagemanagement.view.Triviantips" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+        <activity android:name="com.kd.kdstagemanagement.view.TimelinezGame" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+        <activity android:name="com.kd.kdstagemanagement.view.MainActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+   <activity android:name="com.kd.kdstagemanagement.view.TimelineActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+       <activity android:name="com.kd.kdstagemanagement.view.TriviantipsActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+      <activity android:name="com.kd.kdstagemanagement.view.DrinkingActivity" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+        <activity android:name="com.kd.kdstagemanagement.view.Browseforcatalogue" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+         <activity android:name="com.kd.kdstagemanagement.view.Searchbyname" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>  
+      <activity android:name="com.kd.kdstagemanagement.view.Settings" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+       <activity android:name="com.kd.kdstagemanagement.view.Result" android:screenOrientation="portrait" android:configChanges="orientation|keyboardHidden"
+     > </activity>
+    </application>
+</manifest>

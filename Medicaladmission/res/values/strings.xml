@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World SplashActivity!</string>
+    <string name="app_name">Bangladesh Medical Admission Model Test</string>
+    <string name="rules">
+       Model Test Based on Previous 5 years question</string></resources>

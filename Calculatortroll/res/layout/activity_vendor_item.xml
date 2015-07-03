@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offBlack" 
+    android:orientation="vertical">
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/transperant">
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical">
+	        
+		    <LinearLayout 
+		        android:id="@+id/merchantInfo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:layout_margin="6dp"
+		        android:padding="10dp"
+		        android:background="@drawable/merchant_area_background">
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:orientation="vertical"
+		            android:gravity="center_horizontal"
+		            android:background="@color/transperant">
+		            
+		            <ImageView 
+		                android:layout_width="60dp"
+		                android:layout_height="60dp"
+		                android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                android:id="@+id/virtualMerchantNo"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@color/whiteColor"
+		                android:text="V-Merchant No: M012345"/>
+		            <TextView 
+		                android:id="@+id/eWalletValue"
+		                android:layout_marginTop="6dp"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@color/whiteColor"
+		                android:text="E Wallet Value: 40000"/>
+		            <TextView 
+		                android:id="@+id/monthlySale"
+		                android:layout_marginTop="6dp"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@color/whiteColor"
+		                android:text="Monthly Sale: 200"/>
+		        </LinearLayout>
+		        
+		    </LinearLayout>	    
+		    
+		    <LinearLayout 
+		        android:id="@+id/vendorList"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_horizontal"
+		        android:layout_margin="6dp"
+		        android:padding="10dp"
+		        android:orientation="vertical"
+		        android:background="@color/transperant">
+		        
+		        <LinearLayout 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal"
+		            android:padding="6dp"
+		            android:gravity="center_vertical">
+		            <ImageView 
+		                android:layout_width="30dp"
+		                android:layout_height="30dp"
+		                android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="6dp"
+		                android:text="Items and Description"/>
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:orientation="horizontal"
+		            android:padding="6dp"
+		            android:gravity="center_vertical">
+		            <ImageView 
+		                android:layout_width="30dp"
+		                android:layout_height="30dp"
+		                android:src="@drawable/ic_launcher"/>
+		            <TextView 
+		                android:layout_width="match_parent"
+		                android:layout_height="wrap_content"
+		                android:layout_marginLeft="6dp"
+		                android:text="Items and Description"/>
+		        </LinearLayout>
+		        
+		    </LinearLayout>
+		    
+		    
+		   <LinearLayout 
+		        android:id="@+id/brandingDetailsArea"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="left"
+		        android:layout_margin="6dp"
+		        android:padding="10dp"
+		        android:orientation="vertical"
+		        android:background="@drawable/branding_details_background">
+		        
+		        <TextView 
+		                android:id="@+id/brandingDetailsTextView"
+		                android:layout_marginTop="6dp"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textColor="@color/whiteColor"
+		                android:text="Branding Details Here."/>
+		        
+		    </LinearLayout>
+	    
+	    </LinearLayout>
+	    
+	</ScrollView>   
+
+</LinearLayout>

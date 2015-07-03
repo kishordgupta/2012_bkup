@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bangla.natok.prova"
+    android:versionCode="11"
+    android:versionName="5.2" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.bangla.natok.prova.Firstactivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bangla.natok.prova.MainActivity2"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+          <activity
+            android:name="com.bangla.natok.prova.act.Hasanmasudnatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.Oldnatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.humayonahmednatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.mehjabinnatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.mosarofjorimnatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.opurbonatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+             <activity
+            android:name="com.bangla.natok.prova.act.tishanatok"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bangla.natok.prova.StackParser"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.lukedeighton.wheelsample.MainActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <service
+            android:name="com.ironsource.mobilcore.MobileCoreReport"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":mcServiceProcess" />
+
+        <receiver
+            android:name="com.ironsource.mobilcore.InstallationTracker"
+            android:enabled="true"
+            android:process=":installationTracker" />
+    </application>
+
+</manifest>

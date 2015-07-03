@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.siliconorchard.hoteldealsfinder.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/top"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="8"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:gravity="center" >
+
+                    <WebView
+                        android:id="@+id/img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="240dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginTop="1dp"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+                     <LinearLayout
+                    android:id="@+id/pa"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/webmapview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_selector"
+                        android:text="Map view" />
+
+                    <Button
+                        android:id="@+id/streetmapview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_selector"
+                        android:text="Street View" />
+                </LinearLayout>
+                            <!--   <LinearLayout
+                    android:id="@+id/topa"
+                    android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                    android:layout_weight="4"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:gravity="center" >
+
+                    <WebView
+                        android:id="@+id/mapweb"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="@android:color/black" />
+                </LinearLayout>
+            -->
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical" >
+
+        <com.atomix.kurowiz.supports.MyScrollView
+            android:id="@+id/scrollView_exchange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+              
+
+                    <WebView
+                        android:id="@+id/webV1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_footer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+                 
+                </LinearLayout>
+            </LinearLayout>
+        </com.atomix.kurowiz.supports.MyScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="app_name">Carteret County Travel Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">This application was made to help people explore Carteret County historical locations. \nPlease do the following to use this application. \nClick on the city youre in or you wish to visit.\n Following this, click on the location you would like to check out.\n You should now be prompted with several buttons.
+\n\n
+(Buttons have change. We need to add what they do)
+\n\n
+Please feel free to e-mail me if a place is missed marked, \nor if a place should be added to the list. \nIf you feel a place should be added, \nplease make sure its historical. Giving its historical or a museum,\n please e-mail me the name of the place,\n where it is, and some facts about it. 
+You can e-mail me by clicking the button below.
+\n\n\n
+(Within the button and the e-mail the button sends the e-mail too)  craigbennettii@techreviewsandhelp.com
+\n\n
+(Below is the TTS. This will change before we whenever we are done with this.)
+\n\n
+ \nThis application was made by Craig Bennett, to help people explore Carteret County historical locations.\n Please do the following to use this application. Click on the city youre in or you wish to visit. Following this, click on the location you would like to check out. \nYou should now be prompted with several buttons. \nThe Go back button takes you to the previous screen. 
+ \nThe Directions button will pull up Google Maps. 
+ \nThe phone should automatically try to find your location, and it will try to direct you to the location of what you picked.  
+ \n(This may require a working data network) The Street view button will pull up the Street View of the area you are checking out.
+ \n(This feature requires a working data network) the Play button will  have me read the text below the cyan line. 
+ \nKeep in mind, you may want to adjust   Below the cyan line is a summary of the place. To get the fullest experience,
+ \nplease visit the places listed.   Please feel free to e-mail Craig if a place is missed marked, or if a place should be added to the list. 
+ \nIf you feel a place should be added, please make sure its historical in some way. Giving its historical or a museum,\n please e-mail craig the name of the place, where it is, and some facts about it. 
+ The more detailed you are, the better the out come maybe.\n You can e-mail craig by clicking the button below. 
+ You may hear this message again by clicking the play button above.</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Welcome screen</item>
+        <item >Find People</item>
+        <item >Photos</item>
+        <item >Communities</item>
+        <item >Pages</item>
+        <item >What\'s Hot</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+        <item>@drawable/ic_pages</item>
+        <item>@drawable/ic_whats_hot</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

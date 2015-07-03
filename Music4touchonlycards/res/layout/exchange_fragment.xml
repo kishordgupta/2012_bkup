@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/darker_gray" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Order Gift"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="25sp" />
+
+     
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:layout_centerHorizontal="true" >
+
+        <com.atomix.kurowiz.supports.MyScrollView
+            android:id="@+id/scrollView_exchange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+           
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:background="@android:color/background_light"  >
+
+                    <TextView
+                        android:id="@+id/txt_view_exchange"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="20dip"
+                        android:text="1000"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="20sp" />
+
+                 
+
+                    <ImageButton
+                        android:id="@+id/img_btn_exchange"
+                        android:layout_width="35dp"
+                        android:layout_height="35dp"
+                        android:layout_toRightOf="@+id/txt_view_exchange"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dip"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/pressp"></ImageButton>
+
+                </RelativeLayout>
+ <WebView
+        android:id="@+id/webV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+               
+            </LinearLayout>
+        </com.atomix.kurowiz.supports.MyScrollView>
+           
+    </FrameLayout>
+
+</RelativeLayout>

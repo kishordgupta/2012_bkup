@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+<item
+        android:id="@+id/valentionrossi"
+        android:title="Valentino Rossi">
+        <menu>
+            <item
+                android:id="@+id/bio"
+                android:title="Biography"/>
+           
+            <item
+                android:id="@+id/carree"
+                android:title="Career"/>
+            <item
+                android:id="@+id/ppr"
+                android:title="Personal Profilel">
+            </item>
+            <item
+                android:id="@+id/stat"
+                android:title="Statistics"/>
+           
+        </menu>
+    </item>
+    <item
+        android:id="@+id/news"
+        android:title="News">
+        <menu>
+            <item
+                android:id="@+id/feat"
+                android:title="Featured"/>
+           
+            <item
+                android:id="@+id/inter"
+                android:title="Interviews"/>
+            <item
+                android:id="@+id/article"
+                android:title="Articles">
+            </item>
+            <item
+                android:id="@+id/setupre"
+                android:title=">Set-up Reports"/>
+            <item
+                android:id="@+id/quali"
+                android:title="Qualifying">
+            </item>
+            <item
+                android:id="@+id/raceresu"
+                android:title="Race Results"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/dl"
+        android:title="Downloads">
+        
+    </item>
+        <item
+                android:id="@+id/vide"
+                android:title="Video"/>
+            <item
+                android:id="@+id/photo"
+                android:title="Photos">
+            </item>
+       <item
+                android:id="@+id/cal"
+                android:title="Calender"/>
+            <item
+                android:id="@+id/shop"
+                android:title="shop">
+            </item>
+    <item
+        android:id="@+id/championship"
+        android:title="Championship">
+       
+    </item>
+    <item
+        android:id="@+id/riderteam"
+        android:title="Riders &amp; Team">
+        <menu>
+            <item
+                android:id="@+id/rider"
+                android:title="Motogp Riders"/>
+            <item
+                android:id="@+id/team"
+                android:title="Motogp  Teams">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/insidemotogp"
+        android:title="motogptickets">
+       
+    </item>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>

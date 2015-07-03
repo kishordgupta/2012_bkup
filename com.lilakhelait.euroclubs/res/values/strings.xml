@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">LilakhelaIT</string>
+    <string name="app_name">European All Football Club Logo</string>
+
+     <string name="country_prompt">Choose a club</string>
+ 
+    <string-array name="country_arrays">
+      <item>aab_aalborg</item>
+<item>aalesunds fk</item>
+<item>aa gent</item>
+<item>aberdeen</item>
+<item>ab kphybenhavn</item>
+<item>academica coimbra</item>
+<item>ac bellinzona</item>
+<item>ac cesena</item>
+<item>ac horsens</item>
+<item>ac milan</item>
+<item>ac parma</item>
+<item>adanaspor</item>
+<item>admira wacker</item>
+<item>admira wien</item>
+<item>ado den haag</item>
+<item>aek athens</item>
+<item>aek larnaca</item>
+<item>ael limassol</item>
+<item>ae larissa</item>
+<item>afan lido</item>
+<item>agf aarhus</item>
+<item>aifk turku</item>
+<item>aik stockholm</item>
+<item>airdrieonians</item>
+<item>ajax</item>
+<item>aj auxerre</item>
+<item>akademik sofia</item>
+<item>alania vladikavkaz</item>
+<item>albania</item>
+<item>albpetrol patosi</item>
+<item>alemannia aachen</item>
+<item>alki larnaca</item>
+<item>alliance dudelange</item>
+<item>allianssi vantaa</item>
+<item>altay izmir</item>
+<item>ameri tbilisi</item>
+<item>amica wronki</item>
+<item>amkar perm</item>
+<item>anderlecht</item>
+<item>andorra</item>
+<item>ankaragucu</item>
+<item>anorthosis famagusta</item>
+<item>antalyaspor as</item>
+<item>anzhi makhachkala</item>
+<item>apoel nicosia</item>
+<item>apollon athens</item>
+<item>apollon limassol</item>
+<item>apolonia fier</item>
+<item>apop kinyras peyias</item>
+<item>araks ararat</item>
+<item>ararat yerevan</item>
+<item>ards fc</item>
+<item>arges pitesti</item>
+<item>aris bonnevoie</item>
+<item>aris thessaloniki</item>
+<item>arka gdynia</item>
+<item>armenia</item>
+<item>arsenal</item>
+<item>arsenal kiev</item>
+<item>asa tirgu mures</item>
+<item>asteras tripolis</item>
+<item>aston villa</item>
+<item>as angouleme</item>
+<item>as cannes</item>
+<item>as monaco</item>
+<item>as nancy lorraine</item>
+<item>as roma</item>
+<item>as saint etienne</item>
+<item>atalanta</item>
+<item>athinaikos</item>
+<item>athletic bilbao</item>
+<item>athlone town</item>
+<item>atlantas klaipeda</item>
+<item>atletico madrid</item>
+<item>atromitos fc</item>
+<item>aufbau magdeburg</item>
+<item>austria</item>
+<item>austria salzburg</item>
+<item>austria wien</item>
+<item>avenir beggen</item>
+<item>azerbaijan</item>
+<item>az alkmaar</item>
+<item>b1901 nykphybing</item>
+<item>b1903 kphybenhavn</item>
+<item>b1909 odense</item>
+<item>b1913 odense</item>
+<item>b36 torshavn</item>
+<item>b68 toftir</item>
+<item>b71 sandur</item>
+<item>b93 kphybenhavn</item>
+<item>ballymena united</item>
+<item>banants yerevan</item>
+<item>banga gargzdai</item>
+<item>bangor city</item>
+<item>bangor fc</item>
+<item>banik ostrava</item>
+<item>barry town</item>
+<item>basel xi</item>
+<item>baskimi kumanovo</item>
+<item>bate borisov</item>
+<item>bayern munchen</item>
+<item>bayer leverkusen</item>
+<item>beerschot vav</item>
+<item>beira mar</item>
+<item>beitar jerusalem</item>
+<item>bekescsabai elore</item>
+<item>belarus</item>
+<item>belasica strumica</item>
+<item>belgium</item>
+<item>belgrade xi</item>
+<item>belshina bobruisk</item>
+<item>belvedur izola</item>
+<item>benfica</item>
+<item>berrichonne chateauroux</item>
+<item>besa kavaje</item>
+<item>besiktas</item>
+<item>bfc dynamo berlin</item>
+<item>birkirkara</item>
+<item>birmingham city</item>
+<item>bk hacken</item>
+<item>blackburn rovers</item>
+<item>bnei sakhnin</item>
+<item>bnei yehuda</item>
+<item>boavista</item>
+<item>bodphy glimt</item>
+<item>bohemians dublin</item>
+<item>bohemians praha</item>
+<item>bologna</item>
+<item>bolton wanderers</item>
+<item>boluspor</item>
+<item>borac cacak</item>
+<item>borough united</item>
+<item>borussia dortmund</item>
+<item>borussia monchengladbach</item>
+<item>bosnia herzegovina</item>
+<item>bosnia herzegovina 2</item>
+<item>botev plovdiv</item>
+<item>botev vratsa</item>
+<item>bray wanderers</item>
+<item>breidablik</item>
+<item>brotnjo citluk</item>
+<item>brphyndby if</item>
+<item>bryne fk</item>
+<item>buducnost banatski dvor</item>
+<item>buducnost banovici</item>
+<item>buducnost podgorica</item>
+<item>bulgaria</item>
+<item>burnley fc</item>
+<item>bursaspor</item>
+<item>bvsc budapest</item>
+<item>bylis ballshi</item>
+<item>cagliari</item>
+<item>cardiff city</item>
+<item>carl zeiss jena</item>
+<item>carmarthen town</item>
+<item>carrick rangers</item>
+<item>castilla</item>
+<item>ca spora luxembourg</item>
+<item>cca bucuresti</item>
+<item>cdna sofia</item>
+<item>cd alaves</item>
+<item>cefn druids</item>
+<item>celik niksic</item>
+<item>celta de vigo</item>
+<item>celtic</item>
+<item>cementarnica skopje</item>
+<item>cercle brugge</item>
+<item>ce principat</item>
+<item>ce sabadell</item>
+<item>cfr cluj</item>
+<item>cf os belenenses</item>
+<item>charleroi</item>
+<item>chelsea</item>
+<item>chemie halle</item>
+<item>chemie leipzig</item>
+<item>chemlon humenne</item>
+<item>chernomorets burgas</item>
+<item>chernomorets novoross</item>
+<item>chernomorets odesa</item>
+<item>chernomorets odessa</item>
+<item>cherno more varna</item>
+<item>chievo verona</item>
+<item>chimia rimnicu vilcea</item>
+<item>cibalia vinkovci</item>
+<item>cliftonville</item>
+<item>club brugge</item>
+<item>coleraine</item>
+<item>constelacio sportiva</item>
+<item>constructorul chisinau</item>
+<item>cork celtic</item>
+<item>cork city</item>
+<item>cork hibernians</item>
+<item>corvinul hunedoara</item>
+<item>cosmos</item>
+<item>coventry city</item>
+<item>croatia</item>
+<item>crusaders belfast</item>
+<item>csepel budapest</item>
+<item>cska kiev</item>
+<item>cska moscow</item>
+<item>cska sofia</item>
+<item>csu galati</item>
+<item>cs fola esch</item>
+<item>cs grevenmacher</item>
+<item>cs petange</item>
+<item>cs sedan</item>
+<item>cwks warsaw</item>
+<item>cwmbran town</item>
+<item>cyprus</item>
+<item>czechoslovakia</item>
+<item>czech republic</item>
+<item>dacia chisinau</item>
+<item>dac dunajska streda</item>
+<item>dag liepaja</item>
+<item>daring cb</item>
+<item>daugava daugavpils</item>
+<item>daugava riga</item>
+<item>degerfors if</item>
+<item>denizlispor</item>
+<item>denmark</item>
+<item>deportivo la coruna</item>
+<item>derby county</item>
+<item>derry city</item>
+<item>differdange 03</item>
+<item>digenis morphou</item>
+<item>dila gori</item>
+<item>dinaburg daugavpils</item>
+<item>dinamo 93 minsk</item>
+<item>dinamo bacau</item>
+<item>dinamo baku</item>
+<item>dinamo batumi</item>
+<item>dinamo brest</item>
+<item>dinamo bucuresti</item>
+<item>dinamo kiev</item>
+<item>dinamo minsk</item>
+<item>dinamo moscow</item>
+<item>dinamo pitesti</item>
+<item>dinamo tbilisi</item>
+<item>dinamo tirana</item>
+<item>dinamo zagreb</item>
+<item>diosgyori miskolc</item>
+<item>distillery belfast</item>
+<item>djurgardens if</item>
+<item>dnepr dnepropetrovsk</item>
+<item>dnepr mogilev</item>
+<item>dnipro dnipropetrovsk</item>
+<item>dos utrecht</item>
+<item>drogheda united</item>
+<item>drumcondra fc</item>
+<item>dukla banska bystrica</item>
+<item>dukla praha</item>
+<item>dunaferr dunaujvaros</item>
+<item>dunav ruse</item>
+<item>dundalk</item>
+<item>dundee fc</item>
+<item>dundee united</item>
+<item>dunfermline athletic</item>
+<item>dungannon swifts</item>
+<item>dvsc debrecen</item>
+<item>dws amsterdam</item>
+<item>dynamo dresden</item>
+<item>dynamo zilina</item>
+<item>east germany</item>
+<item>eb streymur</item>
+<item>eendracht aalst</item>
+<item>egaleo athens</item>
+<item>eintracht braunschweig</item>
+<item>eintracht frankfurt</item>
+<item>eisenhuttenstadt</item>
+<item>ekranas panevezys</item>
+<item>electroputere craiova</item>
+<item>empoli</item>
+<item>england</item>
+<item>england 3 premier league</item>
+<item>enosis paralimni</item>
+<item>en avant guingamp</item>
+<item>epa larnaca</item>
+<item>erciyesspor</item>
+<item>esbjerg fb</item>
+<item>eskisehirspor</item>
+<item>espanyol</item>
+<item>estonia</item>
+<item>estrela amadora</item>
+<item>etar veliko tarnovo</item>
+<item>ethnikos achna</item>
+<item>eto gyor</item>
+<item>etzella ettelbruck</item>
+<item>everton</item>
+<item>excelsior mouscron</item>
+<item>f91 dudelange</item>
+<item>faetano</item>
+<item>falkirk fc</item>
+<item>fandok bobruisk</item>
+<item>farense</item>
+<item>faroe islands</item>
+<item>fbk kaunas</item>
+<item>fc aarau</item>
+<item>fc amsterdam</item>
+<item>fc bacau</item>
+<item>fc baia mare</item>
+<item>fc balzers</item>
+<item>fc barcelona</item>
+<item>fc barcelona 4 100 years</item>
+<item>fc barreirense</item>
+<item>fc basel</item>
+<item>fc beroe stara zagora</item>
+<item>fc brasov</item>
+<item>fc brno</item>
+<item>fc chemnitz</item>
+<item>fc den haag</item>
+<item>fc encamp</item>
+<item>fc fehervar</item>
+<item>fc gomel</item>
+<item>fc groningen</item>
+<item>fc gueugnon</item>
+<item>fc haarlem</item>
+<item>fc halle</item>
+<item>fc izzo vac</item>
+<item>fc kaiserslautern</item>
+<item>fc karl marx stadt</item>
+<item>fc karnten</item>
+<item>fc koln</item>
+<item>fc kosice</item>
+<item>fc kphybenhavn</item>
+<item>fc lahti</item>
+<item>fc liege</item>
+<item>fc lorient</item>
+<item>fc lugano</item>
+<item>fc lusitanos</item>
+<item>fc luzern</item>
+<item>fc magdeburg</item>
+<item>fc metz</item>
+<item>fc midtjylland</item>
+<item>fc mondercange</item>
+<item>fc nantes</item>
+<item>fc nitra</item>
+<item>fc nordsjaelland</item>
+<item>fc nurnberg</item>
+<item>fc porto</item>
+<item>fc rouen</item>
+<item>fc saarbrucken</item>
+<item>fc salzburg</item>
+<item>fc sankt gallen</item>
+<item>fc santa coloma</item>
+<item>fc schaan</item>
+<item>fc senec</item>
+<item>fc shumen</item>
+<item>fc sion</item>
+<item>fc sliven</item>
+<item>fc sochaux montbeliard</item>
+<item>fc sopron</item>
+<item>fc tbilisi</item>
+<item>fc thun</item>
+<item>fc timisoara</item>
+<item>fc tiraspol</item>
+<item>fc tirol innsbruck</item>
+<item>fc twente enschede</item>
+<item>fc utrecht</item>
+<item>fc vac</item>
+<item>fc vaduz</item>
+<item>fc vaslui</item>
+<item>fc vorwarts frankfurt</item>
+<item>fc wettingen</item>
+<item>fc wil</item>
+<item>fc zestafoni</item>
+<item>fc zlate moravce</item>
+<item>fc zurich</item>
+<item>fenerbahce</item>
+<item>ferencvaros</item>
+<item>feyenoord</item>
+<item>fh hafnarfjardar</item>
+<item>finland</item>
+<item>finnpa helsinki</item>
+<item>finn harps</item>
+<item>fiorentina</item>
+<item>first vienna fc</item>
+<item>fk aktobe</item>
+<item>fk almaty</item>
+<item>fk astana</item>
+<item>fk atyrau</item>
+<item>fk baku</item>
+<item>fk bezanija</item>
+<item>fk bor</item>
+<item>fk borac banja luka</item>
+<item>fk jablonec</item>
+<item>fk jagodina</item>
+<item>fk jelgava</item>
+<item>fk minsk</item>
+<item>fk modrica</item>
+<item>fk moscow</item>
+<item>fk obilic</item>
+<item>fk pribram</item>
+<item>fk rad belgrade</item>
+<item>fk riga</item>
+<item>fk sarajevo</item>
+<item>fk senica</item>
+<item>fk sevojno</item>
+<item>fk shamkir</item>
+<item>fk siauliai</item>
+<item>fk tauras</item>
+<item>fk teplice</item>
+<item>fk ventspils</item>
+<item>fk yerevan</item>
+<item>flacara moreni</item>
+<item>flora tallinn</item>
+<item>floriana</item>
+<item>folgore</item>
+<item>fortuna 54 geleen</item>
+<item>fortuna dusseldorf</item>
+<item>fortuna sittard</item>
+<item>fram reykjavik</item>
+<item>france</item>
+<item>frankfurt xi</item>
+<item>fredrikstad fk</item>
+<item>fremad amager</item>
+<item>frem kobenhavn</item>
+<item>frigg oslo</item>
+<item>fsv mainz 05</item>
+<item>fulham fc</item>
+<item>fylkir reykjavik</item>
+<item>fyllingen il</item>
+<item>gagra tbilisi</item>
+<item>gais goteborg</item>
+<item>galatasaray</item>
+<item>galway united</item>
+<item>gandzasar kapan</item>
+<item>garabag agdam</item>
+<item>gaziantepspor</item>
+<item>gaz metan medias</item>
+<item>gd chaves</item>
+<item>gd cuf barreiro</item>
+<item>gefle if</item>
+<item>genclerbirligi</item>
+<item>genoa</item>
+<item>georgia</item>
+<item>georgia tbilisi</item>
+<item>germany</item>
+<item>germinal beerschot</item>
+<item>germinal ekeren</item>
+<item>getafe</item>
+<item>girondins bordeaux</item>
+<item>gi gotu</item>
+<item>gjphyvik lyn</item>
+<item>gks belchatow</item>
+<item>gks katowice</item>
+<item>gks tychy</item>
+<item>glasgow rangers</item>
+<item>glenavon</item>
+<item>glentoran</item>
+<item>gloria bistrita</item>
+<item>gornik zabrze</item>
+<item>goztepe</item>
+<item>go ahead deventer</item>
+<item>grasshoppers zurich</item>
+<item>grazer ak</item>
+<item>greece</item>
+<item>greenock morton</item>
+<item>gretna fc</item>
+<item>grindavik</item>
+<item>groclin grodzisk</item>
+<item>gwardia warsaw</item>
+<item>gzira united</item>
+<item>hajduk kula</item>
+<item>hajduk split</item>
+<item>haka valkeakoski</item>
+<item>haladas szombathely</item>
+<item>halmstads bk</item>
+<item>hamburger sv</item>
+<item>hammarby if</item>
+<item>hamrun spartans</item>
+<item>hannover 96</item>
+<item>hansa rostock</item>
+<item>hapoel beer sheva</item>
+<item>hapoel haifa</item>
+<item>hapoel ironi rishon</item>
+<item>hapoel kiryat shmona</item>
+<item>hapoel petah tikva</item>
+<item>hapoel ramat gan</item>
+<item>hapoel tel aviv</item>
+<item>hask gradjanski</item>
+<item>haugur haugesund</item>
+<item>haverfordwest county</item>
+<item>hb torshavn</item>
+<item>hearts fc</item>
+<item>heerenveen</item>
+<item>hellas verona</item>
+<item>helsingborg if</item>
+<item>herfphylge bk</item>
+<item>hertha bsc</item>
+<item>hibernian</item>
+<item>hibernians fc</item>
+<item>hifk helsinki</item>
+<item>hjk helsinki</item>
+<item>holbaek bandif</item>
+<item>home farm fc</item>
+<item>honka espoo</item>
+<item>honved budapest</item>
+<item>hps helsinki</item>
+<item>hradec kralove</item>
+<item>hungary</item>
+<item>hutnik krakow</item>
+<item>hvidovre if</item>
+<item>ia akranes</item>
+<item>iba akureyri</item>
+<item>ibv vestmannaeyjar</item>
+<item>ib ljubljana</item>
+<item>iceland</item>
+<item>ifk goteborg</item>
+<item>ifk malmo</item>
+<item>ifk norrkoping</item>
+<item>if elfsborg</item>
+<item>if fuglafjphyrdur</item>
+<item>ikast fs</item>
+<item>ik brage</item>
+<item>illichivets mariupol</item>
+<item>ilves tampere</item>
+<item>inkaras kaunas</item>
+<item>internazionale</item>
+<item>inter baku</item>
+<item>inter bratislava</item>
+<item>inter cardiff</item>
+<item>inter turku</item>
+<item>inter zapresic</item>
+<item>ionikos nikea</item>
+<item>ipswich town</item>
+<item>iraklis thessaloniki</item>
+<item>ireland</item>
+<item>irtysh pavlodar</item>
+<item>iskra stal ribnita</item>
+<item>israel</item>
+<item>istanbulspor</item>
+<item>italy</item>
+<item>jagiellonia bialystok</item>
+<item>jazz pori</item>
+<item>jeunesse d esch</item>
+<item>jeunesse hautcharage</item>
+<item>jfk olimps riga</item>
+<item>jiul petrosani</item>
+<item>jjk jyvaskyla</item>
+<item>jokerit helsinki</item>
+<item>juvenes dogana</item>
+<item>juventus</item>
+<item>kairat almaty</item>
+<item>kalev sillamae</item>
+<item>kalju nomme</item>
+<item>kalmar ff</item>
+<item>kamen ingrad</item>
+<item>kapaz ganja</item>
+<item>kareda siauliai</item>
+<item>karlsruher sc</item>
+<item>karpaty lviv</item>
+<item>karpaty lvov</item>
+<item>karvan evlakh</item>
+<item>kastoria fc</item>
+<item>kayserispor</item>
+<item>kazakhstan</item>
+<item>ka akureyri</item>
+<item>kb kphybenhavn</item>
+<item>kecskemeti te</item>
+<item>keflavik</item>
+<item>kfc uerdingen</item>
+<item>kfc winterslag</item>
+<item>kf laci</item>
+<item>khazar lenkoran</item>
+<item>khazri buzovna</item>
+<item>kickers offenbach</item>
+<item>kilikia yerevan</item>
+<item>kilmarnock</item>
+<item>ki klaksvik</item>
+<item>koba senec</item>
+<item>kocaelispor</item>
+<item>kolkheti 1913 poti</item>
+<item>koln xi</item>
+<item>komloi banyasz</item>
+<item>kongsvinger il</item>
+<item>koparit kuopio</item>
+<item>kotaik abovyan</item>
+<item>kphybenhavn xi</item>
+<item>kphyge bk</item>
+<item>kpv kokkola</item>
+<item>krylia sovetov samara</item>
+<item>kryvbas kryviy rih</item>
+<item>kr reykjavik</item>
+<item>ksc lokeren</item>
+<item>ksv roeselare</item>
+<item>ks elbasani</item>
+<item>ks flamurtari vlore</item>
+<item>ktp kotka</item>
+<item>kups kuopio</item>
+<item>kuusysi lahti</item>
+<item>kvc westerlo</item>
+<item>kv mechelen</item>
+<item>labinoti elbasan</item>
+<item>landskrona bois</item>
+<item>lantana tallinn</item>
+<item>lask linz</item>
+<item>latvia</item>
+<item>lausanne sports</item>
+<item>lazio roma</item>
+<item>la fiorita</item>
+<item>la louviere</item>
+<item>lechia gdansk</item>
+<item>lech poznan</item>
+<item>leeds united</item>
+<item>legia warsaw</item>
+<item>leicester city</item>
+<item>leiftur</item>
+<item>leipzig xi</item>
+<item>leixoes sc</item>
+<item>leotar trebinje</item>
+<item>levadia maardu</item>
+<item>levadia tallinn</item>
+<item>levante ud</item>
+<item>levski sofia</item>
+<item>levski spartak sofia</item>
+<item>libertas</item>
+<item>liechtenstein</item>
+<item>lierse sk</item>
+<item>lillestrphym sk</item>
+<item>lille osc</item>
+<item>limerick</item>
+<item>linfield belfast</item>
+<item>lisburn distillery</item>
+<item>litex lovech</item>
+<item>lithuania</item>
+<item>liverpool</item>
+<item>livingston</item>
+<item>livorno</item>
+<item>lks lodz</item>
+<item>llanelli fc</item>
+<item>llansantffraid</item>
+<item>lokomotiva kosice</item>
+<item>lokomotive leipzig</item>
+<item>lokomotivi tbilisi</item>
+<item>lokomotiv 96 vitebsk</item>
+<item>lokomotiv moscow</item>
+<item>lokomotiv plovdiv</item>
+<item>lokomotiv sofia</item>
+<item>london xi</item>
+<item>longford town</item>
+<item>ludogorets razgrad</item>
+<item>luxembourg</item>
+<item>lyngby bk</item>
+<item>lyn oslo</item>
+<item>maccabi haifa</item>
+<item>maccabi netanya</item>
+<item>maccabi petah tikva</item>
+<item>maccabi tel aviv</item>
+<item>macedonia</item>
+<item>makedonija skopje</item>
+<item>malaga cf</item>
+<item>malatyaspor</item>
+<item>malmo ff</item>
+<item>malta</item>
+<item>manchester city</item>
+<item>manchester city 4 town crest</item>
+<item>manchester united</item>
+<item>marek stanke dimitrov</item>
+<item>margveti zestafoni</item>
+<item>maritimo funchal</item>
+<item>marsaxlokk</item>
+<item>marsa fc</item>
+<item>matador puchov</item>
+<item>mersin idmanyurdu</item>
+<item>merthyr tydfil fc</item>
+<item>metalist kharkiv</item>
+<item>metalist kharkov</item>
+<item>metalurgs liepaja</item>
+<item>metalurg donetsk</item>
+<item>metalurg skopje</item>
+<item>metalurg zaporizhia</item>
+<item>mfk kosice</item>
+<item>middlesbrough</item>
+<item>miedz legnica</item>
+<item>mika ashtarak</item>
+<item>milano kumanovo</item>
+<item>millwall fc</item>
+<item>milsami orhei</item>
+<item>mjphyndalen if</item>
+<item>mkt araz</item>
+<item>mlada boleslav</item>
+<item>mogren budva</item>
+<item>montenegro</item>
+<item>montpellier</item>
+<item>moss fk</item>
+<item>motor jena</item>
+<item>motor zwickau</item>
+<item>mp mikkeli</item>
+<item>msc pecs</item>
+<item>msk zilina</item>
+<item>msv duisburg</item>
+<item>ms ashdod</item>
+<item>mtk budapest</item>
+<item>mtz ripo minsk</item>
+<item>murata</item>
+<item>mura murska sobota</item>
+<item>mypa 47</item>
+<item>nacional funchal</item>
+<item>nac breda</item>
+<item>naestved if</item>
+<item>naftan novopolotsk</item>
+<item>napoli</item>
+<item>napredak krusevac</item>
+<item>national bucuresti</item>
+<item>neath fc</item>
+<item>nec nijmegen</item>
+<item>neftchi baku</item>
+<item>neftochimik burgas</item>
+<item>neman grodno</item>
+<item>nentori tirana</item>
+<item>netherlands</item>
+<item>newcastle united</item>
+<item>newcastle united 5 town crest</item>
+<item>newport county</item>
+<item>newtown</item>
+<item>nikol tallinn</item>
+<item>nistru otaci</item>
+<item>niva vynnitsa</item>
+<item>nk becej</item>
+<item>nk celje</item>
+<item>nk domzale</item>
+<item>nk koper</item>
+<item>nk maribor</item>
+<item>nk orasje</item>
+<item>nk osijek</item>
+<item>nk primorje</item>
+<item>nk rijeka</item>
+<item>nk sibenik</item>
+<item>nk varazdin</item>
+<item>nk zagreb</item>
+<item>nk zepce</item>
+<item>norma tallinn</item>
+<item>northern ireland</item>
+<item>norway</item>
+<item>norwich city</item>
+<item>nottingham forest</item>
+<item>nottingham forest 4 town crest</item>
+<item>nova gorica</item>
+<item>novi sad xi</item>
+<item>nsi runavik</item>
+<item>ob odense</item>
+<item>odd grenland</item>
+<item>odense xi</item>
+<item>odra opole</item>
+<item>odra wodzislaw</item>
+<item>ofi heraklion</item>
+<item>ofk belgrade</item>
+<item>ofk petrovac</item>
+<item>ogc nice</item>
+<item>okzhetpes kokshetau</item>
+<item>olimpia balti</item>
+<item>olimpija ljubljana</item>
+<item>olimpija riga</item>
+<item>olimpik baku</item>
+<item>olimpi rustavi</item>
+<item>olympiakos nicosia</item>
+<item>olympiakos piraeus</item>
+<item>olympiakos volou</item>
+<item>olympique lyon</item>
+<item>olympique marseille</item>
+<item>olympique nimes</item>
+<item>omonia nicosia</item>
+<item>ops oulu</item>
+<item>ordabasy shymkent</item>
+<item>orduspor</item>
+<item>osasuna</item>
+<item>otelul galati</item>
+<item>pacos de ferreira</item>
+<item>paksi fc</item>
+<item>palermo</item>
+<item>panachaiki patras</item>
+<item>panathinaikos</item>
+<item>panionios</item>
+<item>paok thessaloniki</item>
+<item>paris saint germain</item>
+<item>partick thistle</item>
+<item>partizani tirana</item>
+<item>partizan belgrade</item>
+<item>pecsi dozsa</item>
+<item>pelister bitola</item>
+<item>pennarossa</item>
+<item>perugia</item>
+<item>petra drnovice</item>
+<item>petrolul ploiesti</item>
+<item>petrzalka bratislava</item>
+<item>pezoporikos larnaca</item>
+<item>pirin blagoevgrad</item>
+<item>pobeda prilep</item>
+<item>pogon szczecin</item>
+<item>poland</item>
+<item>politehnica timisoara</item>
+<item>polonia bytom</item>
+<item>polonia warsaw</item>
+<item>portadown</item>
+<item>portimonense sc</item>
+<item>portsmouth fc</item>
+<item>portsmouth fc 4 town crest</item>
+<item>portugal</item>
+<item>port talbot town</item>
+<item>progresul bucuresti</item>
+<item>progres niederkorn</item>
+<item>psv eindhoven</item>
+<item>psv schwerin</item>
+<item>publikum celje</item>
+<item>pyunik yerevan</item>
+<item>queens park rangers</item>
+<item>queen of the south</item>
+<item>rabat ajax</item>
+<item>rabotnicki skopje</item>
+<item>racing genk</item>
+<item>racing santander</item>
+<item>racing union luxembourg</item>
+<item>racing white</item>
+<item>radnicki nis</item>
+<item>raith rovers</item>
+<item>randers fc</item>
+<item>randers freja</item>
+<item>rangers fc</item>
+<item>rapid bucuresti</item>
+<item>rapid jc heerlen</item>
+<item>rapid wien</item>
+<item>rayo vallecano</item>
+<item>rayo vallecano 2 mascotte pica pica</item>
+<item>rc lens</item>
+<item>rc paris</item>
+<item>rc strasbourg</item>
+<item>real betis</item>
+<item>real madrid</item>
+<item>real mallorca</item>
+<item>real oviedo</item>
+<item>real sociedad</item>
+<item>real valladolid</item>
+<item>real zaragoza</item>
+<item>red boys differdange</item>
+<item>red star belgrade</item>
+<item>red star bratislava</item>
+<item>red star brno</item>
+<item>reipas lahti</item>
+<item>renova dzepciste</item>
+<item>rhyl fc</item>
+<item>rnk split</item>
+<item>roda jc kerkrade</item>
+<item>romania</item>
+<item>romar mazeikiai</item>
+<item>rops rovaniemi</item>
+<item>rosenborg bk</item>
+<item>rotor volgograd</item>
+<item>rot weib essen</item>
+<item>rot weiss erfurt</item>
+<item>royal antwerp</item>
+<item>rubin kazan</item>
+<item>ruch chorzow</item>
+<item>rudar pljevlja</item>
+<item>rudar velenje</item>
+<item>russia</item>
+<item>rwd molenbeek</item>
+<item>saarland</item>
+<item>sachsenring zwickau</item>
+<item>sadam tallinn</item>
+<item>sakaryaspor</item>
+<item>salamis famagusta</item>
+<item>salgotarjan btc</item>
+<item>sampdoria</item>
+<item>samtredia</item>
+<item>sant julia</item>
+<item>san marino</item>
+<item>sarpsborg fk</item>
+<item>sartid smederevo</item>
+<item>schalke 04</item>
+<item>scotland</item>
+<item>sco angers</item>
+<item>scp ruzomberok</item>
+<item>sc bastia</item>
+<item>sc freiburg</item>
+<item>sc krems</item>
+<item>sc leipzig</item>
+<item>sc salgueiros</item>
+<item>seraing</item>
+<item>serbia</item>
+<item>servette fc geneve</item>
+<item>sevilla</item>
+<item>shafa baku</item>
+<item>shakhtar donetsk</item>
+<item>shakhtior saligorsk</item>
+<item>shakhtyor karaganda</item>
+<item>shamrock rovers</item>
+<item>sheffield wednesday</item>
+<item>shelbourne</item>
+<item>sheriff tiraspol</item>
+<item>shirak gyumri</item>
+<item>shkendija tetovo</item>
+<item>sibir novosibirsk</item>
+<item>sigma olomouc</item>
+<item>sileks kratovo</item>
+<item>silkeborg if</item>
+<item>simurq zaqatala</item>
+<item>siofoki banyasz</item>
+<item>sioni bolnisi</item>
+<item>siroki brijeg</item>
+<item>sivasspor</item>
+<item>skala if</item>
+<item>ska rostov na donu</item>
+<item>skeid oslo</item>
+<item>skenderbeu korce</item>
+<item>skonto riga</item>
+<item>sk beveren</item>
+<item>sk brann bergen</item>
+<item>sk tirana</item>
+<item>sk voest linz</item>
+<item>slask wroclaw</item>
+<item>slaven koprivnica</item>
+<item>slavia mozyr</item>
+<item>slavia praha</item>
+<item>slavia sofia</item>
+<item>slavija sarajevo</item>
+<item>sliema wanderers</item>
+<item>sligo rovers</item>
+<item>sloboda tuzla</item>
+<item>sloga skopje</item>
+<item>slovakia</item>
+<item>slovan bratislava</item>
+<item>slovan liberec</item>
+<item>slovenia</item>
+<item>sm caen</item>
+<item>southampton fc</item>
+<item>southampton fc 4 town crest</item>
+<item>soviet union</item>
+<item>spain</item>
+<item>spartak brno</item>
+<item>spartak kps brno</item>
+<item>spartak moscow</item>
+<item>spartak plovdiv</item>
+<item>spartak trnava</item>
+<item>spartak varna</item>
+<item>spartak yerevan</item>
+<item>spartak zlatibor voda</item>
+<item>sparta praha</item>
+<item>sparta rotterdam</item>
+<item>sporting braga</item>
+<item>sporting cp lisbon</item>
+<item>sporting fingal</item>
+<item>sporting gijon</item>
+<item>sportul studentesc</item>
+<item>sp domagnano</item>
+<item>stabaek if</item>
+<item>stade de reims</item>
+<item>stade dudelange</item>
+<item>stade francais</item>
+<item>stade lavallois</item>
+<item>stade rennais</item>
+<item>stahl brandenburg</item>
+<item>stal mielec</item>
+<item>stal rzeszow</item>
+<item>standard liege</item>
+<item>start kristiansand</item>
+<item>steagul rosu brasov</item>
+<item>steaua bucuresti</item>
+<item>stiinta cluj</item>
+<item>stoke city</item>
+<item>stoke city 5 town crest</item>
+<item>strphymsgodset if</item>
+<item>sturm graz</item>
+<item>st johnstone</item>
+<item>st mirren</item>
+<item>st patrick s athletic</item>
+<item>suduva marijampole</item>
+<item>sunderland afc</item>
+<item>sunderland afc 6 town crest</item>
+<item>sutjeska niksic</item>
+<item>sv mattersburg</item>
+<item>sv pasching</item>
+<item>sv ried</item>
+<item>sv stockerau</item>
+<item>sv winterslag</item>
+<item>swansea city</item>
+<item>sweden</item>
+<item>swift hesperange</item>
+<item>switzerland</item>
+<item>szombierki bytom</item>
+<item>tampere united</item>
+<item>tasmania berlin</item>
+<item>tatabanya</item>
+<item>tatran presov</item>
+<item>tavria simferopol</item>
+<item>tekstilschik kamyshin</item>
+<item>tenerife</item>
+<item>terek grozny</item>
+<item>teteks tetovo</item>
+<item>teuta durres</item>
+<item>the new saints</item>
+<item>thor akureyri</item>
+<item>thor waterschei</item>
+<item>tiligul tiraspol</item>
+<item>tj gottwaldov</item>
+<item>tj internacional</item>
+<item>tj skoda plzen</item>
+<item>tj vitkovice</item>
+<item>tobol kustanai</item>
+<item>tomori berat</item>
+<item>torino</item>
+<item>torpedo kutaisi</item>
+<item>torpedo moscow</item>
+<item>torpedo zhodino</item>
+<item>tottenham hotspur</item>
+<item>toulouse fc</item>
+<item>tps turku</item>
+<item>tpv tampere</item>
+<item>trabzonspor</item>
+<item>trakia plovdiv</item>
+<item>trans narva</item>
+<item>trelleborgs ff</item>
+<item>tresnjevka zagreb</item>
+<item>tre fiori</item>
+<item>tre penne</item>
+<item>tromsphy il</item>
+<item>troyes ac</item>
+<item>tsv 1860 munchen</item>
+<item>tulevik viljandi</item>
+<item>turan tauz</item>
+<item>turkey</item>
+<item>tvmk tallinn</item>
+<item>udinese</item>
+<item>ud las palmas</item>
+<item>uefa</item>
+<item>ue santa coloma</item>
+<item>ukraine</item>
+<item>ulisses yerevan</item>
+<item>uniao de leiria</item>
+<item>union berlin</item>
+<item>union luxembourg</item>
+<item>union saint gilloise</item>
+<item>union teplice</item>
+<item>unirea urziceni</item>
+<item>universitatea cluj</item>
+<item>universitatea craiova</item>
+<item>universitate riga</item>
+<item>uni college dublin</item>
+<item>un kaerjeng</item>
+<item>usv eschen mauren</item>
+<item>us rumelange</item>
+<item>utrecht xi</item>
+<item>ut arad</item>
+<item>valencia</item>
+<item>valerengen if</item>
+<item>valletta fc</item>
+<item>valur reykjavik</item>
+<item>vanlphyse if</item>
+<item>vardar skopje</item>
+<item>varteks varazdin</item>
+<item>vasas budapest</item>
+<item>vb vagur</item>
+<item>vejle bk</item>
+<item>velez mostar</item>
+<item>vetra vilnius</item>
+<item>vfb stuttgart</item>
+<item>vfl bochum</item>
+<item>vfl wolfsburg</item>
+<item>viborg ff</item>
+<item>vicenza</item>
+<item>victoria bucuresti</item>
+<item>vikingur</item>
+<item>vikingur reykjavik</item>
+<item>viking stavanger</item>
+<item>viktoria koln</item>
+<item>viktoria plzen</item>
+<item>viktoria zizkov</item>
+<item>villarreal</item>
+<item>vitesse arnhem</item>
+<item>vitoria guimaraes</item>
+<item>vitoria setubal</item>
+<item>vllaznia shkoder</item>
+<item>vojvodina novi sad</item>
+<item>voros lobogo budapest</item>
+<item>vorskla poltava</item>
+<item>vorwarts berlin</item>
+<item>vps vaasa</item>
+<item>vss kosice</item>
+<item>wacker innsbruck</item>
+<item>wales</item>
+<item>waregem</item>
+<item>waterford</item>
+<item>watford fc</item>
+<item>werder bremen</item>
+<item>west berlin xi</item>
+<item>west bromwich albion</item>
+<item>west bromwich albion 4 town crest</item>
+<item>west ham united</item>
+<item>widzew lodz</item>
+<item>wiener neustadt</item>
+<item>wiener sportklub</item>
+<item>willem ii tilburg</item>
+<item>wisla krakow</item>
+<item>wisla plock</item>
+<item>wismut aue</item>
+<item>wismut karl marx stadt</item>
+<item>wolverhampton wanderers</item>
+<item>wrexham</item>
+<item>wuppertaler sv</item>
+<item>xamax neuchatel</item>
+<item>xanthi fc</item>
+<item>young boys</item>
+<item>yugoslavia</item>
+<item>zaglebie lubin</item>
+<item>zaglebie sosnowiec</item>
+<item>zaglebie walbrzych</item>
+<item>zagreb xi</item>
+<item>zalaegerszeg te</item>
+<item>zalgiris vilnius</item>
+<item>zaria voroshilovgrad</item>
+<item>zbrojovka brno</item>
+<item>zeleznik belgrade</item>
+<item>zeljeznicar sarajevo</item>
+<item>zenit leningrad</item>
+<item>zenit st petersburg</item>
+<item>zeta golubovci</item>
+<item>zhetysu taldykorgan</item>
+<item>zimbru chisinau</item>
+<item>zrinjski mostar</item>
+<item>zulte waregem</item>
+<item>zurrieq fc</item>
+<item>zvartnots yerevan</item>
+  </string-array>
+  
+</resources>

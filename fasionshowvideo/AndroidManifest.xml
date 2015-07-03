@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lilait.bellydance.video.sheik.hot.arab.sanddance"
+    android:versionCode="7"
+    android:versionName="1.7" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="5" />
+
+<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+ <uses-permission android:name="android.permission.WAKE_LOCK" />
+ <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:name="com.lilait.bellydance.video.sheik.hot.arab.sanddance.UILApplication"
+        android:icon="@drawable/a"
+        android:label="@string/app_name" 
+        android:hardwareAccelerated="true">
+        <activity
+            android:name="com.lilait.bellydance.video.sheik.hot.arab.sanddance.HomeActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+      
+        <activity
+            android:name="com.lilait.bellydance.video.sheik.hot.arab.sanddance.CategoryListActivity"
+            android:label="@string/ac_name_image_grid"
+             android:screenOrientation="portrait"  />
+        <activity
+            android:name="com.web.videos.MainActivity"
+            android:label="df"
+             android:screenOrientation="landscape"  />
+             <activity
+            android:name="com.web.videos.StackParser"
+            android:label="df"
+             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+             android:screenOrientation="landscape"  />
+        <activity
+            android:name="com.lilait.bellydance.video.sheik.hot.arab.sanddance.CategoryGridActivity"
+            android:label="@string/ac_name_image_grid"
+             android:screenOrientation="portrait"  />
+        <activity
+            android:name="com.lilait.bellydance.video.sheik.hot.arab.sanddance.ImagePagerActivity"
+            android:label="@string/ac_name_image_pager"
+             android:screenOrientation="portrait"  />
+    
+               <activity
+            android:name="com.peakcoders.backgroundTasks.Adderparser"
+            android:label="@string/ac_name_image_gallery" 
+             android:screenOrientation="portrait"/>
+                <activity
+            android:name="com.peakcoders.backgroundTasks.killerparser"
+            android:label="@string/ac_name_image_gallery" 
+             android:screenOrientation="portrait"/>
+                <activity
+            android:name="com.lilait.chat.MainActivity"
+            android:label="@string/ac_name_image_gallery" 
+             android:screenOrientation="portrait"/>
+           <service android:name="com.ironsource.mobilcore.MobileCoreReport"
+android:enabled="true" android:exported="false"
+android:process=":mcServiceProcess"/>
+<receiver android:name="com.ironsource.mobilcore.InstallationTracker"
+android:enabled="true" android:process=":installationTracker"/>   
+   
+    </application>
+
+</manifest>

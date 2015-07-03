@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.techreviewsandhelp.com.carteretcountyhistoryguide"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Carteret County History Guide"
+      
+        >
+        
+ <!-- Below is the splash screen --> 
+        <activity
+            android:name=".Splash"
+            android:label="Carteret County History Guide" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<!-- Below is the main screen --> 
+        <activity
+            android:name="com.techreviewsandhelp.com.carteretcountyhistoryguide.MainActivity"
+            android:label="Carteret County History Guide" >
+            <intent-filter>
+       <!-- When you want to switch a page, just copy the com.tech.... from the action android:name. Paste it into the new Intent("");.
+       This will make the code look for an action android:name with the same match. This will then start the Java file associated with that action group.
+       Within the Java file, there will be some code to trigger a given XML layout when the Java file is started. -->          
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+  <!-- Below is the help screen -->       
+         <activity
+            android:name=".Help"
+            android:label="Help" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.HELP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ <!-- Below is the Atlantic Beach city history screen -->        
+         <activity
+            android:name=".Beachcity"
+            android:label="City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.BEACHCITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ <!-- Below is the Fort Macon screen --> 
+    <activity
+            android:name=".FortMacon"
+            android:label="Fort Macon" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.FORTMACON" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the coast guard screen --> 
+    <activity
+            android:name=".Guard"
+            android:label="Coast Guard" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.GUARD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Historic Site (in Beaufort) screen -->         
+        <activity
+            android:name=".Historic"
+            android:label="Historic Site in Beaufort" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.HISTORIC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Maritime Museum in Beaufort screen -->         
+            <activity
+            android:name=".Maritime"
+            android:label="Maritime Museum" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.Maritime" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Beaufort city history screen -->         
+                <activity
+            android:name=".Beaufort"
+            android:label="Beaufort City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.Beaufort" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Cape Carteret city history screen -->         
+                    <activity
+            android:name=".Cape"
+            android:label="Cape Carteret City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.Cape" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ <!-- Below is the Bogue city history screen -->        
+                        <activity
+            android:name=".Bogue"
+            android:label="Bogue City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.BOGUE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Cedar Point city history screen -->         
+                            <activity
+            android:name=".Cedar"
+            android:label="Cedar Point City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.Cedar" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Emerald Isle city history screen -->         
+                                <activity
+            android:name=".Emerald"
+            android:label="Emerald Isle City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.EMERALD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Indian Beach city history screen -->         
+                                    <activity
+            android:name=".Indian"
+            android:label="Indian Beach City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.INDIAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Morehead City city history screen -->         
+                                        <activity
+            android:name=".Morehead"
+            android:label="Morehead City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.MOREHEAD" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Newport city history screen -->         
+                                            <activity
+            android:name=".Newport"
+            android:label="Newport City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.NEWPORT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Peletier city history screen -->         
+                                                <activity
+            android:name=".Peletier"
+            android:label="Peletier City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.PELETIER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Below is the Pine Knoll Shores city history screen -->         
+                                                    <activity
+            android:name=".Pine"
+            android:label="Pine Knoll Shores City History" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide.PINE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+<!-- Just copy and paste the following below, and put a break between this and the new stuff. Try to group up each city to make it kind of easy to fix any problems within here.
+
+<activity
+            android:name=".Java file name"
+            android:label="Name of place" >
+            <intent-filter>
+                <action android:name="com.techreviewsandhelp.carteretcountyhistoryguide. Whatever" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+-->         
+</application>
+</manifest>

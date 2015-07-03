@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World SplashActivity!</string>
+    <string name="app_name"> AppSA</string>
+    <string name="rules">About\n\n\n
+ 
+Welcome to AppSA! Your pre-exam study aid to assist you in passing the Power Engineering 4th Class Part A provincial exam. 
+\n\n\n
+Enjoy!!
+
+\n\n
+Using AppSA
+\n\n\n
+AppSA is broken down into 15 sections. Each section tests a specific skill set based on the 4th Class Part A provincial exam. There are over 1000 questions contained within this app. You can select which question sets you wish to include in your exam; either a single unit or multiple units. As well, you can choose from exam mode or practice mode.
+\n\n
+
+Settings
+\n\n\n
+Here you can choose the number of questions you’d like to answer (using the slider) as well as the units you wish to include in the exam (one, multiple or all)
+\n\n
+
+Start Exam (Exam mode)
+\n\n\n
+In this mode, you will answer each question without receiving any feedback as to whether you were correct or not until the end. At the end of the exam, you’ll receive a score and be able to see which questions you got wrong along with their correct answers. This mode is meant to give you an indication as to how well you’re understanding the material.
+\n\n
+Practice Exam (study mode)
+\n\n\n
+In this mode, you can continue to answer each question until you have chosen the correct answer. Wrong choices will turn red and correct answers turn green. You do not get a score at the end. This mode is meant to help you study the material and get immediate feedback based on your choices.
+\n\n\n\n
+Copyright © Robert Jones 2014
+</string>
+</resources>

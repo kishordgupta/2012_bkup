@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    <release
+        version="1.3"
+        versioncode="10">
+        <change>
+            Changing push notifications service
+        </change>
+    </release>
+    <release
+        version="1.2.2"
+        versioncode="9">
+        <change>
+            Fix for the wrong time display in the feeds
+        </change>
+    </release>
+    <release
+        version="1.2.1"
+        versioncode="8">
+        <change>
+            Crash fixes
+        </change>
+    </release>
+    <release
+        version="1.2.0"
+        versioncode="6">
+        <change>
+            Download overnight to read news while offline
+        </change>
+        <change>
+            General news alerts
+        </change>
+    </release>
+    <release
+        version="1.1.1"
+        versioncode="4">
+        <change>
+            Updated storyview for tablets in landscape orientation
+        </change>
+        <change>
+            Crash fixes
+        </change>
+    </release>
+    <release
+        version="1.1"
+        versioncode="2">
+        <change>
+            Saving articles + saved articles section
+        </change>
+        <change>
+            Added commenting feature
+        </change>
+        <change>
+            Attach video and other minor fixes
+        </change>
+    </release>
+
+</changelog>

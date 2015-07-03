@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#ffffff</color>
+	<color name="black">#000000</color>
+	<color name="b">#19479B</color>
+	<color name="red">#ff0000</color>
+	<color name="grey">#A1A1A1</color>
+	<color name="light_grey">#E8E8E8</color>
+	<color name="gr">#EDEDED</color>
+	<color name="orange">#DA7B1F</color>
+    <string name="app_name">SSR</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="start">Start</string>
+    <string name="list">Lista</string>
+    <string name="settings">Inställningar</string>
+    <string name="addnew">+ Ny blockering</string>
+    <string name="myblockednumbers">Mina blockeringar</string>
+    <string name="blockednumbersfromnumbers">Communifys blockeringar</string>
+    <string name="unknown">UnKnown "Should be title output here"</string>
+    <string name="update">Uppdatera listan</string>
+    <string name="options">Ljudläge vid blockering</string>
+    <string name="selectoption">Ljudläge vid blockering</string>
+    <string name="option_normal">Normal läge</string>
+    <string name="option_vibration">Endast Vibration</string>
+    <string name="optionallblock">Helt ljudlös</string>
+    <string name="dialoguewating">Var god vänta, listan uppdateras!</string>
+<string name="info">
+Vad gör appen Sveriges samtalsregister?\n
+Appen varnar er när blufföretag och telefonförsäljare ringer er. Listan över blockerade telefonnummer kommer från Communify’s dagligen uppdaterade databas av blufföretag samt era tips.
+Ni kan även komplettera er personliga lista genom att klicka på Lista och sedan lägg till nummer.
+
+\nTipsa Sveriges samtalsregister\n
+Har ni fått ett samtal från ett blufföretag eller en telefonförsäljare som inte är registrerat i vår databas kan du enkelt lägga till den i din Lista och samtidigt bocka i Tipsa Communify.
+Har tillräckligt många tipsat om samma nummer lägger vi till numret för samtliga användare.f
+
+\nOm Sveriges samtalsregister\n
+Communify jobbar aktivt för att förebygga dessa blufföretag som växer varje år i omsättning.
+Har du fått en bluffaktura så kan ni genom vår tjänst Trygghetspaketet få den hjälp du behöver och slippa dessa skojare.
+Vi har inga problem med att möta dem i rätten om det skulle gå så långt.</string>
+
+<string name="msgPlzWait">Var god vänta...</string>
+<string name="msgContactSubmit">Kontakt tillagd</string>
+<string name="msgMailSubmit">Mail har skickats</string>
+<string name="msgContactAdded">Contact added in my list</string>
+<string name="msgNetworkNotAvailable">Internet inte tillgänlig</string>
+<string name="msgInvalidPhoneNumber">Inte ett giltigt telefon nummer</string>
+<string name="msgNetworkError">Nätverks fel!!!</string>
+<string name="msgDelete">Radera</string>
+<string name="msgCancel">Avbryt</string>
+
+
+</resources>

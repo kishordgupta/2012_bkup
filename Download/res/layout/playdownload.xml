@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical" 
+    android:gravity="center">"
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="#ffffff"
+          android:gravity="center"
+        android:orientation="vertical" >
+
+    
+
+
+        <SeekBar
+             android:id="@+id/prog"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minWidth="150dp" >
+        </SeekBar>
+        <LinearLayout
+            android:id="@+id/ain"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <Button
+               
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_backward"
+                
+                 />
+
+            <Button
+          
+                 android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/btn_forward" />
+               <Button
+                 android:id="@+id/paus"
+                 android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/btn_pause" />
+                 <Button
+          
+                 android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/btn_previous" />
+                   <Button
+          
+                 android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/btn_next" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/playlisten"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_play"
+                
+                 />
+
+            <Button
+                android:id="@+id/dl"
+                 android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                 android:background="@drawable/btn_repeat" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

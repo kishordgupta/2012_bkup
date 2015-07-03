@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World SplashActivity!</string>
+    <string name="app_name">Model Test</string>
+    <string name="rules">
+       Model test For BCS EXAM, VERSITY ADMISSION And General knowledge
+       Database updated regularly
+       For more info: www.admissionok.com</string>
+</resources>

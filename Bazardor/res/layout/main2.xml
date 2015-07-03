@@ -1,0 +1,207 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/title"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/app_name"
+    />
+
+ <TableLayout
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:paddingTop="1dip"
+     android:stretchColumns="0,1,2,3"
+     android:shrinkColumns="0,1"
+     android:weightSum="1" >
+     
+ 	<TableRow
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="match_parent" >
+
+     <TextView 
+     android:layout_width="wrap_content" 
+     android:text="@string/ShowLable"
+     android:layout_height="wrap_content" 
+     android:textAppearance="?android:attr/textAppearanceSmall" 
+     android:gravity="right"
+     android:id="@+id/tvPrinter" 
+     android:layout_span="2" >
+     </TextView>
+
+     <EditText
+         android:id="@+id/etPrintName"
+         android:layout_width="wrap_content"
+         android:inputType="text"
+         android:layout_height="wrap_content" 
+         android:layout_span="2" >
+
+     </EditText>
+ 	</TableRow>
+
+ 	<TableRow
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="match_parent" >
+
+ 		<Button
+ 		android:id="@+id/connect"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:gravity="center"
+ 		android:text="@string/connect" 
+ 		android:layout_span="2" 
+ 		/>
+ 		<Button
+ 		android:id="@+id/cancel"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/cancel" 
+ 		android:layout_span="2" 
+ 		/>
+ 	</TableRow>
+ 	<Button 
+	android:id="@+id/send"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/send"
+	/>
+	<Spinner android:id="@+id/spinner1" 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content">
+	    
+	</Spinner>	
+
+	<TableRow android:paddingTop="5dip" >
+
+ 		<CheckBox
+ 		android:id="@+id/height"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/height" 	
+ 		android:layout_span="2" 
+ 		/> 
+ 		<CheckBox
+ 		android:id="@+id/width"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/width" 	
+ 		android:layout_span="2" 	
+ 		/>
+ 	</TableRow>	
+ 	<TableRow>
+ 	 	<CheckBox
+ 		android:id="@+id/bold"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/bold" 
+ 		android:layout_span="2" 		
+ 		/>
+ 	 	<CheckBox
+ 		android:id="@+id/underline"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/underline" 
+ 		android:layout_span="2" 		
+ 		/>
+ 	</TableRow>	
+  	<TableRow>
+ 	 	<CheckBox
+ 		android:id="@+id/minifont"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/mini" 	
+ 		android:layout_span="2" 	
+ 		/>
+ 	 	<CheckBox
+ 		android:id="@+id/barcode"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/barcode" 		
+ 		android:layout_span="2" 
+ 		/>
+ 	</TableRow>	
+ 	<TableRow>
+ 		<CheckBox
+ 		android:id="@+id/barcode2"
+ 		android:layout_width="wrap_content"
+ 		android:layout_height="wrap_content"
+ 		android:text="@string/barcode2" 	
+ 		android:layout_span="2" 	
+ 		/>
+
+ 		<CheckBox
+ 		    android:id="@+id/BKPrint"
+ 		    android:layout_width="wrap_content"
+ 		    android:layout_height="wrap_content"
+ 		    android:text="@string/BKPrint" 
+ 		    android:layout_span="2" />
+	 	</TableRow>
+ 	<TableRow
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="match_parent" >
+
+ 	 	    	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" 
+	    android:layout_span="2" >
+ 		    <TextView
+		        android:id="@+id/tvBegin"
+		        android:text="@string/BackPrintBegin" android:layout_height="fill_parent" android:layout_width="match_parent"
+		        android:gravity="right"
+	        	android:layout_weight="1" />  
+		    <EditText
+		        android:id="@+id/etBackPrintBegin"
+		        android:inputType="number"
+		        android:text="1" android:layout_height="fill_parent" android:layout_width="match_parent"
+		        android:layout_weight="1" >	
+			</EditText>
+			</LinearLayout>
+			 	 	    	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" 
+	    android:layout_span="2" >
+ 		    <TextView
+		        android:id="@+id/tvEnd"
+		        android:text="@string/BackPrintEnd"
+	            android:gravity="right"
+	        	android:layout_weight="1" android:layout_height="fill_parent" android:layout_width="wrap_content" />  
+     		<EditText
+		        android:id="@+id/etBackPrintEnd"
+		        android:layout_height="fill_parent" android:layout_width="wrap_content"
+		        android:inputType="number"
+	        	android:text="384"
+		        android:layout_weight="1" >
+		    </EditText>
+		    			</LinearLayout>
+
+	    </TableRow>
+	     	<TableRow
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="fill_parent" >
+
+	     		<TextView
+	     		    android:id="@+id/textView1"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="fill_parent"
+	     		    android:text="TextView" />
+	     			    </TableRow>
+	     	<TableRow
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="fill_parent" >
+
+	     		<TextView
+	     		    android:id="@+id/textView2"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="fill_parent"
+	     		    android:text="TextView" />
+
+	     			    </TableRow>			 	 	    	
+	    	</TableLayout> 	
+</LinearLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#BDBDBD"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#BDBDBD"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#BDBDBD"
+    android:orientation="horizontal" >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/f"
+        android:layout_weight="1"
+      
+        android:layout_marginTop="2dp" />
+     <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/d"
+        android:layout_weight="1"
+        android:layout_marginTop="2dp" />
+      <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/v"
+        android:layout_weight="1"
+       
+        android:layout_marginTop="2dp" />
+       <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/a"
+        android:layout_weight="1.5"
+        android:id="@+id/filePickerButton"
+        android:layout_marginTop="2dp" />
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+       
+        android:layout_weight="1"
+         android:background="@drawable/h"
+        android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white" />
+      <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="3"
+        android:background="#FE9A2E" />
+
+    <EditText
+        android:layout_width="40dp"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+         android:text="2"
+         android:textColor="@android:color/black"
+        android:background="#DF7401" />
+
+    <EditText
+        android:layout_width="40dp"
+         android:text="1"
+          android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+         android:textColor="@android:color/black"
+        android:background="#B43104" />
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#BDBDBD"
+    android:orientation="horizontal" >
+         <Button
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/u"
+    
+        android:layout_gravity="left"
+        android:gravity="left"
+      
+        android:layout_marginTop="2dp" />
+
+         <TextView
+             android:id="@+id/time"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="2dp"
+             android:layout_marginRight="20dp"
+             android:layout_gravity="center_vertical"
+             android:gravity="right"
+             android:text="a12vxcv3"
+             android:textColor="@android:color/black" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

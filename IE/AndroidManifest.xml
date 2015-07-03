@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="ie.irishexaminer.mobile">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application>
+        <receiver android:name="ie.landmarkdigital.shared.PushNotificationsReceiver">
+            <intent-filter>
+                <action android:name="iestory"/>
+                <action android:name="iecategory"/>
+                <action android:name="iealert"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BootCompleteReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="ie.landmarkdigital.shared.activities.ArticlePagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                  <action android:name="android.intent.action.MAIN"/>
+                 
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data
+                    android:scheme="@string/push_notifications_tag"
+                    android:host="article"
+                    android:pathPattern="/.*"/>
+            </intent-filter>
+        </activity>
+        <service android:name=".DownloadService"/>
+    </application>
+</manifest>

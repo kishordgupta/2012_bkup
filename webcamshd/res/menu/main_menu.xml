@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+        android:id="@+id/home"
+        android:title="Home"/>
+<item
+                android:id="@+id/feat"
+                android:title="Search"/>
+  <item
+                android:id="@+id/cal"
+                android:title="Categories"/>
+            <item
+                android:id="@+id/cerc"
+                android:title="Countries">
+            </item>
+    
+    <item
+        android:id="@+id/championship"
+        android:title="About">
+       
+    </item>
+    
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"/>
+
+</menu>
